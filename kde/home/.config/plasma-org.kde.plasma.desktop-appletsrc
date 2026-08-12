@@ -22,7 +22,7 @@ DialogWidth=810
 
 [Containments][26][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///home/lookfrost/Pictures/Wallpaper/youtube-eJZQNy5pHCU-midpoint.png
+Image=file:///home/lookfrost/Pictures/Wallpapers/midpoint.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][27]
@@ -147,7 +147,8 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][27][Applets][32][General]
-extraItems=org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect
+extraItems=org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth
+hiddenItems=org.kde.plasma.mediacontroller,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth
 knownItems=org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.plasma.networkmanagement,org.kde.plasma.weather,org.kde.plasma.battery,org.kde.plasma.manage-inputmethod,org.kde.kscreen,org.kde.plasma.keyboardindicator,org.kde.plasma.cameraindicator,org.kde.plasma.brightness,org.kde.plasma.bluetooth,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardlayout,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect
 
 [Containments][27][Applets][46]
@@ -171,6 +172,32 @@ plugin=org.kde.plasma.showdesktop
 
 [Containments][27][General]
 AppletOrder=28;29;30;31;32;46;47
+
+[Containments][52]
+activityId=16835e94-131c-4cf7-8e25-b6bda868e245
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][52][Wallpaper][org.kde.image][General]
+FillMode=2
+Image=file:///home/lookfrost/Pictures/Wallpapers/thick-forest-3840x2160-14776.jpg
+
+[Containments][53]
+activityId=21701824-0f8b-4e5d-8c1c-e265ec657f9f
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][53][Wallpaper][org.kde.image][General]
+FillMode=2
+Image=file:///home/lookfrost/Pictures/Wallpapers/Firewatch/0.jpg
 
 [ScreenMapping]
 itemsOnDisabledScreens=

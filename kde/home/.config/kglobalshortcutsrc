@@ -1,6 +1,8 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
-switch-to-activity-a5090818-17a9-4ddf-906d-edcb7c9046c1=none,none,Switch to activity "Default"
+switch-to-activity-16835e94-131c-4cf7-8e25-b6bda868e245=none,none,Switch to activity "Coding"
+switch-to-activity-21701824-0f8b-4e5d-8c1c-e265ec657f9f=none,none,Switch to activity "Gaming"
+switch-to-activity-a5090818-17a9-4ddf-906d-edcb7c9046c1=none,none,Switch to activity "Normal"
 
 [ChatGPT]
 473F6851AACD68A995C6D0753065607A-Ctrl+B=none,Ctrl+B,Codex shortcut: Ctrl+B
