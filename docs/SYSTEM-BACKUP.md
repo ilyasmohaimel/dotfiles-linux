@@ -1,6 +1,6 @@
 # Backing up and restoring my whole system
 
-This repository is for safe, readable configuration. It is not a full backup: it intentionally leaves out keys, logins, personal files, databases, browser profiles, and app sessions.
+This repository is for safe, readable configuration. My real backups live on my encrypted local NAS, so not everything belongs on GitHub. I keep things like personal files, project archives, SSH keys, app data, browser profiles, session databases, and other private backups on the NAS instead of publishing them here.
 
 For a real recovery plan, I keep three separate backups:
 
