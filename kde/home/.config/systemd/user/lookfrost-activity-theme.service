@@ -1,0 +1,11 @@
+[Unit]
+Description=Apply KDE color scheme for the current Activity
+After=plasma-kactivitymanagerd.service
+
+[Service]
+ExecStart=%h/.local/bin/lookfrost-activity-theme-monitor
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

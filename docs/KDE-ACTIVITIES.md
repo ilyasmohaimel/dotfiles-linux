@@ -4,9 +4,11 @@ I use three Activities to separate what I am doing without changing the rest of 
 
 | Activity | Use | Wallpaper |
 | --- | --- | --- |
-| Normal | Browser, files, chat, and everything else | `midpoint.png` |
-| Coding | VS Code, terminals, and project work | `thick-forest-3840x2160-14776.jpg` |
-| Gaming | Steam, games, and media | `Firewatch/0.jpg` |
+| Normal | Browser, files, chat, and everything else | `169.jpg` |
+| Coding | VS Code, terminals, and project work | `EVA/3494593.jpg` |
+| Gaming | Steam, games, and media | `midpoint.png` |
+
+The matching KDE color schemes are documented in [My Activity color themes](ACTIVITY-THEMES.md).
 
 The panel stays shared between them on purpose. It keeps the task manager, system tray, clock, audio, and KDE Connect available everywhere instead of creating duplicate panels and duplicate notifications.
 

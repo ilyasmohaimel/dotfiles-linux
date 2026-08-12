@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+last_activity=
+
+while true; do
+    current_activity=$(busctl --user call org.kde.ActivityManager /ActivityManager/Activities org.kde.ActivityManager.Activities CurrentActivity | sed -n 's/^s "\(.*\)"$/\1/p')
+    if [[ -n $current_activity && $current_activity != "$last_activity" ]]; then
+        "$HOME/.local/bin/lookfrost-apply-activity-theme" "$current_activity"
+        last_activity=$current_activity
+    fi
+    sleep 2
+done

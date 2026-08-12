@@ -2,7 +2,7 @@
 ConfigVersion=1
 
 [Desktop Entry]
-DefaultProfile=Molten.profile
+DefaultProfile=Slate169.profile
 
 [Notification Messages]
 CloseAllTabs=true

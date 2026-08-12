@@ -34,35 +34,35 @@ family = "JetBrainsMono Nerd Font"
 style = "Bold Italic"
 
 [colors.primary]
-background = "#070505"
-foreground = "#ffffff"
+background = "#1e1e26"
+foreground = "#ded6e1"
 
 [colors.cursor]
-cursor = "#ff5a1f"
-text = "#070505"
+cursor = "#7399bb"
+text = "#1e1e26"
 
 [colors.selection]
-background = "#b0000a"
-text = "#ffffff"
+background = "#7399bb"
+text = "#1e1e26"
 
 [colors.normal]
-black = "#070505"
-red = "#b0000a"
-green = "#ff5a1f"
-yellow = "#ff5a1f"
-blue = "#25d9e8"
-magenta = "#d8141c"
-cyan = "#25d9e8"
-white = "#ffffff"
+black = "#1e1e26"
+red = "#b09c6d"
+green = "#7399bb"
+yellow = "#a9b9c8"
+blue = "#7399bb"
+magenta = "#869596"
+cyan = "#a9b9c8"
+white = "#ded6e1"
 
 [colors.bright]
-black = "#22110b"
-red = "#ff5a1f"
-green = "#ff6b36"
-yellow = "#ff8a5b"
-blue = "#6eeaf4"
-magenta = "#ef3340"
-cyan = "#6eeaf4"
+black = "#2f3233"
+red = "#d0bd8f"
+green = "#9bb7d1"
+yellow = "#ded6e1"
+blue = "#a9b9c8"
+magenta = "#a9b9c8"
+cyan = "#ded6e1"
 white = "#ffffff"
 
 [bell]

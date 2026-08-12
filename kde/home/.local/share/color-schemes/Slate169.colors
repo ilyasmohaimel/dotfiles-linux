@@ -1,24 +1,13 @@
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=47,50,51
 ColorAmount=0
 ColorEffect=0
-ContrastAmount=
-ContrastEffect=
-Enable=
-IntensityAmount=
-IntensityEffect=
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=102,108,99
 ColorAmount=0.025
 ColorEffect=2
-ContrastAmount=
-ContrastEffect=
-Enable=
-IntensityAmount=
-IntensityEffect=
 
 [Colors:Button]
 BackgroundAlternate=47,50,51
@@ -63,7 +52,7 @@ ForegroundPositive=115,153,187
 ForegroundVisited=169,185,200
 
 [Colors:Header][Inactive]
-BackgroundAlternate=47,50,51
+BackgroundAlternate=30,30,38
 BackgroundNormal=30,30,38
 DecorationFocus=115,153,187
 DecorationHover=169,185,200
@@ -133,48 +122,18 @@ ForegroundPositive=115,153,187
 ForegroundVisited=169,185,200
 
 [General]
-BrowserApplication=brave-browser.desktop
 ColorScheme=Slate169
-ColorSchemeHash=62957a2d4341e40ecf139711b3d5fe33bfc0ed5c
-fixed=JetBrains Mono,10,-1,5,50,0,0,0,0,0
-font=JetBrains Mono,10,-1,5,50,0,0,0,0,0
-menuFont=JetBrains Mono,10,-1,5,50,0,0,0,0,0
-smallestReadableFont=JetBrains Mono,8,-1,5,50,0,0,0,0,0
-toolBarFont=JetBrains Mono,10,-1,5,50,0,0,0,0,0
-
-[Icons]
-Theme=breeze-dark
+Name=Slate 169
+shadeSortColumn=true
 
 [KDE]
-LookAndFeelPackage=org.kde.breezedark.desktop
 contrast=4
-frameContrast=0.2
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=false
-Speedbar Width=140
-View Style=DetailTree
-
-[Sounds]
-Theme=oxygen
 
 [WM]
 activeBackground=47,50,51
 activeBlend=115,153,187
-activeFont=JetBrains Mono,10,-1,5,50,0,0,0,0,0
 activeForeground=222,214,225
+frame=47,50,51
 inactiveBackground=30,30,38
 inactiveBlend=102,108,99
 inactiveForeground=169,185,200

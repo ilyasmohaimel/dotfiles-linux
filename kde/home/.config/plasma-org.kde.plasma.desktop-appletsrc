@@ -22,7 +22,7 @@ DialogWidth=810
 
 [Containments][26][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///home/lookfrost/Pictures/Wallpapers/midpoint.png
+Image=file:///home/lookfrost/Pictures/Wallpapers/169.jpg
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][27]
@@ -184,7 +184,7 @@ wallpaperplugin=org.kde.image
 
 [Containments][52][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///home/lookfrost/Pictures/Wallpapers/thick-forest-3840x2160-14776.jpg
+Image=file:///home/lookfrost/Pictures/Wallpapers/EVA/3494593.jpg
 
 [Containments][53]
 activityId=21701824-0f8b-4e5d-8c1c-e265ec657f9f
@@ -197,7 +197,7 @@ wallpaperplugin=org.kde.image
 
 [Containments][53][Wallpaper][org.kde.image][General]
 FillMode=2
-Image=file:///home/lookfrost/Pictures/Wallpapers/Firewatch/0.jpg
+Image=file:///home/lookfrost/Pictures/Wallpapers/midpoint.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=

@@ -5,22 +5,22 @@ config.default_prog = { '/usr/bin/fish', '--login' }
 config.default_cwd = wezterm.home_dir
 
 config.colors = {
-  foreground = '#ffffff',
-  background = '#000000',
-  cursor_bg = '#ff5a1f',
-  cursor_fg = '#070505',
-  cursor_border = '#ff5a1f',
-  selection_bg = '#b0000a',
-  selection_fg = '#ffffff',
-  scrollbar_thumb = '#22110b',
-  split = '#22110b',
+  foreground = '#ded6e1',
+  background = '#1e1e26',
+  cursor_bg = '#7399bb',
+  cursor_fg = '#1e1e26',
+  cursor_border = '#7399bb',
+  selection_bg = '#7399bb',
+  selection_fg = '#1e1e26',
+  scrollbar_thumb = '#2f3233',
+  split = '#2f3233',
   ansi = {
-    '#000000', '#b0000a', '#ff5a1f', '#ff5a1f',
-    '#25d9e8', '#d8141c', '#25d9e8', '#ffffff',
+    '#1e1e26', '#b09c6d', '#7399bb', '#a9b9c8',
+    '#7399bb', '#869596', '#a9b9c8', '#ded6e1',
   },
   brights = {
-    '#22110b', '#ff6b36', '#ff6b36', '#ff8a5b',
-    '#6eeaf4', '#ef3340', '#6eeaf4', '#ffffff',
+    '#2f3233', '#d0bd8f', '#9bb7d1', '#ded6e1',
+    '#a9b9c8', '#a9b9c8', '#ded6e1', '#ffffff',
   },
 }
 

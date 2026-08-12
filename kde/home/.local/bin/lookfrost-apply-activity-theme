@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+activity_service=org.kde.ActivityManager
+activity_path=/ActivityManager/Activities
+activity_interface=org.kde.ActivityManager.Activities
+
+activity_id=${1:-}
+if [[ -z $activity_id ]]; then
+    activity_id=$(busctl --user call "$activity_service" "$activity_path" "$activity_interface" CurrentActivity | sed -n 's/^s "\(.*\)"$/\1/p')
+fi
+
+activity_name=$(busctl --user call "$activity_service" "$activity_path" "$activity_interface" ActivityName s "$activity_id" | sed -n 's/^s "\(.*\)"$/\1/p')
+
+case $activity_name in
+    Normal)
+        plasma-apply-colorscheme Slate169
+        cp "$HOME/.config/gtk-3.0/colors-slate169.css" "$HOME/.config/gtk-3.0/colors.css"
+        cp "$HOME/.config/gtk-4.0/colors-slate169.css" "$HOME/.config/gtk-4.0/colors.css"
+        ;;
+    Coding)
+        plasma-apply-colorscheme Coding3494593
+        ;;
+    Gaming)
+        plasma-apply-colorscheme MoltenGold
+        ;;
+    *)
+        exit 0
+        ;;
+esac

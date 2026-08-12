@@ -4,22 +4,22 @@
     "type": "file",
     "source": "/home/lookfrost/.config/fastfetch/lookfrost.txt",
     "color": {
-      "1": "#B0000A",
-      "2": "#FF5A1F"
+      "1": "#7399BB",
+      "2": "#B09C6D"
     },
     "padding": { "top": 0, "right": 3 }
   },
   "display": {
     "separator": "  ",
     "color": {
-      "keys": "#FF5A1F",
-      "title": "#FFFFFF"
+      "keys": "#A9B9C8",
+      "title": "#DED6E1"
     }
   },
   "modules": [
     {
       "type": "title",
-      "color": { "user": "#FFFFFF", "at": "#FF5A1F", "host": "#FFFFFF" }
+      "color": { "user": "#DED6E1", "at": "#B09C6D", "host": "#DED6E1" }
     },
     "separator",
     { "type": "os",       "key": "󰖳" },

@@ -1,0 +1,186 @@
+/**
+ * @name Slate 169 System24
+ * @description A slate System24 theme matched to my Normal desktop palette.
+ * @author Frost
+ * @version 1.0.0
+ * @source https://github.com/MrDLingters/EverforestWin11/tree/88f430bd2d1d32a9ba3070f4531ece36c96e133c/Discord%20theme%20(BetterDiscord%2C%20Vencord)
+ */
+
+@import url("https://refact0r.github.io/system24/build/system24.css");
+
+body {
+    --font: "JetBrains Mono";
+    --code-font: "JetBrains Mono";
+    font-weight: 400;
+    letter-spacing: -0.035ch;
+
+    --gap: 12px;
+    --divider-thickness: 3px;
+    --border-thickness: 2px;
+    --border-hover-transition: 0.2s ease;
+
+    --animations: on;
+    --list-item-transition: 0.18s ease;
+    --dms-icon-svg-transition: 0.3s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+
+    --custom-window-controls: off;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: off;
+    --dms-icon-svg-url: url("");
+    --dms-icon-svg-size: 90%;
+    --dms-icon-color-before: var(--text-4);
+    --dms-icon-color-after: var(--text-1);
+    --custom-dms-background: color;
+    --dms-background-image-url: url("");
+    --dms-background-image-size: cover;
+    --dms-background-color: linear-gradient(145deg, #2f3233 0%, #1e1e26 70%, #666c63 140%);
+
+    --background-image: off;
+    --background-image-url: url("");
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --blur-amount: 14px;
+    --bg-floating: #1e1e26;
+
+    --small-user-panel: on;
+    --unrounding: off;
+    --custom-spotify-bar: on;
+    --ascii-titles: on;
+    --ascii-loader: system24;
+    --panel-labels: on;
+    --label-color: #869596;
+    --label-font-weight: 600;
+}
+
+:root {
+    --colors: on;
+
+    --text-0: #1e1e26;
+    --text-1: #ded6e1;
+    --text-2: #ded6e1;
+    --text-3: #ded6e1;
+    --text-4: #a9b9c8;
+    --text-5: #869596;
+
+    --bg-1: #2f3233;
+    --bg-2: #242e30;
+    --bg-3: #1e1e26;
+    --bg-4: #1e1e26;
+    --hover: #242e30;
+    --active: #2f3233;
+    --active-2: #666c63;
+    --message-hover: rgb(176 0 10 / 7%);
+
+    --accent-1: #a9b9c8;
+    --accent-2: #7399bb;
+    --accent-3: #666c63;
+    --accent-4: #7399bb;
+    --accent-5: #2f3233;
+    --accent-new: #b09c6d;
+
+    --mention: linear-gradient(to right, rgb(176 0 10 / 30%) 0%, rgb(176 0 10 / 8%) 55%, transparent 100%);
+    --mention-hover: linear-gradient(to right, rgb(255 49 59 / 32%) 0%, rgb(176 0 10 / 10%) 55%, transparent 100%);
+    --reply: linear-gradient(to right, rgb(245 228 195 / 12%) 0%, transparent 70%);
+    --reply-hover: linear-gradient(to right, rgb(245 228 195 / 17%) 0%, transparent 70%);
+
+    --online: #55d68b;
+    --dnd: #ff313b;
+    --idle: #b09c6d;
+    --streaming: #e05cff;
+    --offline: #8a7376;
+
+    --border-light: #241d1f;
+    --border: #38282b;
+    --border-hover: #7399bb;
+    --button-border: rgb(255 255 255 / 14%);
+
+    --red-1: #b09c6d;
+    --red-2: #ff313b;
+    --red-3: #666c63;
+    --red-4: #2f3233;
+    --red-5: #1e1e26;
+
+    --green-1: #a9b9c8;
+    --green-2: #7399bb;
+    --green-3: #666c63;
+    --green-4: #666c63;
+    --green-5: #31171a;
+
+    --blue-1: #7399bb;
+    --blue-2: #7399bb;
+    --blue-3: #7399bb;
+    --blue-4: #666c63;
+    --blue-5: #2f3233;
+
+    --yellow-1: #ded6e1;
+    --yellow-2: #b09c6d;
+    --yellow-3: #b09c6d;
+    --yellow-4: #666c63;
+    --yellow-5: #2f3233;
+
+    --purple-1: #a9b9c8;
+    --purple-2: #7399bb;
+    --purple-3: #666c63;
+    --purple-4: #2f3233;
+    --purple-5: #1e1e26;
+
+    --background-primary: #1e1e26;
+    --background-secondary: #242e30;
+    --background-secondary-alt: #1e1e26;
+    --background-tertiary: #1e1e26;
+    --background-floating: #1e1e26;
+    --channeltextarea-background: #1e1e26;
+    --background-modifier-hover: rgb(200 59 68 / 8%);
+    --background-modifier-active: rgb(148 16 26 / 24%);
+    --background-modifier-selected: rgb(148 16 26 / 34%);
+    --header-primary: #ded6e1;
+    --header-secondary: #ded6e1;
+    --text-normal: #ded6e1;
+    --text-muted: #869596;
+    --text-link: #7399bb;
+    --interactive-normal: #a9b9c8;
+    --interactive-hover: #ded6e1;
+    --interactive-active: #ded6e1;
+    --interactive-muted: #666c63;
+    --channels-default: #a9b9c8;
+    --brand-500: #666c63;
+    --brand-560: #7399bb;
+    --brand-600: #2f3233;
+    --focus-primary: #7399bb;
+}
+
+* {
+    scrollbar-color: #666c63 #1e1e26;
+}
+
+a,
+[class*="anchor_"] {
+    color: #7399bb;
+}
+
+::selection {
+    color: #ded6e1;
+    background: #666c63;
+}
+
+:focus-visible {
+    outline-color: #7399bb !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}

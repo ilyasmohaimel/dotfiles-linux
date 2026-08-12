@@ -5,18 +5,18 @@
   "workbench.preferredLightColorTheme": "Light Modern",
   "workbench.colorCustomizations": {
     "[Default Dark Modern]": {
-      "editor.background": "#070505",
-      "editor.foreground": "#ffffff",
-      "editor.selectionBackground": "#b0000a80",
-      "editor.lineHighlightBackground": "#130a06",
-      "editorCursor.foreground": "#ff5a1f",
-      "focusBorder": "#d8141c",
-      "activityBar.background": "#160c08",
-      "sideBar.background": "#160c08",
-      "titleBar.activeBackground": "#22110b",
-      "statusBar.background": "#22110b",
-      "tab.activeBackground": "#070505",
-      "tab.inactiveBackground": "#130a06"
+      "editor.background": "#1e1e26",
+      "editor.foreground": "#ded6e1",
+      "editor.selectionBackground": "#7399bb80",
+      "editor.lineHighlightBackground": "#242e30",
+      "editorCursor.foreground": "#a9b9c8",
+      "focusBorder": "#7399bb",
+      "activityBar.background": "#2f3233",
+      "sideBar.background": "#2f3233",
+      "titleBar.activeBackground": "#2f3233",
+      "statusBar.background": "#2f3233",
+      "tab.activeBackground": "#1e1e26",
+      "tab.inactiveBackground": "#242e30"
     }
   },
   "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Symbols Nerd Font', monospace",
