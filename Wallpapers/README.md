@@ -26,6 +26,8 @@ Click any preview to open the full image.
 </p>
 <p>
   <a href="Main%20wallpapers/wallhaven-76edpv.jpg"><img src="Main%20wallpapers/wallhaven-76edpv.jpg" width="220" alt="Wallhaven"></a>
+  <a href="Main%20wallpapers/677569.jpg"><img src="Main%20wallpapers/677569.jpg" width="220" alt="Forest 677569"></a>
+  <a href="Main%20wallpapers/773426.jpg"><img src="Main%20wallpapers/773426.jpg" width="220" alt="Forest 773426"></a>
 </p>
 
 ## EVA
@@ -38,10 +40,6 @@ Click any preview to open the full image.
 <p>
   <a href="EVA/3494593.jpg"><img src="EVA/3494593.jpg" width="220" alt="EVA 3494593"></a>
   <a href="EVA/489876.jpg"><img src="EVA/489876.jpg" width="220" alt="EVA 489876"></a>
-  <a href="EVA/677569.jpg"><img src="EVA/677569.jpg" width="220" alt="EVA 677569"></a>
-</p>
-<p>
-  <a href="EVA/773426.jpg"><img src="EVA/773426.jpg" width="220" alt="EVA 773426"></a>
 </p>
 
 ## Firewatch
