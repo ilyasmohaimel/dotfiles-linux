@@ -1,0 +1,113 @@
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+model = "gpt-5.6-terra"
+model_reasoning_effort = "high"
+approvals_reviewer = "user"
+service_tier = "default"
+
+[features]
+plugins = false
+
+[notice]
+fast_default_opt_out = true
+hide_rate_limit_model_nudge = true
+
+# BEGIN MIGRATION-APPROVED PORTABLE MCP
+# Credentials are intentionally absent; authenticate freshly.
+[mcp_servers."21st"]
+url = "https://21st.dev/api/mcp"
+
+[mcp_servers."cloudflare"]
+url = "https://mcp.cloudflare.com/mcp"
+# Codex 0.147.0 hangs after Cloudflare returns a valid OAuth callback.
+enabled = true
+
+[mcp_servers."context7"]
+url = "https://mcp.context7.com/mcp/oauth"
+
+[mcp_servers."higgsfield"]
+url = "https://mcp.higgsfield.ai/mcp"
+
+[mcp_servers."perplexity"]
+command = "npx"
+args = ["-y", "@perplexity-ai/mcp-server"]
+startup_timeout_sec = 120
+enabled = true
+
+[mcp_servers."playwright"]
+command = "npx"
+args = ["-y", "@playwright/mcp@latest"]
+startup_timeout_sec = 120
+
+[mcp_servers."supabase"]
+url = "https://mcp.supabase.com/mcp?features=docs%2Caccount%2Cdatabase%2Cdebugging%2Cdevelopment%2Cfunctions%2Cbranching"
+
+[mcp_servers."vercel"]
+url = "https://mcp.vercel.com"
+
+[desktop]
+conversationDetailMode = "STEPS_COMMANDS"
+sansFontSize = 14
+codeFontSize = 13
+ambient-suggestions-enabled = true
+followUpQueueMode = "queue"
+show-context-window-usage = true
+appearanceLightCodeThemeId = "raycast"
+appearanceDarkCodeThemeId = "raycast"
+
+[desktop.open-in-target-preferences]
+global = "vscode"
+
+[desktop.appearanceLightChromeTheme]
+accent = "#ff6363"
+contrast = 45
+ink = "#030303"
+opaqueWindows = true
+surface = "#ffffff"
+
+[desktop.appearanceLightChromeTheme.fonts]
+code = '"Jetbrains Mono"'
+ui = "Inter"
+
+[desktop.appearanceLightChromeTheme.semanticColors]
+diffAdded = "#006b4f"
+diffRemoved = "#b12424"
+skill = "#9a1b6e"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#ff6363"
+contrast = 60
+ink = "#fefefe"
+opaqueWindows = true
+surface = "#101010"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+code = '"Jetbrains Mono"'
+ui = "Inter"
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#59d499"
+diffRemoved = "#ff6363"
+skill = "#cf2f98"
+
+[marketplaces.openai-primary-runtime]
+last_updated = "2026-08-10T14:08:35Z"
+source_type = "local"
+source = "/home/lookfrost/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+# END MIGRATION-APPROVED PORTABLE MCP

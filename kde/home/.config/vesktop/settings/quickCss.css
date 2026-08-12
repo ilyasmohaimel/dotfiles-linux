@@ -1,0 +1,42 @@
+:root {
+  --font-primary: "JetBrains Mono", monospace;
+  --font-display: "JetBrains Mono", monospace;
+  --background-primary: #070505;
+  --background-secondary: #130a06;
+  --background-secondary-alt: #160c08;
+  --background-tertiary: #22110b;
+  --background-accent: #b0000a;
+  --background-floating: #22110b;
+  --channeltextarea-background: #130a06;
+  --background-modifier-hover: rgb(255 90 31 / 16%);
+  --background-modifier-active: rgb(176 0 10 / 38%);
+  --background-modifier-selected: rgb(176 0 10 / 52%);
+  --header-primary: #ffffff;
+  --header-secondary: #ffffff;
+  --text-normal: #ffffff;
+  --text-muted: #bdaaaa;
+  --text-link: #25d9e8;
+  --interactive-normal: #d8c4c6;
+  --interactive-hover: #ff5a1f;
+  --interactive-active: #ffffff;
+  --interactive-muted: #6e4b4d;
+  --channels-default: #d8c4c6;
+  --brand-500: #b0000a;
+  --brand-560: #d8141c;
+  --brand-600: #8e0008;
+  --button-filled-brand-background: #b0000a;
+  --button-filled-brand-background-hover: #d8141c;
+  --button-filled-brand-background-active: #8e0008;
+  --focus-primary: #d8141c;
+  --control-brand-foreground: #ff5a1f;
+  --control-brand-foreground-new: #ff5a1f;
+}
+
+* {
+  scrollbar-color: #b0000a #070505;
+}
+
+a,
+[class*="link"] {
+  color: #25d9e8;
+}

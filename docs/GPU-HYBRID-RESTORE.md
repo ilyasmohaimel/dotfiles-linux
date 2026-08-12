@@ -1,16 +1,16 @@
-# Restoring my Intel + NVIDIA hybrid GPU setup
+# My Intel + NVIDIA hybrid GPU setup
 
-This is the setup for my HP Pavilion 15-cs0xxx laptop: Intel UHD 620 is the normal desktop GPU, and the NVIDIA MX150 is used only when I launch an app with PRIME offload. The goal is not to force NVIDIA for the whole desktop.
+This is how I set up graphics on my HP Pavilion 15-cs0xxx. The Intel UHD 620 runs the desktop to keep power use and heat down. The NVIDIA MX150 is there for games and heavier apps through PRIME offload. I do not run the whole desktop on NVIDIA.
 
-## What a future agent should do
+Before installing anything, I check that the machine really has the same GPUs:
 
-1. Read this file and inspect the current system before changing anything.
-2. Confirm the machine has Intel UHD 620 (`8086:5917`) and NVIDIA MX150 (`10de:1d10`) with `lspci -nnk`.
-3. Fully update Arch first, then install the matching driver stack. Never mix kernel headers, DKMS modules, and NVIDIA user-space packages from different driver versions.
-4. Preserve the Intel desktop path. Use `prime-run` only for games and heavier apps.
-5. Rebuild initramfs, reboot, then run every verification command below. Do not call the job done based only on package installation.
+```sh
+lspci -nnk | rg -A3 'VGA|3D|Display'
+```
 
-## Package stack
+I should see Intel UHD 620 (`8086:5917`) and NVIDIA MX150 (`10de:1d10`).
+
+## Packages
 
 I used this working stack on 2026-08-12:
 
@@ -31,29 +31,29 @@ lib32-vulkan-intel            1:26.1.6-1
 
 `nvidia-580xx-dkms`, `nvidia-580xx-utils`, and `lib32-nvidia-580xx-utils` are AUR packages. The remaining packages come from Arch repositories.
 
-Install the repository packages first:
+I start with a full update, then install the repository packages:
 
 ```sh
 sudo pacman -Syu --needed linux linux-headers nvidia-prime switcheroo-control mesa mesa-utils vulkan-tools vulkan-intel lib32-vulkan-intel
 ```
 
-Then use the AUR helper already installed on the system:
+Then I install the matching AUR driver packages:
 
 ```sh
 yay -S --needed nvidia-580xx-dkms nvidia-580xx-utils lib32-nvidia-580xx-utils
 ```
 
-If the 580xx packages no longer build on the current kernel, stop there and check the package maintainers' current compatibility notes. Do not silently replace this setup with the regular `nvidia` packages or install a random `.run` driver.
+The kernel, kernel headers, DKMS module, and NVIDIA user-space packages need to match. If the 580xx packages no longer build on the current kernel, I check the package maintainers' compatibility notes instead of swapping in the normal `nvidia` package or an NVIDIA `.run` installer.
 
-## Boot setup
+## Boot configuration
 
-The checked-in [`mkinitcpio.conf`](../kde/etc/mkinitcpio.conf) has this exact module order:
+My [`mkinitcpio.conf`](../kde/etc/mkinitcpio.conf) uses this module order:
 
 ```sh
 MODULES=(nvidia nvidia_modeset nvidia_uvm nvidia_drm)
 ```
 
-The `kms` hook is intentionally absent. After merging that setting into `/etc/mkinitcpio.conf`:
+The `kms` hook is intentionally absent. After putting that setting in `/etc/mkinitcpio.conf`, I rebuild the initramfs and enable the hybrid-GPU service:
 
 ```sh
 sudo mkinitcpio -P
@@ -61,9 +61,9 @@ sudo systemctl enable --now switcheroo-control.service
 sudo reboot
 ```
 
-## PRIME offload
+## Running an app on NVIDIA
 
-The normal desktop should stay on Intel. These commands run one app on the MX150:
+The normal desktop stays on Intel. These commands run an app on the MX150:
 
 ```sh
 prime-run steam
@@ -72,16 +72,16 @@ prime-run obs
 prime-run brave
 ```
 
-The current KDE profile includes launchers for Steam, Brave, Discord, OBS, VS Code, and Zen Browser. `kde/home/.local/share/applications/steam.desktop` also makes normal Steam launches use `prime-run`.
+The KDE profile includes NVIDIA launchers for Steam, Brave, Discord, OBS, VS Code, and Zen Browser. [`steam.desktop`](../kde/home/.local/share/applications/steam.desktop) also sends normal Steam launches through `prime-run`.
 
-For a new desktop entry, keep the app's normal command and prepend `prime-run` to `Exec=`:
+For a new desktop entry, I keep the normal command and add `prime-run` in front of `Exec=`:
 
 ```ini
 Exec=prime-run app-name %U
 X-KDE-RunOnDiscreteGpu=true
 ```
 
-## Verification after reboot
+## Checking that it worked
 
 Run all of this from a terminal:
 
@@ -99,7 +99,7 @@ systemctl is-active switcheroo-control.service
 switcherooctl list
 ```
 
-Expected result:
+What I expect to see:
 
 - `nvidia`, `nvidia_modeset`, `nvidia_uvm`, and `nvidia_drm` are loaded.
 - `nouveau` is not loaded.
@@ -109,9 +109,9 @@ Expected result:
 - Normal Vulkan prefers Intel; `prime-run vulkaninfo --summary` puts NVIDIA first.
 - `switcheroo-control.service` is active and `switcherooctl list` identifies Intel as default and NVIDIA as discrete.
 
-## If something breaks
+## If an update breaks it
 
-- If DKMS fails, check that `linux-headers` matches `uname -r`, then rebuild with `sudo dkms autoinstall -k "$(uname -r)"` and regenerate initramfs.
-- If the desktop runs on NVIDIA by default, inspect the desktop entries and environment for a global PRIME/offload variable. Remove the global override; this setup is intended to be selective.
-- If NVIDIA works in `nvidia-smi` but not in OpenGL/Vulkan, test a fresh `prime-run glxinfo -B` and `prime-run vulkaninfo --summary` before changing package stacks.
-- If a new kernel breaks the driver, boot the previous working kernel from the bootloader, then fix the DKMS/package mismatch before trying the new one again.
+- If DKMS fails, I check that `linux-headers` matches `uname -r`, then rebuild with `sudo dkms autoinstall -k "$(uname -r)"` and regenerate initramfs.
+- If the desktop starts using NVIDIA by default, I look for a global PRIME/offload environment variable or desktop entry override and remove it. This setup is meant to be selective.
+- If `nvidia-smi` works but OpenGL or Vulkan does not, I run fresh `prime-run glxinfo -B` and `prime-run vulkaninfo --summary` checks before changing the package stack.
+- If a new kernel breaks the driver, I boot the last working kernel from the boot menu, then fix the DKMS/package mismatch before trying the newer kernel again.

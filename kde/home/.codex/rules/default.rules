@@ -1,0 +1,3 @@
+prefix_rule(pattern=["ssh", "-F", "/dev/null"], decision="allow")
+prefix_rule(pattern=["systemctl", "--user", "status"], decision="allow")
+prefix_rule(pattern=["journalctl", "--user"], decision="allow")

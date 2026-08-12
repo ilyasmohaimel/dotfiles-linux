@@ -52,6 +52,7 @@ The AUR and Flatpak files are just inventories, not scripts I should run blindly
 ## Hardware notes
 
 - [Restoring my Intel + NVIDIA hybrid GPU setup](docs/GPU-HYBRID-RESTORE.md)
+- [Restoring app settings](docs/APP-CONFIGS.md)
 
 ## What I do not keep here
 
