@@ -65,9 +65,9 @@ normal_id=$(ensure_activity Normal 'My normal desktop' user-home)
 coding_id=$(ensure_activity Coding 'Coding and development' applications-development)
 gaming_id=$(ensure_activity Gaming 'Gaming and media' applications-games)
 
-set_wallpaper "$normal_id" "$wallpapers_dir/midpoint.png"
-set_wallpaper "$coding_id" "$wallpapers_dir/thick-forest-3840x2160-14776.jpg"
-set_wallpaper "$gaming_id" "$wallpapers_dir/Firewatch/0.jpg"
+set_wallpaper "$normal_id" "$wallpapers_dir/169.jpg"
+set_wallpaper "$coding_id" "$wallpapers_dir/EVA/3494593.jpg"
+set_wallpaper "$gaming_id" "$wallpapers_dir/midpoint.png"
 
 busctl --user call "$activity_service" "$activity_path" "$activity_interface" SetCurrentActivity s "$normal_id" >/dev/null
 busctl --user call "$activity_service" "$activity_path" "$activity_interface" ListActivitiesWithInformation
