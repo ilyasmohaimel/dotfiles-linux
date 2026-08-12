@@ -8,9 +8,9 @@ This repo only holds safe configs and notes. My actual backups are kept on my en
 
 ## How My Setup Looks
 
-[![16-second preview of my KDE setup, themes, and apps](previews/setup-preview-16s.gif)](previews/setup-preview-16s-1080p.mp4)
+[![14-second preview of my KDE setup, themes, and apps](previews/setup-preview-14s.gif)](previews/setup-preview-14s-1080p.mp4)
 
-[Watch the 1080p / 30 FPS version](previews/setup-preview-16s-1080p.mp4)
+[Watch the 1080p / 30 FPS version](previews/setup-preview-14s-1080p.mp4)
 
 | Profile | Status | Contents |
 | --- | --- | --- |
