@@ -8,7 +8,7 @@ This repo only holds safe configs and notes. My actual backups are kept on my en
 
 | Profile | Status | Contents |
 | --- | --- | --- |
-| [`kde/`](kde/) | Current | My Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor, launcher, NVIDIA, zram, and memory settings |
+| [`kde/`](kde/) | Current | My Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor, launcher, NVIDIA, zram, memory settings, and current wallpaper |
 | [`qtile/`](qtile/) | Archived | My older Qtile, Rofi, Fish, and Alacritty setup |
 | [`hyprland/`](hyprland/) | Later | Kept ready for a future Hyprland setup |
 
