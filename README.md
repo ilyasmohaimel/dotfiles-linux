@@ -4,6 +4,8 @@ My Arch Linux setup, split by desktop/window manager so I can keep old configura
 
 I write these notes so I can restore things if I forget how I set them up. They should also be useful if someone wants to understand my setup, back up their own system with the same approach, or help me restore an install later.
 
+This repo only holds safe configs and notes. My actual backups are kept on my encrypted local NAS, including private files, project archives, SSH keys, app data, browser profiles, and session databases.
+
 | Profile | Status | Contents |
 | --- | --- | --- |
 | [`kde/`](kde/) | Current | My Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor, launcher, NVIDIA, zram, and memory settings |
