@@ -16,7 +16,9 @@ Brave keeps Catppuccin Macchiato for Normal and Coding, then uses the red Gaming
 
 ## Preview
 
-[Watch the activity theme preview](../previews/activity-theme-preview.mp4)
+[![16-second preview of my KDE activity themes](../previews/how-my-setup-looks.gif)](../previews/how-my-setup-looks.mp4)
+
+[Watch the 1080p / 30 FPS version](../previews/how-my-setup-looks.mp4)
 
 ## Restoring it
 
