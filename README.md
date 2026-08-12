@@ -2,6 +2,8 @@
 
 My Arch Linux setup, split by desktop/window manager so I can keep old configurations around without mixing them together.
 
+I write these notes so I can restore things if I forget how I set them up. They should also be useful if someone wants to understand my setup, back up their own system with the same approach, or help me restore an install later.
+
 | Profile | Status | Contents |
 | --- | --- | --- |
 | [`kde/`](kde/) | Current | My Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor, launcher, NVIDIA, zram, and memory settings |
