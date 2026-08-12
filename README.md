@@ -1,16 +1,16 @@
-# Frost's Linux dotfiles
+# My Linux dotfiles
 
-Desktop configuration snapshots for Arch Linux, organized by desktop or window manager.
+My Arch Linux setup, split by desktop/window manager so I can keep old configurations around without mixing them together.
 
 | Profile | Status | Contents |
 | --- | --- | --- |
-| [`kde/`](kde/) | Current | Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor settings, user services, launchers, NVIDIA offload, zram, and memory tuning |
-| [`qtile/`](qtile/) | Archived | Qtile, Rofi, Fish, and Alacritty configuration from the earlier setup |
-| [`hyprland/`](hyprland/) | Reserved | Placeholder for a future Hyprland profile |
+| [`kde/`](kde/) | Current | My Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor, launcher, NVIDIA, zram, and memory settings |
+| [`qtile/`](qtile/) | Archived | My older Qtile, Rofi, Fish, and Alacritty setup |
+| [`hyprland/`](hyprland/) | Later | Kept ready for a future Hyprland setup |
 
-## KDE snapshot
+## KDE
 
-The KDE profile mirrors the destination filesystem:
+The KDE folder mirrors where files belong on the system:
 
 ```text
 kde/
@@ -19,20 +19,20 @@ kde/
 └── manifests/  # package, Flatpak, and enabled-unit snapshots
 ```
 
-Preview a home restore:
+I can preview a home restore with:
 
 ```sh
 rsync -an kde/home/ "$HOME"/
 ```
 
-Apply selected user files only after reviewing the preview:
+Then restore only the files I actually want:
 
 ```sh
 rsync -a kde/home/ "$HOME"/
 systemctl --user daemon-reload
 ```
 
-System files are hardware-specific. Review them before applying:
+The files in `etc/` are hardware-specific, so I review them before applying them:
 
 ```sh
 sudo rsync -an kde/etc/ /etc/
@@ -41,16 +41,16 @@ sudo mkinitcpio -P
 sudo sysctl --system
 ```
 
-Install the official Arch package snapshot:
+To install the official Arch packages from this setup:
 
 ```sh
 sudo pacman -S --needed - < kde/manifests/pacman-official.txt
 ```
 
-The AUR and Flatpak manifests are inventories, not unattended install scripts. Review versions and package sources before using them. Enabled-unit manifests are also snapshots; do not enable every listed unit blindly.
+The AUR and Flatpak files are just inventories, not scripts I should run blindly. The same goes for the enabled-service lists.
 
-## Safety
+## What I do not keep here
 
-This repository intentionally excludes credentials, SSH keys, browser profiles, cookies, tokens, session databases, caches, network mount details, printer secrets, Sunshine state, and other machine identity or account data.
+I leave out credentials, SSH keys, browser profiles, cookies, tokens, session databases, caches, mount details, printer secrets, Sunshine state, and other machine/account-specific data.
 
-Some files contain Frost's local paths and hardware choices. In particular, the KDE profile targets an Intel UHD 620 + NVIDIA MX150 hybrid laptop and uses the `nvidia-580xx` stack.
+Some paths and hardware choices are still specific to my laptop: Intel UHD 620 + NVIDIA MX150 hybrid graphics with the `nvidia-580xx` driver stack.

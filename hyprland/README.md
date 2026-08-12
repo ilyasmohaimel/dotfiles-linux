@@ -1,3 +1,3 @@
-# Hyprland profile
+# Hyprland
 
-Reserved for a future Hyprland configuration.
+Reserved for when I set up Hyprland.

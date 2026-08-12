@@ -1,6 +1,6 @@
-# Qtile profile
+# Qtile
 
-Archived Qtile-era configuration, reorganized into a home-directory mirror. The generated Python bytecode and the broken placeholder autostart routine from the old snapshot were removed.
+My older Qtile setup, reorganized to mirror the home directory. I removed generated Python bytecode and an old placeholder autostart block that was not usable.
 
 Preview a restore with:
 
