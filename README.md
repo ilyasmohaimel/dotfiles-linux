@@ -20,6 +20,10 @@ My wallpaper collection is in [`Wallpapers/`](Wallpapers/), at the top level so 
 rsync -a Wallpapers/ "$HOME/Pictures/Wallpapers/"
 ```
 
+## Activity themes preview
+
+[▶ Watch: My KDE Activity Themes — Normal, Coding, and Gaming](previews/activity-theme-preview.mp4)
+
 ## KDE
 
 The KDE folder mirrors where files belong on the system:
