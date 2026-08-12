@@ -1,0 +1,8 @@
+{
+  "logo": { "type": "file", "source": "/home/lookfrost/.config/fastfetch/lookfrost.txt", "color": { "1": "#DBA96B", "2": "#FBF6A0" }, "padding": { "top": 0, "right": 3 } },
+  "display": { "separator": "  ", "color": { "keys": "#DBA96B", "title": "#FBF6A0" } },
+  "modules": [
+    { "type": "title", "color": { "user": "#FBF6A0", "at": "#8A7B5E", "host": "#FBF6A0" } }, "separator",
+    { "type": "os", "key": "󰖳" }, { "type": "host", "key": "󰟀" }, { "type": "uptime", "key": "󰅐" }, { "type": "packages", "key": "󰏗" }, { "type": "shell", "key": "󰞷" }, { "type": "wm", "key": "󰕮" }, { "type": "terminal", "key": "󰆍" }, { "type": "cpu", "key": "󰻠" }, { "type": "gpu", "key": "󰢮", "format": "{name}", "hideErrors": true, "temp": false }, { "type": "memory", "key": "󰘚" }, { "type": "display", "key": "󰍹" }, "break", { "type": "colors", "paddingLeft": 2, "symbol": "circle" }
+  ]
+}

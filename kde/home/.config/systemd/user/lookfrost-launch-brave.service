@@ -3,4 +3,4 @@ Description=Launch Brave from a KDE shortcut
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/systemd-run --user --collect --quiet /usr/bin/brave
+ExecStart=/usr/bin/systemd-run --user --collect --quiet %h/.local/bin/brave

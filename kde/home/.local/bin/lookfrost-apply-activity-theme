@@ -13,6 +13,17 @@ fi
 
 activity_name=$(busctl --user call "$activity_service" "$activity_path" "$activity_interface" ActivityName s "$activity_id" | sed -n 's/^s "\(.*\)"$/\1/p')
 
+install -d -m 700 "$HOME/.config/lookfrost"
+printf '%s\n' "$activity_name" > "$HOME/.config/lookfrost/active-activity"
+
+theme_dir="$HOME/.config/lookfrost/terminal-themes/$activity_name"
+if [[ -d $theme_dir ]]; then
+    install -d -m 700 "$HOME/.config/wezterm" "$HOME/.config/alacritty"
+    cp "$theme_dir/wezterm-colors.lua" "$HOME/.config/wezterm/activity-colors.lua"
+    cp "$theme_dir/alacritty-colors.toml" "$HOME/.config/alacritty/activity-colors.toml"
+    touch "$HOME/.config/wezterm/wezterm.lua"
+fi
+
 case $activity_name in
     Normal)
         plasma-apply-colorscheme Slate169
@@ -29,3 +40,7 @@ case $activity_name in
         exit 0
         ;;
 esac
+
+if ! pgrep -u "$UID" -x brave >/dev/null; then
+    "$HOME/.local/bin/lookfrost-prepare-brave-theme"
+fi

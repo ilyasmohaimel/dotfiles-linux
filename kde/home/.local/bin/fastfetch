@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+for argument in "$@"; do
+    if [[ $argument == --config || $argument == -c ]]; then
+        exec /usr/bin/fastfetch "$@"
+    fi
+done
+
+activity=Normal
+if [[ -r $HOME/.config/lookfrost/active-activity ]]; then
+    IFS= read -r activity < "$HOME/.config/lookfrost/active-activity"
+fi
+
+case $activity in
+    Normal|Coding|Gaming) ;;
+    *) activity=Normal ;;
+esac
+
+exec /usr/bin/fastfetch --config "$HOME/.config/fastfetch/activities/$activity.jsonc" "$@"

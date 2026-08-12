@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if ! pgrep -u "$UID" -x brave >/dev/null; then
+    "$HOME/.local/bin/lookfrost-prepare-brave-theme"
+fi
+
+exec /usr/bin/brave "$@"

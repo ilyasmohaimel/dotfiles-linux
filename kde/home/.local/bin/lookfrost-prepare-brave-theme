@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+
+import json
+import os
+from pathlib import Path
+import tempfile
+
+home = Path.home()
+profile = home / '.config/BraveSoftware/Brave-Browser/Default'
+preferences = profile / 'Preferences'
+activity_file = home / '.config/lookfrost/active-activity'
+catppuccin_id = 'cmpdlhmnmjhihmcfnigoememnffkimlk'
+
+if not preferences.is_file():
+    raise SystemExit(0)
+
+activity = activity_file.read_text().strip() if activity_file.is_file() else 'Normal'
+if activity not in {'Normal', 'Coding', 'Gaming'}:
+    activity = 'Normal'
+
+data = json.loads(preferences.read_text())
+browser_theme = data.setdefault('browser', {}).setdefault('theme', {})
+extension_theme = data.setdefault('extensions', {}).setdefault('theme', {})
+
+if activity == 'Gaming':
+    browser_theme['color_scheme2'] = 2
+    browser_theme['user_color2'] = -5242870
+    browser_theme['color_variant2'] = 0
+    extension_theme['id'] = 'user_color_theme_id'
+    extension_theme.pop('pack', None)
+else:
+    versions = sorted((profile / 'Extensions' / catppuccin_id).glob('*/manifest.json'))
+    if not versions:
+        raise SystemExit('Catppuccin Macchiato is not installed; Brave theme was not changed.')
+    browser_theme['color_scheme2'] = 2
+    browser_theme.pop('user_color2', None)
+    browser_theme.pop('color_variant2', None)
+    extension_theme['id'] = catppuccin_id
+    extension_theme['pack'] = str(versions[-1].parent)
+
+fd, temporary_name = tempfile.mkstemp(prefix='Preferences.', dir=profile)
+try:
+    with os.fdopen(fd, 'w') as temporary:
+        json.dump(data, temporary, separators=(',', ':'))
+        temporary.write('\n')
+        temporary.flush()
+        os.fsync(temporary.fileno())
+    os.replace(temporary_name, preferences)
+except BaseException:
+    Path(temporary_name).unlink(missing_ok=True)
+    raise
