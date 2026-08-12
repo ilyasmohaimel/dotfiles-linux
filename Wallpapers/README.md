@@ -2,30 +2,30 @@
 
 Click any preview to open the full image.
 
-## General
+## Main wallpapers
 
 <p>
-  <a href="122.jpg"><img src="122.jpg" width="220" alt="122"></a>
-  <a href="169.jpg"><img src="169.jpg" width="220" alt="169"></a>
-  <a href="5614.jpg"><img src="5614.jpg" width="220" alt="5614"></a>
+  <a href="Main%20wallpapers/122.jpg"><img src="Main%20wallpapers/122.jpg" width="220" alt="122"></a>
+  <a href="Main%20wallpapers/169.jpg"><img src="Main%20wallpapers/169.jpg" width="220" alt="169"></a>
+  <a href="Main%20wallpapers/5614.jpg"><img src="Main%20wallpapers/5614.jpg" width="220" alt="5614"></a>
 </p>
 <p>
-  <a href="6715695.jpg"><img src="6715695.jpg" width="220" alt="6715695"></a>
-  <a href="6715739.jpg"><img src="6715739.jpg" width="220" alt="6715739"></a>
-  <a href="alena-aenami-ghosts-of-utopia-hd.jpg"><img src="alena-aenami-ghosts-of-utopia-hd.jpg" width="220" alt="Alena Aenami — Ghosts of Utopia"></a>
+  <a href="Main%20wallpapers/6715695.jpg"><img src="Main%20wallpapers/6715695.jpg" width="220" alt="6715695"></a>
+  <a href="Main%20wallpapers/6715739.jpg"><img src="Main%20wallpapers/6715739.jpg" width="220" alt="6715739"></a>
+  <a href="Main%20wallpapers/alena-aenami-ghosts-of-utopia-hd.jpg"><img src="Main%20wallpapers/alena-aenami-ghosts-of-utopia-hd.jpg" width="220" alt="Alena Aenami — Ghosts of Utopia"></a>
 </p>
 <p>
-  <a href="bd0f92d3fe5ce402ef85ff165569ebf4.jpg"><img src="bd0f92d3fe5ce402ef85ff165569ebf4.jpg" width="220" alt="bd0f92d3fe5ce402ef85ff165569ebf4"></a>
-  <a href="fnij7jJ.png"><img src="fnij7jJ.png" width="220" alt="fnij7jJ"></a>
-  <a href="initiald.jpg"><img src="initiald.jpg" width="220" alt="Initial D"></a>
+  <a href="Main%20wallpapers/bd0f92d3fe5ce402ef85ff165569ebf4.jpg"><img src="Main%20wallpapers/bd0f92d3fe5ce402ef85ff165569ebf4.jpg" width="220" alt="bd0f92d3fe5ce402ef85ff165569ebf4"></a>
+  <a href="Main%20wallpapers/fnij7jJ.png"><img src="Main%20wallpapers/fnij7jJ.png" width="220" alt="fnij7jJ"></a>
+  <a href="Main%20wallpapers/initiald.jpg"><img src="Main%20wallpapers/initiald.jpg" width="220" alt="Initial D"></a>
 </p>
 <p>
-  <a href="midpoint.png"><img src="midpoint.png" width="220" alt="Midpoint"></a>
-  <a href="thick-forest-3840x2160-14776.jpg"><img src="thick-forest-3840x2160-14776.jpg" width="220" alt="Thick forest"></a>
-  <a href="tn-anime-9928.png"><img src="tn-anime-9928.png" width="220" alt="TN anime"></a>
+  <a href="Main%20wallpapers/midpoint.png"><img src="Main%20wallpapers/midpoint.png" width="220" alt="Midpoint"></a>
+  <a href="Main%20wallpapers/thick-forest-3840x2160-14776.jpg"><img src="Main%20wallpapers/thick-forest-3840x2160-14776.jpg" width="220" alt="Thick forest"></a>
+  <a href="Main%20wallpapers/tn-anime-9928.png"><img src="Main%20wallpapers/tn-anime-9928.png" width="220" alt="TN anime"></a>
 </p>
 <p>
-  <a href="wallhaven-76edpv.jpg"><img src="wallhaven-76edpv.jpg" width="220" alt="Wallhaven"></a>
+  <a href="Main%20wallpapers/wallhaven-76edpv.jpg"><img src="Main%20wallpapers/wallhaven-76edpv.jpg" width="220" alt="Wallhaven"></a>
 </p>
 
 ## EVA
