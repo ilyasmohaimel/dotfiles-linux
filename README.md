@@ -8,9 +8,17 @@ This repo only holds safe configs and notes. My actual backups are kept on my en
 
 | Profile | Status | Contents |
 | --- | --- | --- |
-| [`kde/`](kde/) | Current | My Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor, launcher, NVIDIA, zram, memory settings, and wallpaper folders |
+| [`kde/`](kde/) | Current | My Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor, launcher, NVIDIA, zram, and memory settings |
 | [`qtile/`](qtile/) | Archived | My older Qtile, Rofi, Fish, and Alacritty setup |
 | [`hyprland/`](hyprland/) | Later | Kept ready for a future Hyprland setup |
+
+## Wallpapers
+
+My wallpaper collection is in [`Wallpapers/`](Wallpapers/), at the top level so it is easy to browse or download. To put it back in my home folder:
+
+```sh
+rsync -a Wallpapers/ "$HOME/Pictures/Wallpapers/"
+```
 
 ## KDE
 
