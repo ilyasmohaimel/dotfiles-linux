@@ -1,0 +1,12 @@
+[General]
+ConfigVersion=1
+
+[Desktop Entry]
+DefaultProfile=Molten.profile
+
+[Notification Messages]
+CloseAllTabs=true
+CloseSingleTab=true
+
+[UiSettings]
+ColorScheme=

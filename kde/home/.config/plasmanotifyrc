@@ -1,0 +1,24 @@
+[Applications][ChatGPT]
+Seen=true
+
+[Applications][KDE Portal Integration]
+ShowInHistory=false
+ShowPopups=false
+
+[Applications][dev.lizardbyte.app.Sunshine]
+Seen=true
+
+[Applications][heroic]
+Seen=true
+
+[Applications][org.freedesktop.impl.portal.desktop.kde]
+ShowInHistory=false
+ShowPopups=false
+
+[Applications][org.kde.konsole]
+ShowInHistory=false
+ShowPopups=false
+
+[Applications][xdg-desktop-portal-kde]
+ShowInHistory=false
+ShowPopups=false

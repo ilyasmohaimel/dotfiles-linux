@@ -1,0 +1,40 @@
+[safe]
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+[user]
+	name = Ilyas Mohaimel
+	email = ilyasmohaimel@gmail.com
+[core]
+# migration: executable_core_setting removed
+[interactive]
+# migration: unapproved_setting removed
+[delta]
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+# migration: unapproved_setting removed
+[merge]
+	conflictStyle = diff3
+[diff]
+	colorMoved = default
+[credential "https://github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+# migration: credential_helper removed
+# migration: credential_helper removed
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/usr/bin/gh auth git-credential
+# migration: credential_helper removed
+# migration: credential_helper removed

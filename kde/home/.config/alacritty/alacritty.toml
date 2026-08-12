@@ -1,0 +1,74 @@
+[general]
+working_directory = "/home/lookfrost"
+
+[terminal.shell]
+program = "/usr/bin/fish"
+args = ["--login"]
+
+[window]
+opacity = 0.4
+blur = true
+padding = { x = 15, y = 15 }
+decorations = "None"
+
+[scrolling]
+history = 10000
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[colors.primary]
+background = "#070505"
+foreground = "#ffffff"
+
+[colors.cursor]
+cursor = "#ff5a1f"
+text = "#070505"
+
+[colors.selection]
+background = "#b0000a"
+text = "#ffffff"
+
+[colors.normal]
+black = "#070505"
+red = "#b0000a"
+green = "#ff5a1f"
+yellow = "#ff5a1f"
+blue = "#25d9e8"
+magenta = "#d8141c"
+cyan = "#25d9e8"
+white = "#ffffff"
+
+[colors.bright]
+black = "#22110b"
+red = "#ff5a1f"
+green = "#ff6b36"
+yellow = "#ff8a5b"
+blue = "#6eeaf4"
+magenta = "#ef3340"
+cyan = "#6eeaf4"
+white = "#ffffff"
+
+[bell]
+duration = 0
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"

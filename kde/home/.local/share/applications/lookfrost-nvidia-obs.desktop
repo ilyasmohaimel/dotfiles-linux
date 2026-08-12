@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=OBS Studio (NVIDIA)
+Comment=Launch OBS Studio on the discrete NVIDIA GPU
+Exec=prime-run obs
+TryExec=prime-run
+Icon=com.obsproject.Studio
+Terminal=false
+Categories=AudioVideo;Recorder;
+StartupNotify=true
+StartupWMClass=obs
+PrefersNonDefaultGPU=true
+X-KDE-RunOnDiscreteGpu=true
+X-LookFrost-OptInNvidiaLauncher=true

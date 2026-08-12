@@ -1,0 +1,16 @@
+**/__pycache__/
+**/*.py[cod]
+**/.env
+**/.env.*
+**/*credentials*
+**/*token*
+**/*cookies*
+**/auth.json
+**/.ssh/
+**/Cache/
+**/GPUCache/
+**/sessionData/
+**/*.sqlite
+**/*.sqlite-*
+**/*.db
+**/*.log

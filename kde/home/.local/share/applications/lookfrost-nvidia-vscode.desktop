@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Visual Studio Code (NVIDIA)
+Comment=Launch Visual Studio Code on the discrete NVIDIA GPU
+Exec=prime-run code %F
+TryExec=prime-run
+Icon=vscode
+Terminal=false
+Categories=TextEditor;Development;IDE;
+StartupNotify=false
+StartupWMClass=Code
+PrefersNonDefaultGPU=true
+X-KDE-RunOnDiscreteGpu=true
+X-LookFrost-OptInNvidiaLauncher=true

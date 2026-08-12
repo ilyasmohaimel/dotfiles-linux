@@ -1,0 +1,13 @@
+[Unit]
+Description=Sunshine Flatpak game-stream host
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+ExecStart=/usr/bin/flatpak run dev.lizardbyte.app.Sunshine
+ExecStop=/usr/bin/flatpak kill dev.lizardbyte.app.Sunshine
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=graphical-session.target

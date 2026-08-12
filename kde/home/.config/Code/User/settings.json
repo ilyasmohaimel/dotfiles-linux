@@ -1,0 +1,64 @@
+{
+  "workbench.colorTheme": "Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Dark Modern",
+  "workbench.preferredLightColorTheme": "Light Modern",
+  "workbench.colorCustomizations": {
+    "[Default Dark Modern]": {
+      "editor.background": "#070505",
+      "editor.foreground": "#ffffff",
+      "editor.selectionBackground": "#b0000a80",
+      "editor.lineHighlightBackground": "#130a06",
+      "editorCursor.foreground": "#ff5a1f",
+      "focusBorder": "#d8141c",
+      "activityBar.background": "#160c08",
+      "sideBar.background": "#160c08",
+      "titleBar.activeBackground": "#22110b",
+      "statusBar.background": "#22110b",
+      "tab.activeBackground": "#070505",
+      "tab.inactiveBackground": "#130a06"
+    }
+  },
+
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Symbols Nerd Font', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "—": true,
+    "–": true,
+    "•": true
+  },
+
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": true,
+
+  "window.titleBarStyle": "custom",
+  "window.menuBarVisibility": "compact",
+
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+
+  "claudeCode.preferredLocation": "panel",
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "explorer.compactFolders": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false
+}

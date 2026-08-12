@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Brave (NVIDIA)
+Comment=Launch Brave on the discrete NVIDIA GPU
+Exec=prime-run brave %U
+TryExec=prime-run
+Icon=brave-desktop
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true
+StartupWMClass=brave-browser
+PrefersNonDefaultGPU=true
+X-KDE-RunOnDiscreteGpu=true
+X-LookFrost-OptInNvidiaLauncher=true

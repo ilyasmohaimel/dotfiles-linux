@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zen Browser (NVIDIA)
+Comment=Launch Zen Browser on the discrete NVIDIA GPU
+Exec=prime-run /opt/zen-browser-bin/zen-bin %u
+TryExec=prime-run
+Icon=zen-browser
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true
+StartupWMClass=zen
+PrefersNonDefaultGPU=true
+X-KDE-RunOnDiscreteGpu=true
+X-LookFrost-OptInNvidiaLauncher=true

@@ -1,0 +1,186 @@
+/**
+ * @name Molten System24
+ * @description A red, high-contrast System24 theme matched to Frost's desktop palette.
+ * @author Frost
+ * @version 1.0.0
+ * @source https://github.com/MrDLingters/EverforestWin11/tree/88f430bd2d1d32a9ba3070f4531ece36c96e133c/Discord%20theme%20(BetterDiscord%2C%20Vencord)
+ */
+
+@import url("https://refact0r.github.io/system24/build/system24.css");
+
+body {
+    --font: "JetBrains Mono";
+    --code-font: "JetBrains Mono";
+    font-weight: 400;
+    letter-spacing: -0.035ch;
+
+    --gap: 12px;
+    --divider-thickness: 3px;
+    --border-thickness: 2px;
+    --border-hover-transition: 0.2s ease;
+
+    --animations: on;
+    --list-item-transition: 0.18s ease;
+    --dms-icon-svg-transition: 0.3s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+
+    --custom-window-controls: off;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: off;
+    --dms-icon-svg-url: url("");
+    --dms-icon-svg-size: 90%;
+    --dms-icon-color-before: var(--text-4);
+    --dms-icon-color-after: var(--text-1);
+    --custom-dms-background: color;
+    --dms-background-image-url: url("");
+    --dms-background-image-size: cover;
+    --dms-background-color: linear-gradient(145deg, #511017 0%, #251014 70%, #8f2028 140%);
+
+    --background-image: off;
+    --background-image-url: url("");
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --blur-amount: 14px;
+    --bg-floating: #18080b;
+
+    --small-user-panel: on;
+    --unrounding: off;
+    --custom-spotify-bar: on;
+    --ascii-titles: on;
+    --ascii-loader: system24;
+    --panel-labels: on;
+    --label-color: #a89da0;
+    --label-font-weight: 600;
+}
+
+:root {
+    --colors: on;
+
+    --text-0: #070505;
+    --text-1: #ffffff;
+    --text-2: #fff7f5;
+    --text-3: #f5eeee;
+    --text-4: #d9c4c6;
+    --text-5: #918689;
+
+    --bg-1: #351316;
+    --bg-2: #211416;
+    --bg-3: #120d0e;
+    --bg-4: #070505;
+    --hover: #211416;
+    --active: #351316;
+    --active-2: #4d171c;
+    --message-hover: rgb(176 0 10 / 7%);
+
+    --accent-1: #ef6a70;
+    --accent-2: #c83b44;
+    --accent-3: #94101a;
+    --accent-4: #b92731;
+    --accent-5: #631017;
+    --accent-new: #ff5a1f;
+
+    --mention: linear-gradient(to right, rgb(176 0 10 / 30%) 0%, rgb(176 0 10 / 8%) 55%, transparent 100%);
+    --mention-hover: linear-gradient(to right, rgb(255 49 59 / 32%) 0%, rgb(176 0 10 / 10%) 55%, transparent 100%);
+    --reply: linear-gradient(to right, rgb(245 228 195 / 12%) 0%, transparent 70%);
+    --reply-hover: linear-gradient(to right, rgb(245 228 195 / 17%) 0%, transparent 70%);
+
+    --online: #55d68b;
+    --dnd: #ff313b;
+    --idle: #ffb21a;
+    --streaming: #e05cff;
+    --offline: #8a7376;
+
+    --border-light: #241d1f;
+    --border: #38282b;
+    --border-hover: #a92b35;
+    --button-border: rgb(255 255 255 / 14%);
+
+    --red-1: #ff5a1f;
+    --red-2: #ff313b;
+    --red-3: #b0000a;
+    --red-4: #830009;
+    --red-5: #3b0a0f;
+
+    --green-1: #ef6a70;
+    --green-2: #c83b44;
+    --green-3: #94101a;
+    --green-4: #681218;
+    --green-5: #31171a;
+
+    --blue-1: #25d9e8;
+    --blue-2: #25d9e8;
+    --blue-3: #159aa6;
+    --blue-4: #116871;
+    --blue-5: #12363a;
+
+    --yellow-1: #ffcf66;
+    --yellow-2: #ffb21a;
+    --yellow-3: #d88700;
+    --yellow-4: #925b00;
+    --yellow-5: #3e2a0d;
+
+    --purple-1: #ff7b91;
+    --purple-2: #ef476f;
+    --purple-3: #b0003f;
+    --purple-4: #7e1636;
+    --purple-5: #3b0a1c;
+
+    --background-primary: #070505;
+    --background-secondary: #13080a;
+    --background-secondary-alt: #18080b;
+    --background-tertiary: #0d0507;
+    --background-floating: #18080b;
+    --channeltextarea-background: #18080b;
+    --background-modifier-hover: rgb(200 59 68 / 8%);
+    --background-modifier-active: rgb(148 16 26 / 24%);
+    --background-modifier-selected: rgb(148 16 26 / 34%);
+    --header-primary: #ffffff;
+    --header-secondary: #f5eeee;
+    --text-normal: #f5eeee;
+    --text-muted: #a9878b;
+    --text-link: #25d9e8;
+    --interactive-normal: #d9c4c6;
+    --interactive-hover: #ffffff;
+    --interactive-active: #ffffff;
+    --interactive-muted: #72575a;
+    --channels-default: #d9c4c6;
+    --brand-500: #b0000a;
+    --brand-560: #d8141c;
+    --brand-600: #830009;
+    --focus-primary: #25d9e8;
+}
+
+* {
+    scrollbar-color: #681218 #070505;
+}
+
+a,
+[class*="anchor_"] {
+    color: #25d9e8;
+}
+
+::selection {
+    color: #ffffff;
+    background: #b0000a;
+}
+
+:focus-visible {
+    outline-color: #25d9e8 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}

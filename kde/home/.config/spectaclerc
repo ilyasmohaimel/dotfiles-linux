@@ -1,0 +1,12 @@
+[Annotations]
+annotationToolType=6
+
+[General]
+ocrLanguages=afr
+
+[ImageSave]
+lastImageSaveLocation=file:///tmp/vesktop-molten-balanced-check.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Discord (NVIDIA)
+Comment=Launch Discord on the discrete NVIDIA GPU
+Exec=prime-run /usr/bin/discord --url -- %u
+TryExec=prime-run
+Icon=discord
+Terminal=false
+Categories=Network;InstantMessaging;
+StartupWMClass=discord
+PrefersNonDefaultGPU=true
+X-KDE-RunOnDiscreteGpu=true
+X-LookFrost-OptInNvidiaLauncher=true

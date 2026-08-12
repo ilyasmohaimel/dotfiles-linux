@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Steam (NVIDIA)
+Comment=Launch Steam on the discrete NVIDIA GPU
+Exec=prime-run /usr/bin/steam %U
+TryExec=prime-run
+Icon=steam
+Terminal=false
+Categories=Network;FileTransfer;Game;
+PrefersNonDefaultGPU=true
+X-KDE-RunOnDiscreteGpu=true
+X-LookFrost-OptInNvidiaLauncher=true

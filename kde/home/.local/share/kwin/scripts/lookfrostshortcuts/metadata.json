@@ -1,0 +1,13 @@
+{
+  "KPlugin": {
+    "Name": "LookFrost application shortcuts",
+    "Description": "Wayland-native shortcuts for WezTerm and Brave",
+    "Icon": "preferences-desktop-keyboard",
+    "Id": "lookfrostshortcuts",
+    "Version": "1.0",
+    "License": "MIT"
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js",
+  "KPackageStructure": "KWin/Script"
+}

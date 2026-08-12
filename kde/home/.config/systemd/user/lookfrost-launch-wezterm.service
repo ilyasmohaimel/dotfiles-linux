@@ -1,0 +1,6 @@
+[Unit]
+Description=Launch WezTerm from a KDE shortcut
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemd-run --user --collect --quiet /usr/bin/wezterm

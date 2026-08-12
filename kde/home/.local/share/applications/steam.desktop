@@ -1,0 +1,51 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Steam
+Comment=Application for managing and playing games (NVIDIA MX150)
+Exec=/usr/bin/prime-run /usr/bin/steam %U
+TryExec=/usr/bin/prime-run
+Icon=steam
+Terminal=false
+Categories=Network;FileTransfer;Game;
+MimeType=x-scheme-handler/steam;x-scheme-handler/steamlink;
+Actions=Store;Community;Library;Servers;Screenshots;News;Settings;BigPicture;Friends;
+PrefersNonDefaultGPU=true
+X-KDE-RunOnDiscreteGpu=true
+X-LookFrost-DefaultNvidiaLauncher=true
+
+[Desktop Action Store]
+Name=Store
+Exec=/usr/bin/prime-run /usr/bin/steam steam://store
+
+[Desktop Action Community]
+Name=Community
+Exec=/usr/bin/prime-run /usr/bin/steam steam://url/CommunityHome/
+
+[Desktop Action Library]
+Name=Library
+Exec=/usr/bin/prime-run /usr/bin/steam steam://open/games
+
+[Desktop Action Servers]
+Name=Servers
+Exec=/usr/bin/prime-run /usr/bin/steam steam://open/servers
+
+[Desktop Action Screenshots]
+Name=Screenshots
+Exec=/usr/bin/prime-run /usr/bin/steam steam://open/screenshots
+
+[Desktop Action News]
+Name=News
+Exec=/usr/bin/prime-run /usr/bin/steam steam://openurl/https://store.steampowered.com/news
+
+[Desktop Action Settings]
+Name=Settings
+Exec=/usr/bin/prime-run /usr/bin/steam steam://open/settings
+
+[Desktop Action BigPicture]
+Name=Big Picture
+Exec=/usr/bin/prime-run /usr/bin/steam steam://open/bigpicture
+
+[Desktop Action Friends]
+Name=Friends
+Exec=/usr/bin/prime-run /usr/bin/steam steam://open/friends

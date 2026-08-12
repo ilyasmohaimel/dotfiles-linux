@@ -1,0 +1,10 @@
+[General]
+count=1
+rules=brave-picture-in-picture
+
+[brave-picture-in-picture]
+Description=Brave Picture-in-Picture stays above other windows
+above=true
+aboverule=2
+title=Picture in picture
+titlematch=1

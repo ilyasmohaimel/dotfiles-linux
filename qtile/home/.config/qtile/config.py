@@ -21,7 +21,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from libqtile import bar, layout, qtile, widget, hook
+from libqtile import bar, layout, qtile, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
@@ -50,7 +50,7 @@ keys = [
     Key([mod, "control"], "l", lazy.layout.grow_right(), desc="Grow window to the right"),
     Key([mod, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),
     Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
-    
+
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
@@ -88,7 +88,7 @@ for i in range(len(group_names)):
             label=group_labels[i],
         )
     )
-    
+
     keys.extend([
         # mod1 + group number = switch to group
         Key([mod], group_names[i], lazy.group[group_names[i]].toscreen(), desc="Switch to group {}".format(group_names[i]),),
@@ -161,10 +161,10 @@ screens = [
         left=bar.Gap(gap_size),
         right=bar.Gap(gap_size),
         top=bar.Gap(gap_size),
-        
+
         # set static wallpaper
         # wallpaper= '/home/lookf/wallpapers/ll1.jpg',
-        
+
         # set wallpaper mode to 'fill' or 'stretch'
         # wallpaper_mode= 'fill',
     ),
@@ -215,26 +215,3 @@ wl_input_rules = None
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
-# AUTO START PROGRAMS
-def run_once(folder, files='*'):
-    source_dir = pathlib.Path(folder)
-    if not source_dir.is_dir():
-        return
-    backup_dir = pathlib.Path(source_dir / 'BACKUP')
-    try:
-        pathlib.Path.mkdir(backup_dir, exist_ok=True)
-    except FileNotFoundError:
-        return
-    list_of_files = source_dir.glob(files)
-    for file in list_of_files:
-        if file.is_file():
-            proc = subprocess.Popen([file.as_posix()],
-                                    stdin=None, stdout=None, stderr=None,
-                                    close_fds=True)
-            time.sleep(0.2)
-            new_filename = str(time.time()) + '_' + file.name
-            file.rename(backup_dir.as_posix() + '/' + new_filename)
-
-@hook.subscribe.startup_once
-def autostart_once():
-    run_once('/home/lookf/path/to/dir/nitrogen')
