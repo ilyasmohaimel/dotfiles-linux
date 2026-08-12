@@ -14,6 +14,10 @@ KDE and GTK update immediately. Fastfetch reads the active Activity every time i
 
 Brave keeps Catppuccin Macchiato for Normal and Coding, then uses the red Gaming colour theme. Chromium only loads its browser chrome theme when it starts, so the selected Brave theme applies on the next clean launch instead of interrupting open tabs.
 
+## Preview
+
+[Watch the activity theme preview](../previews/activity-theme-preview.mp4)
+
 ## Restoring it
 
 After restoring `kde/home/`, run:
