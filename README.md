@@ -49,6 +49,10 @@ sudo pacman -S --needed - < kde/manifests/pacman-official.txt
 
 The AUR and Flatpak files are just inventories, not scripts I should run blindly. The same goes for the enabled-service lists.
 
+## Hardware notes
+
+- [Restoring my Intel + NVIDIA hybrid GPU setup](docs/GPU-HYBRID-RESTORE.md)
+
 ## What I do not keep here
 
 I leave out credentials, SSH keys, browser profiles, cookies, tokens, session databases, caches, mount details, printer secrets, Sunshine state, and other machine/account-specific data.
