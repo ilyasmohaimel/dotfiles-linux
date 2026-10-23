@@ -8,6 +8,20 @@ This repo only holds safe configs and notes. My actual backups are kept on my en
 
 ## How My Setup Looks
 
+Current Hyprland / Caelestia desktop:
+
+[![Hyprland desktop recording](previews/hyprland-desktop-preview.gif)](previews/hyprland-desktop-1080p.mp4)
+
+[Watch the 1080p / 60 FPS laptop showcase](https://github.com/ilyasmohaimel/dotfiles-linux/raw/refs/heads/main/previews/hyprland-desktop-1080p.mp4): the edited desktop recording plays on the 3D G513QY laptop's display. It includes the LF fetch, window controls, wallpaper and theme pickers, the music widget, Lin’an weather and the next-login GPU menu. The [standalone screen recording](previews/hyprland-screen-recording-1080p.mp4) and [unedited captures](previews/hyprland-desktop-unedited.mp4) are available too.
+
+The original desktop shell and dotfiles are **Caelestia by [soramane](https://github.com/soramanew) and contributors**:
+
+> A fluid, morphing interface to your Linux desktop
+
+From [Caelestia's project description](https://github.com/caelestia-dots/caelestia). See the [original Reddit showcase](https://www.reddit.com/r/unixporn/comments/1l5ll27/hyprland_i_3_quickshell/), [upstream shell](https://github.com/caelestia-dots/shell), and [full credits](hyprland/CREDITS.md). This repository adds my configuration and local integrations.
+
+Earlier KDE snapshot:
+
 [![14-second, 15 FPS preview of my KDE setup, themes, and apps](previews/setup-preview-14s-15fps.gif)](previews/setup-preview-14s-1080p.mp4)
 
 [Watch the 1080p / 30 FPS version](previews/setup-preview-14s-1080p.mp4)

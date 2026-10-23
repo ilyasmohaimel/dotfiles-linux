@@ -4,6 +4,24 @@ Snapshot of my working Arch Linux / Caelestia configuration on 23 October 2026. 
 
 The laptop is an ASUS ROG G513QY with Ryzen 9 5900HX, integrated Radeon graphics and Radeon RX 6800M. The internal display is configured for 1920×1080 at 300 Hz. The session wrappers and device paths are specific to this machine.
 
+## Desktop recording
+
+[![Hyprland desktop recording](../previews/hyprland-desktop-preview.gif)](../previews/hyprland-desktop-1080p.mp4)
+
+[Watch the 1080p / 60 FPS laptop showcase](https://github.com/ilyasmohaimel/dotfiles-linux/raw/refs/heads/main/previews/hyprland-desktop-1080p.mp4). The edited recording of this actual desktop plays on the 3D G513QY laptop's display. It shows LF Fastfetch, WezTerm and Foot, window controls, desktop transitions, wallpaper previews, the theme picker, app search, the current music widget, Lin’an weather and the next-login GPU menu. The music widget was retaken with the working album artwork. Personal browser/chat windows and notification contents are outside the capture.
+
+[Standalone edited screen recording](../previews/hyprland-screen-recording-1080p.mp4) · [Unedited desktop captures](../previews/hyprland-desktop-unedited.mp4) · [Still image](../previews/hyprland-desktop.jpg). The edit has a new original electronic soundtrack; desktop audio was not recorded.
+
+## Original work
+
+The shell and underlying dotfiles are **Caelestia by [soramane](https://github.com/soramanew) and contributors**.
+
+> A fluid, morphing interface to your Linux desktop
+
+From [Caelestia's project description](https://github.com/caelestia-dots/caelestia).
+
+The [original Reddit showcase](https://www.reddit.com/r/unixporn/comments/1l5ll27/hyprland_i_3_quickshell/) was posted by u/Rexcrazy804 on soramane's behalf. That work inspired this setup. Frost's shortcuts, hardware integration, terminal changes and video presentation are local customizations. [Full credits and sources](CREDITS.md).
+
 ## Included
 
 - Hyprland Lua configuration and the complete installed Caelestia QML tree, including the local launcher, weather, GPU menu and startup fixes.
