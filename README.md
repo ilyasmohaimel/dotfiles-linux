@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://github.com/ilyasmohaimel/dotfiles-linux/blob/main/previews/hyprland-desktop-1080p.mp4">
-    <img src="previews/hyprland-desktop-preview.webp" alt="Frost's Hyprland and Caelestia desktop tour playing on the G513QY laptop model. Click for the full 42-second video with sound." width="100%">
+    <img src="previews/hyprland-desktop-preview.webp?v=2" alt="Frost's Hyprland and Caelestia desktop tour playing on the G513QY laptop model. Click for the full 66-second video with sound." width="100%">
   </a>
 </p>
 
-<p align="center"><a href="previews/hyprland-desktop-1080p.mp4">Watch the full 42-second video with sound, 1080p / 60 FPS</a></p>
+<p align="center"><a href="previews/hyprland-desktop-1080p.mp4">Watch the full 66-second video with sound, 1080p / 60 FPS</a></p>
 
 # My Linux dotfiles
 
@@ -18,7 +18,7 @@ This repo only holds safe configs and notes. My actual backups are kept on my en
 
 Current Hyprland / Caelestia desktop:
 
-The full-length preview above loops automatically. [Watch the 1080p / 60 FPS laptop showcase with sound](previews/hyprland-desktop-1080p.mp4): the edited desktop recording plays on the 3D G513QY laptop's display. It includes the LF fetch, window controls, wallpaper and theme pickers, the music widget, Lin’an weather and the next-login GPU menu. The [standalone screen recording](previews/hyprland-screen-recording-1080p.mp4) and [unedited captures](previews/hyprland-desktop-unedited.mp4) are available too.
+The full-length preview above loops automatically. [Watch the 1080p / 60 FPS laptop showcase with sound](previews/hyprland-desktop-1080p.mp4): the edited desktop recording plays on the 3D G513QY laptop's display. It includes the LF fetch, window controls, wallpaper and theme pickers, the music widget, weather for your city and the next-login GPU menu. The [standalone screen recording](previews/hyprland-screen-recording-1080p.mp4) and [unedited captures](previews/hyprland-desktop-unedited.mp4) are available too.
 
 The original desktop shell and dotfiles are **Caelestia by [soramane](https://github.com/soramanew) and contributors**:
 
