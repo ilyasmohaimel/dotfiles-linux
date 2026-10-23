@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/ilyasmohaimel/dotfiles-linux/blob/main/previews/hyprland-desktop-1080p.mp4">
-    <img src="../previews/hyprland-desktop-preview.webp?v=3" alt="Frost's Hyprland and Caelestia desktop tour playing on the G513QY laptop model. Click for the full 66-second video with sound." width="100%">
+    <img src="../previews/hyprland-desktop-preview.webp?v=4" alt="Frost's Hyprland and Caelestia desktop tour playing on the G513QY laptop model. Click for the full 66-second video with sound." width="100%">
   </a>
 </p>
 
@@ -14,11 +14,11 @@ The laptop is an ASUS ROG G513QY with Ryzen 9 5900HX, integrated Radeon graphics
 
 ## Desktop recording
 
-The full-length preview above loops automatically. [Watch the 1080p / 60 FPS laptop showcase with sound](../previews/hyprland-desktop-1080p.mp4). The edited recording of this actual desktop plays on the 3D G513QY laptop's display. It shows LF Fastfetch, WezTerm and Foot, window controls, window transfers between desktops, wallpaper and palette changes, the theme picker, app search, the current music widget, weather for your city and the next-login GPU menu. The music widget was retaken with the working album artwork. The phone shortcut sheets appear near the end. Captions sit below the desktop image so they keep clear of the interface. Personal browser/chat windows and notification contents are outside the capture.
+The full-length preview above loops automatically. [Watch the 1080p / 60 FPS laptop showcase with sound](../previews/hyprland-desktop-1080p.mp4). The edited recording of this actual desktop plays on the 3D G513QY laptop's display. It shows LF Fastfetch, WezTerm and Foot, window controls, window transfers between desktops, wallpaper and palette changes, the theme picker, app search, the current music widget, weather for your city and the next-login GPU menu. The music widget was retaken with the working album artwork. The phone shortcut sheets appear near the end. Floating caption bubbles expand to fit their text and shortcut keycaps. Personal browser/chat windows and notification contents are outside the capture.
 
 [Standalone edited screen recording](../previews/hyprland-screen-recording-1080p.mp4) · [Unedited desktop captures](../previews/hyprland-desktop-unedited.mp4) · [Still image](../previews/hyprland-desktop.jpg). The edit has a new original electronic soundtrack; desktop audio was not recorded.
 
-Frames from the film: [weather](../previews/hyprland-weather.jpg), [themes](../previews/hyprland-themes.jpg), and [phone shortcut sheets](../previews/hyprland-shortcuts.jpg).
+Frames from the film: [floating bubbles](../previews/hyprland-bubbles.jpg), [weather](../previews/hyprland-weather.jpg), [themes](../previews/hyprland-themes.jpg), and [phone shortcut sheets](../previews/hyprland-shortcuts.jpg).
 
 ## Original work
 
