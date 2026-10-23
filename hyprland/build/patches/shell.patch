@@ -1,0 +1,65 @@
+diff --git a/modules/bar/components/status/BatteryStatus.qml b/modules/bar/components/status/BatteryStatus.qml
+index 93daed0..245ff8e 100644
+--- a/modules/bar/components/status/BatteryStatus.qml
++++ b/modules/bar/components/status/BatteryStatus.qml
+@@ -10,9 +10,9 @@ MaterialIcon {
+     animate: true
+     text: {
+         if (!UPower.displayDevice.isLaptopBattery) {
+-            if (PowerProfiles.profile === PowerProfile.PowerSaver)
++            if (AsusPower.profile === PowerProfile.PowerSaver)
+                 return "energy_savings_leaf";
+-            if (PowerProfiles.profile === PowerProfile.Performance)
++            if (AsusPower.profile === PowerProfile.Performance)
+                 return "rocket_launch";
+             return "balance";
+         }
+diff --git a/modules/bar/popouts/Battery.qml b/modules/bar/popouts/Battery.qml
+index 37ae38b..ed1976f 100644
+--- a/modules/bar/popouts/Battery.qml
++++ b/modules/bar/popouts/Battery.qml
+@@ -61,7 +61,7 @@ Column {
+         text: {
+             const dev = UPower.displayDevice;
+             if (!dev.isLaptopBattery)
+-                return Tr.tr("Power profile: %1").arg(root.powerProfileToString(PowerProfiles.profile));
++                return Tr.tr("Power profile: %1").arg(root.powerProfileToString(AsusPower.profile));
+ 
+             if (UPower.onBattery) {
+                 const time = root.formatSeconds(dev.timeToEmpty);
+@@ -82,7 +82,7 @@ Column {
+         asynchronous: true
+         anchors.horizontalCenter: parent.horizontalCenter
+ 
+-        active: PowerProfiles.degradationReason !== PerformanceDegradationReason.None
++        active: AsusPower.degradationReason !== PerformanceDegradationReason.None
+ 
+         height: active ? ((item as Item)?.implicitHeight ?? 0) : 0
+ 
+@@ -130,7 +130,7 @@ Column {
+                 StyledText {
+                     anchors.horizontalCenter: parent.horizontalCenter
+ 
+-                    text: root.perfDegradationToString(PowerProfiles.degradationReason)
++                    text: root.perfDegradationToString(AsusPower.degradationReason)
+                     color: Colours.palette.m3onError
+                 }
+             }
+@@ -141,7 +141,7 @@ Column {
+         id: profiles
+ 
+         property string current: {
+-            const p = PowerProfiles.profile;
++            const p = AsusPower.profile;
+             if (p === PowerProfile.PowerSaver)
+                 return saver.icon;
+             if (p === PowerProfile.Performance)
+@@ -245,7 +245,7 @@ Column {
+         StateLayer {
+             radius: Tokens.rounding.full
+             color: profiles.current === parent.icon ? Colours.palette.m3onPrimary : Colours.palette.m3onSurface
+-            onClicked: PowerProfiles.profile = parent.profile
++            onClicked: AsusPower.setProfile(parent.profile)
+         }
+ 
+         MaterialIcon {

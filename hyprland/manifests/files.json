@@ -1,0 +1,1971 @@
+[
+  {
+    "path": "home/.bash_profile",
+    "sha256": "070c9f60f5a47d36f79777f8c9a5eab4d766604b4c23b57dc9dc3bc9b00777fe",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.bashrc",
+    "sha256": "0a11db4212b6a8b63539d9fb0d49aedd0dc63857ed56827bddb9eb676bda36ad",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/Thunar/uca.xml",
+    "sha256": "b6406f32ee349e8c85494faa80ad5f94487327cfc03746ca15e0c7356142f358",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/autostart/hiddify.desktop",
+    "sha256": "27a07f411b54b33e211f13068e6132c1b458121decce78470c8279c3feca7a2b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/autostart/io.github.slgobinath.SafeEyes.desktop",
+    "sha256": "4fee98ebb22521ee94464f7332bf588ce2db2651433b3b65975fb53016f10a2c",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/autostart/net.blip.Blip.desktop",
+    "sha256": "4f481c34e41f934630a6ca8c39ce138fcddfefc4f5c63e0994a4764b72759485",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/autostart/org.opengamingcollective.rog-control-center.desktop",
+    "sha256": "4d44a6fb5fed5bece13a80a54977442a27266757498c6ccc251d8edd3816449a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/btop.conf",
+    "sha256": "8331af0a13668a692bea11f364f9a150b1df85d42f227a82f03dc11322167eaf",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/cli.json",
+    "sha256": "549a980f334b45003c486c548a8ea84f996a3e73c52f82b53e17ce465971b783",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/fastfetch.jsonc",
+    "symlink": "../fastfetch/config.jsonc"
+  },
+  {
+    "path": "home/.config/caelestia/foot-init.fish",
+    "sha256": "66787051087bd64cd3dc0d654d5877209c3a01f68375d7dfa3857936017e60ba",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/hypr-user.lua",
+    "sha256": "7e87bdfb7dbb15cf228a1f5f55b3afa973af4518f746d484f894123c387a2019",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/hypr-vars.lua",
+    "sha256": "b77430b8c96a7a6b243f84f1e09d5a5f5d78445539a9ec5db534949e465f41ca",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/kde-shortcuts.lua",
+    "sha256": "084836447a224df9e4b017dcfae5326b00428e43a8ae6490bc3caf27b67fd2b2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/monitors/eDP-1/shell.json",
+    "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/shell.json",
+    "sha256": "50a48944d9e392718b2b45a7098135e4954fb02a518b0f4298e5658064a4c1e9",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/starship.toml",
+    "sha256": "bf1892410e5908ddf6a932e3aa56526797c0696e5d2bdaec0fc2a1345d16dc69",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/caelestia/templates/foot-colors.ini",
+    "sha256": "4372aa838a1fae08b8782d574795a45be7469914a48c78d31273d7f54697a6a6",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/fastfetch/activities/Coding.jsonc",
+    "sha256": "2ee07a57031c059c360de001eac7e7a02ed54cfa8b36c60574d57922792e90ed",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/fastfetch/activities/Gaming.jsonc",
+    "sha256": "95bf923d7dc47c2c3568fdec0cebbedfa34226c57dde4bf16c0a011c2d269a83",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/fastfetch/activities/Normal.jsonc",
+    "sha256": "fab7bbb36f209a75f864d41d917e24ad7cbaf308e47f1c39dc6838c91adf4c5d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/fastfetch/config.jsonc",
+    "sha256": "9d6d51ad872b877d992b2c95b4f058f91c6f082ffc2ea1ba8364931a158befb4",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/fastfetch/lookfrost.txt",
+    "sha256": "6814a40a1e85aad74540fce6ffdccc56d65d34354c3d85e61489b19c6f9ff92c",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/fish/config.fish",
+    "sha256": "3667c6756e1ee7e9972a7712d4b2de274d7c7f0f5bcb18a32a7a1bd3363ac150",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/foot/foot.ini",
+    "sha256": "8215c8902fbc579ca2f1ad79e05c9f4fed1a536c9d8fd7da985c433934393083",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/frost-hyprland/gpu.json",
+    "sha256": "f5e58d89b3cfb7a5b8f19ca6c257671f9b6d3f86f57ebae6f7a6354d9367acbd",
+    "mode": "0o600"
+  },
+  {
+    "path": "home/.config/gtk-3.0/settings.ini",
+    "sha256": "d851d8e55410a3b6b9e2d453fb0ecf2f9efb82cde42bdd8697310ca5b02b8781",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/gtk-4.0/settings.ini",
+    "sha256": "14b4675e7fb73a1fbbac83222823b55a0a14045aa98e0828cb278795ca66fa9e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/animations.lua",
+    "sha256": "2ca023d2a7e8ae2a4c8dc854b3f0395a8d8e238d8df4103d6f2aebd35a84f4cc",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/decoration.lua",
+    "sha256": "0bf760d748b5b8a6c76108deef0baa167450b561c955fb7731cd559438570858",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/env.lua",
+    "sha256": "68af37b2f19f9b29e5e53ae2347e7444dbae0a95f029b6e103a79d12b09ded5e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/execs.lua",
+    "sha256": "f20c532312582648a445001bca7c1f148c9dbd8a3919f2312785ae7888677ac7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/general.lua",
+    "sha256": "f9b229abc10bae4bcd6c7c9732b72a23def4a469dd38d0f476f0aed3e57d68de",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/gestures.lua",
+    "sha256": "c62c60854456d84529fcceb5ac9e687f0368993b84926133e144233a42a1783a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/group.lua",
+    "sha256": "c3db452173a2437ea0d17d84f719cf89775b4df225006d3838801925718ea261",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/input.lua",
+    "sha256": "3dccdddc88d57fe1e9391b7e9553001922fc59c2d022b7b6aa5e35fa2f685d7b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/keybinds.lua",
+    "sha256": "81db1c14411712056c890b18d4a882ff923a6b73164098ed11cbefbb3c658f02",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/misc.lua",
+    "sha256": "67761bfd9bb20d8a0bcf300a836295361878cc22db5e2bd0acf4494e4efce688",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland/rules.lua",
+    "sha256": "885d045a7cceb43162d8c04ac2c3fc5569e0ecaaaf81210e3c3cc63c28a4d644",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/hyprland.lua",
+    "sha256": "c7be93202375f7c6453f2b46890522370d20a780e2dce625e4b8e40d05f50c14",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/scheme/current.lua",
+    "sha256": "322f91654d96e36432f358211bd9d431b1bea4f8fc8e9dff7f6c508e6876bb1f",
+    "mode": "0o600"
+  },
+  {
+    "path": "home/.config/hypr/scheme/default.lua",
+    "sha256": "7bb389e3594fde54ce78f1f503710478493c6b07d0723229e5a2e2c961a750e1",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/utils/functions.lua",
+    "sha256": "7670c8ae4558978befe520828e7ed56101c21c85465617f49228719803787563",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/utils/json.lua",
+    "sha256": "0eaccda57fabc0330736de25f45cf589821a42b5e0fe02e4e3125f7dc0bf2b7e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/hypr/variables.lua",
+    "sha256": "891e959b4fcc576ee1d65c1cc9b6be13879f6d027db393d2a81827baecd4ddf1",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/lookfrost/active-activity",
+    "sha256": "7d556bfa55a3c7aadddc1aa5221739aacb667d0512d0795f7589d01995d582e9",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/lookfrost/terminal-themes/Coding/alacritty-colors.toml",
+    "sha256": "8a402cc0683784c46bf3e6abd3f9b7ed0c7726b5eb538f494f170f8fc21d1f38",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/lookfrost/terminal-themes/Coding/wezterm-colors.lua",
+    "sha256": "78ae5ac1576e7df4ed31f951fe1af6f7498008b993c32f563cff9451b719bf08",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/lookfrost/terminal-themes/Gaming/alacritty-colors.toml",
+    "sha256": "e8ed14cbfcf31809ba8859c0f94d3cd11fcd98b3d75523e6a97242dc722d03e7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/lookfrost/terminal-themes/Gaming/wezterm-colors.lua",
+    "sha256": "81ce265326daa1ae40548f7da77cb7a945ea24af8f8b905a7602df90c6ee4a76",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/lookfrost/terminal-themes/Normal/alacritty-colors.toml",
+    "sha256": "c65bc3242317546c4b94069a26311c38e22e3791e8546b0d2b51ced21cdf0e72",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/lookfrost/terminal-themes/Normal/wezterm-colors.lua",
+    "sha256": "b9d30eb1ef69ea440b4bdf03a5c884c44a7792a088428cf42cc4e62f3df65021",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/micro/settings.json",
+    "sha256": "8dfdb9313b5df2c0672061ff52076ee1b6698e78f2a604a8e59a31446febdb17",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/LICENSE",
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/bongocat.gif",
+    "sha256": "1fba455dbbf57507f8021fa49ce7ebb1d4a6973f0f1b5a760ad60e473befddf4",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/dino.png",
+    "sha256": "39015398cf0f6094b851d30163b7ca4e11d1b556bc66a10fb2bcab2a0e4be137",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/google-sans-flex/GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf",
+    "sha256": "2510a8b7a24beb1fe8163e9a49813ccfe96b5453444b9443d42665ca4fa320c9",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/google-sans-flex/LICENSE",
+    "sha256": "fb755fa3280d1d215a20df2e64fe6a0f75f8208439b11671978214aae60d2997",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/kurukuru.gif",
+    "sha256": "750d6115bb86008ffbeb09dccd2a8b1e20a466da26295fc724a2170be70f8be8",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/logo.svg",
+    "sha256": "a699a549e370a68ce2eeb390c209b1dac13cd7df62bcfb44d2b95202754c286e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/pam.d/fprint",
+    "sha256": "a8c05438bbe3343d842b222f435d1b24648a47b1d7cb1c6b26286e78b974af45",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/pam.d/howdy",
+    "sha256": "de3f2c5a168aca57a68b8e1385168729f46365b4e1f5e6eb62028e699b345e10",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/pam.d/passwd",
+    "sha256": "ab02891a8616badb86e014a3a09dafef229c5ff4a546cccb8904b06b3ef095cc",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/wallpaper.webp",
+    "sha256": "1b87f61b667d6a5fe4bc80b3ce761ba51a3ec0451e6705561a3632a5e9e7220c",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/assets/wrap_term_launch.sh",
+    "sha256": "5d49fcd54d4fcb7834c869a4a382ef32020926e0c25a641770814fe04551cd2f",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/AnchorAnim.qml",
+    "sha256": "9d656ab66d9367a46d75603ee9a8537250ccdf61b0fbc53ef0e89a894f6ec719",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/Anim.qml",
+    "sha256": "b4c5e6a71bf673afa92c1c65d688454d847dcd8584763f7b3c63d2b2e32bc3e1",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/AnimLoader.qml",
+    "sha256": "5621670b4f2d97711571d842ae09da861f871e644b9afe5941b05384c8ae5c8f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/CAnim.qml",
+    "sha256": "39a3ca97b01db880e292ad753935c1cbb0e3a60d93c1ffefbf3019a2044bfd11",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/ClipRect.qml",
+    "sha256": "83804c2ac7f4f01768755ab378ab72b48946823560db9c3c9aa7e9741fd7a43c",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/Logo.qml",
+    "sha256": "8903d529a32ef7b1f9309feef0935205d545a7488a7552956cb36898b272b66d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/MaterialIcon.qml",
+    "sha256": "70308f059443f12d04defa684c56b351f3b7c22ba7bd8f871d425255518b5769",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/ScreenState.qml",
+    "sha256": "19098aca8f4b357cfcd3eb3a919fca231bc6ac0a07b1d392bb113352ebf0aff5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/StateLayer.qml",
+    "sha256": "8f34998baf9c14e4e45ff10d813f059ea414d38d267398248b0b470f89f0f612",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/StyledRect.qml",
+    "sha256": "e0b161e3a5876dd276a26de9c93e7a0335b74e759399f03d1bd78f712179286e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/StyledText.qml",
+    "sha256": "f4cf3c9571a206ea2f26a8e7a93d3e6fd445e05ee91558362dbf0cb89c18e368",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/containers/StyledFlickable.qml",
+    "sha256": "531148039587e360ef37d330b350891de017f3b965b5bc2823122b4df8422f6d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/containers/StyledListView.qml",
+    "sha256": "b20a6f5857306586710bd66a867177440bd3679c8ee3d22d9fd71bf3dbe4b24c",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/containers/StyledWindow.qml",
+    "sha256": "fc3b79e63a890353accf857ccdbc7e40c8c91833f8ea7b81ff418bb86408affc",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/containers/VerticalFadeFlickable.qml",
+    "sha256": "a6c2c3fc27616297b80fddbf8c94cab38ff576c2353b0b7419557b43ec72fc10",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/containers/VerticalFadeListView.qml",
+    "sha256": "3aa925c29a150b2c86a2f90dc7cf4017b2f016f4e335e7e22300091c696d5995",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/ButtonBase.qml",
+    "sha256": "6fad0b4054107bfaa021a2608f6afd452a9da63c80dac5935dfd63bca8c62b76",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/CircularIndicator.qml",
+    "sha256": "fa5ccc4c39451aa0d516ab2bbe523aae685e400f1e28d96ff7e6343ab182738d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/CircularProgress.qml",
+    "sha256": "7a9a6c458bc1226d5cf12a116ab9b548afa5dff392a038cd286fce845f274c36",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/CustomMouseArea.qml",
+    "sha256": "76fb4fd1f8924acc82294fa5606f84bbf919f3fa79c7732d52ad7df5115aca7b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/FilledSlider.qml",
+    "sha256": "8773dca713ee89c2c2f17da23a71ed0365bb955882476492df8e186a9c759a39",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/IconButton.qml",
+    "sha256": "55de51ad579c966c8ccf8504fed23aa908e93e2cb14515936a41e8489eaa9291",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/IconTextButton.qml",
+    "sha256": "f9bc9a1f587f84ad861c51ac15551dbc8d1819604b67aff844532a37a7103b1f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/LoadingIndicator.qml",
+    "sha256": "9dde4a8bec380ed622004c941fc68ba82eb58c958e25eee985ad4a007b181bd6",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/Menu.qml",
+    "sha256": "dcbd22e17653a9bce11c86177ff3421720a9bf9cca7c68da129305da11215c3e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/MenuItem.qml",
+    "sha256": "22641d916d45a07dae3433b7286de037f04d586dadf8fe66e778f6bf86a9b397",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/SearchBar.qml",
+    "sha256": "5727782ac353981d69048801ea8e07758716898dc078c3b891f0244ecb69e32b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/SplitButton.qml",
+    "sha256": "05779902f79d29bc2b793da71a47642aaa1f7e133caa9d836e1913d64a6fcc0f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/StyledProgressBar.qml",
+    "sha256": "5d8d9fa34d2c46b65673b3ac1575e1aaec4534da048dac2dd3bda1113a228318",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/StyledRadioButton.qml",
+    "sha256": "5f8f10f18f0e927355b277c14f79eb4bddb6a30d949706a8545542a67e1f2c8e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/StyledScrollBar.qml",
+    "sha256": "06c8256f2c8fe90b61566f5b467c3c98781d09a0fe9993d7661b94f7ce5b10dd",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/StyledSlider.qml",
+    "sha256": "9cf87590407f2b87849dc4780203652bd4efaefa46f05678050a17b368cd72f4",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/StyledSpinBox.qml",
+    "sha256": "3401c5f2065782af9bd531dfbbad8fbf71bdb022967434740d29cdcf9fc7fe58",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/StyledSwitch.qml",
+    "sha256": "c69d78fa605026b5446d40f85abc837b8acbdd82335be608a15883dc0654a8e4",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/StyledTextField.qml",
+    "sha256": "d53cb05509638d54b5fcfe9f5a6cf17633606be04e1c2289a9c40c69224175c9",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/TextButton.qml",
+    "sha256": "f559fbbf7daa1fe09b9cf8b422599d59fa7188d4b00bc934eaa3b5bce66bd33e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/controls/TextFieldBase.qml",
+    "sha256": "9c9f5f22021903602dab8ab95cbf631d47775770023e9831c5ad7453a5e155fd",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/effects/ColouredIcon.qml",
+    "sha256": "9904403fa23b2ab0d310f0f355ac6c964f413c2c817548a8295fcc85a804c105",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/effects/Colouriser.qml",
+    "sha256": "2646e63eeb85b4b7e1ef48e867481521e3a9c9eb61b9268026f0a187a3b63c21",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/effects/Elevation.qml",
+    "sha256": "1b10528634ae9c5397da7f6f60d155b18e0b7276fd8cb9554b9aad87775d5645",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/effects/Mask.qml",
+    "sha256": "3b3c61882775eaf6b1d79d054b0d81da0fcb8f9a280f35fa43b28886070d1624",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/filedialog/CurrentItem.qml",
+    "sha256": "4865e66d600dcdfe70d91a56dbc625714c73b1d20d57e1ae3de009de5c7c256d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/filedialog/DialogButtons.qml",
+    "sha256": "7eeb4e0565c2a5e0b8c77ae0a49b5f9b5bd4de5535610878da8545019c3b4efe",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/filedialog/FileDialog.qml",
+    "sha256": "9a2cf466bf50da3c0e21d7d4e22bae96de67ecf679191bd8c2fd8e0086cf0689",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/filedialog/FolderContents.qml",
+    "sha256": "457477ebe67b5d81c42fef448250fa93861965548d09dcafcc218d8b03aea79b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/filedialog/HeaderBar.qml",
+    "sha256": "7a1c0e0f9229cc3dc0824783fefe142a794c813ff4d7650975513fe29c9611fa",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/filedialog/Sidebar.qml",
+    "sha256": "e3671d38688107dba5c888fbdaf61cffb5aa73ec00b213a0053ccc50b00ed86b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/filedialog/Sizes.qml",
+    "sha256": "fd3637d2c748ba04d4e119df7d054d96fe2a7b54d59c9f2c9f45d4cc0d0b0663",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/images/FadeImage.qml",
+    "sha256": "0508b06456979d969c854ea21ed58ae83f625da0cbd71e2c399cbc243d40f57e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/misc/CustomShortcut.qml",
+    "sha256": "b5351e36bc106c7e06206b597be28262715eb73423864a498f794423af147208",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/misc/Ref.qml",
+    "sha256": "9d00330ddda0749f754260f0340dc59532051243a419a0e507e0f4a103104cd5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/widgets/CoverArt.qml",
+    "sha256": "373542849aa3a57f66e626357054453460bea101df34a7b5cafeecb30298e791",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/widgets/ExtraIndicator.qml",
+    "sha256": "14b9aa3fbe05811ee840d028e16395bd139e361e9fa4dfdc918f7af9dd91d33e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/widgets/WallpaperImpl.qml",
+    "sha256": "3df429d7e9d522ad489015f2b41a7a090fe2cce2f438616b24757e2804b59e62",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/components/widgets/WavyTopRect.qml",
+    "sha256": "673f19f6d52ac8ce33f007de59aadd391fd713b665ff11af842ea966d5dca9e6",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/daemons/BatteryMonitor.qml",
+    "sha256": "b453eac2d132fe112d73fd2ba5bd3a760124e4486a93f97d29df924a74f1716d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/daemons/GameMode.qml",
+    "sha256": "6647598746ee71f0cf5ebc5ac591a89a03f8467d77b14935b163a80ebfdefdfc",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/daemons/IdleInhibit.qml",
+    "sha256": "b375e6092852ffc7377b396eb7e8b58aca4efdaada5b338c29a8567d457e3cc2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/daemons/IdleMonitors.qml",
+    "sha256": "0a79d61270f7888ad7f44b5cc501c55c5069dbfd0d0e4afa1578429efec5c68c",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/daemons/Shortcuts.qml",
+    "sha256": "58944a5ccdc85d7eb883ade9dce46d6e35bffaa3803e3356fb0199a8949942ba",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/areapicker/AreaPicker.qml",
+    "sha256": "ca086c67278d3675ac8150785ecadd1a7771f8260880386fcef5a2eb73c63648",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/areapicker/Picker.qml",
+    "sha256": "59af6c9fc1b357a47c33e17665c71c11b0a44e8e137f4eeeb82e2d6b680bce17",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/background/Background.qml",
+    "sha256": "dc99ebea9dee7893a185322d07348b3f7b54337e55bc71626b0c755d9dfa1ddd",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/background/DesktopClock.qml",
+    "sha256": "a75c74fecef5a00c4353b8553e8f4a93db1d7cfa26dc16d4cac60ae2dfbfa8cb",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/background/Visualiser.qml",
+    "sha256": "060d214af6d9f97aa4e284fee3c77dc4f000f33bfd462f53aaec361e41da0311",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/background/Wallpaper.qml",
+    "sha256": "1b08b517b490e10cebe924df9040a1274f8f5174bc5e73c61e8177298d37ae66",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/Bar.qml",
+    "sha256": "5d8aad27e2ec738345c4fc8bef183d651a281fef829a150911b13d0eced7aec7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/BarWrapper.qml",
+    "sha256": "1cb0ebfe17146faf3a843e1fa0ee38949ce8c3d8f2275457425e2e113c41a19c",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/ActiveWindow.qml",
+    "sha256": "141b9ccca379eb7cce6643e7175d4f7d1e55a3169601461330c3576ef11429d9",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/Clock.qml",
+    "sha256": "879e47048840ab8fe21fb81030c3985683dacc45a3e16825079f43285f75b047",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/OsIcon.qml",
+    "sha256": "ef3e9a19d933f11a39be7dc02d2a54fe4cb3e557410c589931fa6a311f503dbe",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/Power.qml",
+    "sha256": "b9cec6eef9df3c807128296877ef2fe28f9e0f51d2232d98b1463cdfdc2c753d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/StatusIcons.qml",
+    "sha256": "2e2dc140a2109481f430bf74efe88ff7d948e40aa6cc37a486bceac23d38b30e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/Tray.qml",
+    "sha256": "ffc8ed0a18e899bcadceca5336eed185130558f65f5361bfe76e872f0afdf40f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/TrayItem.qml",
+    "sha256": "d39fa9a7d1ae72072f94dd59af2ec41cca2967c7c5c21439f42273ce4296ffc7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/status/BatteryStatus.qml",
+    "sha256": "9c425a4713a46c8c65b4cd1061a43e24360909fbe78df027428abb12a170f618",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/status/BluetoothStatus.qml",
+    "sha256": "58dc5b29568c185c8a415b8f36d1a7be56d7699f69884d9ad618c9a18a4f1698",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/status/LockStatus.qml",
+    "sha256": "d9b5b0af2957b0e7a78dad963d550bb7ab94b835a04eb5fdd42bbf9a39811342",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/workspaces/ActiveIndicator.qml",
+    "sha256": "4be3a79ceac9f6e37effb0358c06336858b6ceb711360fbd6681179de031517f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/workspaces/GapMarkers.qml",
+    "sha256": "7bc61bf3708dbf0f049087dc15b71811fb18cd1f2b9ae0bc7193659aef9ed6e2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/workspaces/OccupiedBg.qml",
+    "sha256": "9b1018a0c9782c8f6a4493e8c1f25c62a823f41577cfa5425f95dc7a2aaf7b8f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/workspaces/SpecialWorkspaces.qml",
+    "sha256": "f41b6367a2df63e57db5d3b0898c24fcffddb111c25f66c936d042fc4ffd9696",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/workspaces/Workspace.qml",
+    "sha256": "64e32b219926ad014735dc54c60836fb691f4f5e46e61d1b21fbc33356c4e3d3",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/components/workspaces/Workspaces.qml",
+    "sha256": "5e03fc6f16c9661f5280d45885860162f18dcf790c34f11dd09e6c523d4b3f57",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/ActiveWindow.qml",
+    "sha256": "39b026b4f3bcd9fd0881d0974173f932a9e3da10c4b31eea74e046feb40876af",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/AudioPopout.qml",
+    "sha256": "7ea5e3158479af91f694ec134a053200ebbd4307f4e9364c37991dd251615990",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/Battery.qml",
+    "sha256": "5d7a805ba3a49682fef2f3846a64daa9fb59bc989cadb98c8f9e495b7872a6c7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/Bluetooth.qml",
+    "sha256": "c56b453d35211d7f401992f2b7b35f4eeb48358cd7a9e739b95a640eb292a563",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/ClipWrapper.qml",
+    "sha256": "7622cbb2909049ec2b43ef148ec3384cf46a4d0a2184529b970ad2c61bdc44a9",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/Content.qml",
+    "sha256": "243a3b70fdf9d61ea622d298a364054dfb85fdcffc0b5e2ed9a46712b6fe2e97",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/FrostGpu.qml",
+    "sha256": "fa51795b185bdae7daf280f2603f53be18b43f9b2700617b221fadac9af39cdd",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/LockStatus.qml",
+    "sha256": "48b1c2af8b9604e56007e2be0c2e8d6caf97beba043f7dc67b89994b0c126dc8",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/Network.qml",
+    "sha256": "57634cb135c0a1ef12a48f54648713e4927907ae5da79ad4fbd7c75747ee99b2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/PopoutState.qml",
+    "sha256": "7e202ed323c64a5e8b9e01062bc130ec72df52f57647dacf35234872a930b47a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/TrayMenu.qml",
+    "sha256": "e944a3940e03ad16d4bf8dd9b173a6b3ac51e0b9003e7cdd72ce6e11f32c0977",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/WirelessPassword.qml",
+    "sha256": "bab956a4939530753de0c341dfeee549dc9deae8c1d3122656a31825daa0facd",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/Wrapper.qml",
+    "sha256": "8c84f13e674a8ca921a4db0b4560f0d9d5d0f96fcef78ab85115f676a306caf5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/kblayout/KbLayout.qml",
+    "sha256": "34755e8783ac7b6aeb0e71435ad3f22afe3da6fe5994efededb8d807c80845aa",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/bar/popouts/kblayout/KbLayoutModel.qml",
+    "sha256": "f283f295700f7737c7f01620ef1fee776de59dae46b6021e626b7bd08159d68d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/Content.qml",
+    "sha256": "4742b4fbab04a8f3c92cd9ecb86b95e2dab461cee0e3b5bd901c3855518da277",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/Dash.qml",
+    "sha256": "f4379208a0e85fde33b7a1f358d5932353c0c73b6f21a72169290e3462c068c0",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/Media.qml",
+    "sha256": "26b735e17e93b9f61043bc3ed4ba857fa9a4d0bd5ccca896b3d69604bfa039db",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/Performance.qml",
+    "sha256": "4d789916d390d05cda55ab5644d9fdc8f0391898584dc5b0bcbc983643601d47",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/Tabs.qml",
+    "sha256": "a53b9a028515d93605429816e2d97564115a5c8f626c6cc90380cf065da45400",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/WeatherTab.qml",
+    "sha256": "fb5c8a529ee462f99a3063f5cbde86d518de75ee8599d3e66c8d7b0b652da831",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/Wrapper.qml",
+    "sha256": "1d3d1bb6641c9baa223a821e7dbca68d7aebb363575e6691ae42d132f9753d0c",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/dash/Calendar.qml",
+    "sha256": "43fec6e6129d1fde3bdfcd190bc9b5a1b4fbf4531d59dcf1e567e922985649ee",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/dash/DateTime.qml",
+    "sha256": "651c1817bd0fef304f33a80bb22dce48cc3894063cc02be8ce064b3ee25f04b4",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/dash/Media.qml",
+    "sha256": "0ab2032cb15ccffe734531a2e802d2f14cae0107f5a0477c2ed0e34f25805422",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/dash/Resources.qml",
+    "sha256": "1ddde3ab29a61da7373da2523de25030e95de25b9228892c4c7247804db2a0ce",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/dash/SmallWeather.qml",
+    "sha256": "9517df7f9dde6fc287180543b7af86db265b021c2aac890daa44c9d139f42730",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/dash/User.qml",
+    "sha256": "b17ff7a016d18fad4814a73f8ce25c62734a6e98b2e1eaa6bd030c500d276a63",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/media/BackgroundShapes.qml",
+    "sha256": "d12dac4b46c2160321a344d8b31af4e7250499ca4c2fc6293c51fdd12813621a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/media/CoverVisualiser.qml",
+    "sha256": "5cdb7106e74abb92b9e6ce8468862b5d4f8e0033b8d70fe35a65bf5e3a35edf7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/media/Details.qml",
+    "sha256": "9c81d9b1952f055560cd14e71c4ee58d2e47308d77b3821a33d20886534cfbf4",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/media/LyricList.qml",
+    "sha256": "1f84428958d2e918e0fa8db4ad8bff4efe24a1f37069c923b94da93c22f4cc46",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/media/LyricsAndSelector.qml",
+    "sha256": "8a7fad5274884daa7abf8c68216d0332f2f6cc8148d2ea74a47ad98975a607cb",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/media/LyricsInfo.qml",
+    "sha256": "b317a2e51edf77a4a4618b5898497814fc4c8595a33b6ed8c25a30b269762745",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/performance/BatteryTank.qml",
+    "sha256": "570830425fc04f30e8288a92e02bc9ddc5e2d7caac8368cefcb8abb4f9c30008",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/performance/HeroCard.qml",
+    "sha256": "81c3604b91a29242c0b2000b2a26ec03f88e9d20ab067a93119bf12717bc26a7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/performance/MemoryCard.qml",
+    "sha256": "0d4d3dc7edf82eb1cb71270cc03faa1371ab3cb573ed986bd55436c4495ba13e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/performance/NetworkCard.qml",
+    "sha256": "132408b03a927f8fd0222da0bc9051dd7ecbe17ac528faaa96c4b0316f100235",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/dashboard/performance/StorageCard.qml",
+    "sha256": "6a90355537de504a26ab880300c06d67e85c369addd669f7d0ec42e776ce1d18",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/drawers/ContentWindow.qml",
+    "sha256": "1e527d60b7c3b5f6335790aa03f91e3f8fa147eb7ad4433d411b9418678cb07a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/drawers/Drawers.qml",
+    "sha256": "0c959f41e5419de50c137441b580338f434a3ecd03622c45c52ec2fd590188a7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/drawers/Exclusions.qml",
+    "sha256": "5ef6e34905a6034b7e9901b0e7d159fc337c27d3458dc08a1e5ff51481715764",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/drawers/Interactions.qml",
+    "sha256": "1a2b9736d5b38efb6d55834c6cf477668f8273f306c667564250a269b34ad47e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/drawers/Panels.qml",
+    "sha256": "1166d39de4ee9d40ce4a19e189d7c162743c5ab954174ae5844ba42adca5e6fe",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/drawers/Regions.qml",
+    "sha256": "a7da0518d8f8d9fcabcb90101e082baba1550395dffef5e6957edfc19bd0d675",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/AppList.qml",
+    "sha256": "ca069dc98e34b558a5186c3857160814d1a9e3e3f9227a172040baed26487d31",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/Content.qml",
+    "sha256": "7bae36b0923b2ecc7bfd9088cce0bbd4232d323d21acd8521fea3a9636648a2f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/ContentList.qml",
+    "sha256": "15ab6d5081d0b72900dcaf1203bf4312246357d797ec03bc67a7a7d15640a70b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/WallpaperList.qml",
+    "sha256": "233c5dd8733dbfa29048059eac7595a85f50b2dda81ca068cf86be87d665fa8b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/Wrapper.qml",
+    "sha256": "b7579e9914cb3b0a0dc156cb6b2296de76f6d89291fb192d1bc7a0bc49f770ea",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/items/ActionItem.qml",
+    "sha256": "da1fd29446f865e196e7c666bb5ae757e09f6a0c854990335bad399afca4b824",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/items/AppItem.qml",
+    "sha256": "1fa6918474e12c649debdbba9c4d70bcc5c2ed0c7f0bd0f3224698d8d2ec7c9e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/items/CalcItem.qml",
+    "sha256": "fb796488b4f1414e1fd38e585d90cb09f65993ee3118995709c2a0e045307295",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/items/SchemeItem.qml",
+    "sha256": "a99363cdfdfb7612f9af26decf49af860bbc15034c0ba5aac9710dc4bf607bb2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/items/VariantItem.qml",
+    "sha256": "1edab66efbef98b56a304372ffb65f1eaf9c3d71eabbf44bcb78b585018d9dfe",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/items/WallpaperItem.qml",
+    "sha256": "2bc4693b0aa66c604f5bddb7dcc76ccb4113240afcc1ed2e476aaee22d0d9332",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/services/Actions.qml",
+    "sha256": "a5f3b3dcdca7cd7f28a63e634133a0ad345b2c5118b10bee7782783fad66641f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/services/Apps.qml",
+    "sha256": "dc6b8778cb46e14c9f7b9920747a07f350369cf6a90bd2457ee1b935802d3832",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/services/M3Variants.qml",
+    "sha256": "9525ea54a4b83d080c72acab582f45c0ad6f97afbab1bc9e4c6ead9d668c75d6",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/services/Queries.js",
+    "sha256": "9c27c27b96955accaab157147fb6431abaa4bf81b3b11df5508a1e3f0b1286a7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/launcher/services/Schemes.qml",
+    "sha256": "79a36ae84ae7a0d370dc5260834e1c2795d903114555a40f66e658e08c8d19c1",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/Center.qml",
+    "sha256": "817b15a25e2ffd2ac2b5404c903c9d66c6ab540df3c056b31418b5f8b1a02078",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/Content.qml",
+    "sha256": "79f3f560a9345c8611f1331ad781edda2d3ad117dd046440d514e1492e1d9aff",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/Fetch.qml",
+    "sha256": "31c07542f66812ca4c9bc7e6781f812ab498b27ca8fb54ad5ffb865152b4bd41",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/Lock.qml",
+    "sha256": "53780d8e5545007b2f546c4822567b4c7717b3e54235a7e3c67beb33e80c9178",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/LockSurface.qml",
+    "sha256": "5c06fafca779bfdc030d0d415deceb0105ede1e66ce73d7a44579bb5b8b3f664",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/Media.qml",
+    "sha256": "0ed83404a3ba783dab77e2f6923ee6e67978eee3e6ed7c66539e34ecb1654bf5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/NotifDock.qml",
+    "sha256": "50f45ede708a001a9849f6b96277f0d4f61dfc1c676b185d6d70fa3927f8a7e8",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/NotifGroup.qml",
+    "sha256": "7fcc1e370774055160451a1e6379d4fcb972ab2f62c10b5c4cd11a13f8b60dd7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/Pam.qml",
+    "sha256": "4e5257dc2eb663b8851c4e94bfd91a68000058caf0c8d9240ec58f56acb85e7b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/Resources.qml",
+    "sha256": "9e11ad98fae46ac8412adaf1efb363ef315fb3255f4aecaaa428f413f3afa836",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/WeatherInfo.qml",
+    "sha256": "37d81e6e10c11616d9cf98bb799a56f304403ca4f0a1160cc6e13dc1168e26f3",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/center/Clock.qml",
+    "sha256": "57e91ab131ac89fbd8b79c63434a0c8d9f9b6304cf39e1a265beabd04cbcdfe5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/center/InputField.qml",
+    "sha256": "95bf76b4d140afcc63fa26214a223a6b4095cacb2b627eef15f92af5f3807c7a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/center/PasswordInput.qml",
+    "sha256": "56e0a542ea61519160047971428039ef6c97b2447e7031e75eaec8c07c45a7cf",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/center/ProfilePic.qml",
+    "sha256": "315a043b2a2fae0afa00680aa8ee361a3a8c736e3c8b15aaa10f2381e3b6405c",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/center/StateMessage.qml",
+    "sha256": "4cf8948acfececb5d8f28f26b4331b0583f60f2e88f15d7ee246306f3281870e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/weather/BriefInfo.qml",
+    "sha256": "43fa0225cc2085987f7a534ca53a24372d29ebf2ad881417503723b22008c409",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/lock/weather/Forecast.qml",
+    "sha256": "3cce55bf490338754384813f7cddb850fffbfca12a5889b84d7e9fa9d42e7daf",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/NavPane.qml",
+    "sha256": "f098b786866ed1974d8e248d3c5db217bfed450629039ce90ccce788a7904e4d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/Nexus.qml",
+    "sha256": "79b8cce0d7edcb52844640db5e4ec683ab15773605dd5900cdd211ed892e964e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/NexusState.qml",
+    "sha256": "47f45e67f005e62fb2dd9f4742c01cddb1b4c6ee6fa262d2c363520896b79029",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/PageCompRegistry.qml",
+    "sha256": "ce2d0c6a670f77e2e3ee32af7a13959731e9ae057f9b953446f7ecce5c54d431",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/PageRegistry.qml",
+    "sha256": "460cd790c3c082f3455e33d952c93164ba364bcd23f5dcc3b1c3730bb79b8d11",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/Pages.qml",
+    "sha256": "c0b8dce3edb8aba28f1c77ab22ffa3c02da2dfd3d8cd2513fbb877983f5816a8",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/WindowFactory.qml",
+    "sha256": "f347eea4b31134beb644bf342d0babe7b9cbb01cf678d63299ae2eb0e99b5ac4",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/AnimatedLogo.qml",
+    "sha256": "d91ad38b8a17846c3289238c19636491acb876629778e96dddbe5579c21574ab",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/AudioDeviceList.qml",
+    "sha256": "45353542ec8e382d7336e72a6c36658bf8e0726aee857b09fb894f49bef609fd",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/BlobPopup.qml",
+    "sha256": "0838742b5f9d3fb8abe94b3dba11a35bd4efcfbacc195cbc4ab2e40449c3c364",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/ConnectedRect.qml",
+    "sha256": "131b59bb4e7f31976bc559960a0ee79f9a7e0b3c23fe8690a1d87064b2932ddc",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/DialogRowButton.qml",
+    "sha256": "727a5d35670f37748747840ded40e8cfa922f3afe698a7dc6aab4c2a0172b323",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/DialogSelectButton.qml",
+    "sha256": "6b87ab5fb4a3d61b6f4692e9023d5c96116fb821488b45bbcfd5ee9c5e9465b4",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/EthernetSection.qml",
+    "sha256": "a56b6222eff30507861bd00bba1c196aec1a658b5a361d9c340c17dc5a196ebb",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/InfoRow.qml",
+    "sha256": "88f48737f81eb359e7199e5e5c031a36039ac14e3b4a0640d999f7af514f3220",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/ItemList.qml",
+    "sha256": "1a88785b287cfcaf524ff8c2d962d73052e47e77570047193e2118fed318ea80",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/ListEditor.qml",
+    "sha256": "29c9af035890ad70f88f60bd1b940da12cc1b66dfce0e3692daa4df2daac7e3f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/NavRow.qml",
+    "sha256": "fb376b72b7f6db45681986d703879154ed39f861ddab251f6870c5876208980b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/NetworkList.qml",
+    "sha256": "57585f622595d32b6344aa4677d543f186a9755be6b92fd0a9ce97116a3ad715",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/PageBase.qml",
+    "sha256": "cc1e5552780f796fe409a2f0db6fcc35cc6fd0127dddf31c5052b8da62cd5445",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/PopupRow.qml",
+    "sha256": "df57d1ae3df6b7bb6ce119d8ae134f9d4251e73072aad22b6af2ac5792c6e989",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/RowButton.qml",
+    "sha256": "13d995f9cd8ff4746b224691643a648af39ff78fd27675e0343a5bd59a3726c2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/SectionHeader.qml",
+    "sha256": "eecfe13d3f4423b27cde003c93fd9340360b7fb12a0eed76576c6879b9579930",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/SelectRow.qml",
+    "sha256": "618dac7c8af00f1f6ada25dbe6fbd2965e6acdbdf5106d09ce3b1bf573219102",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/SliderRow.qml",
+    "sha256": "2aa69c8b1fefdc035c2d162505c5d8400a2de1760cc109341dc045308d704ba8",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/StackPage.qml",
+    "sha256": "4fb085fe09e7f3fb562bff4adda7e388e4fe9b2d7fe5d14b1498e4cc364dcef5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/StepperRow.qml",
+    "sha256": "532820239160fd6c94114cc2a380de04eafa1dbaae8581a7818364f6903202f3",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/TextFieldRow.qml",
+    "sha256": "29d3147c7857cb5577ce49701de59fd60c42f8d8f3b0de080d43c5509d04ce28",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/ToggleRow.qml",
+    "sha256": "3b7420daf3ae184ad4d99e7e2450a1227b29c94ac9344b13f789b92bf2067f7f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/common/WallItem.qml",
+    "sha256": "15a69f8540aa6c0e2d40aded4760d4d176fe9a961adce37ccc0c942853558ee6",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/navpane/NavLocations.qml",
+    "sha256": "7556881624a94722a19e9ba029bad5e758adb7e855a6ed57b8002822e1512b96",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/AboutPage.qml",
+    "sha256": "14b413013349ce4faf2caba7f91225134138417dd53447027c50850e26d6252d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/AppsPage.qml",
+    "sha256": "bb3a422b18029bb966b25bc51751a664209a2f2ce6ae7d2939247fd7e4865351",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/AudioPage.qml",
+    "sha256": "6d41c536db7117dbc9d931b0ac7a1f3e4a31f26ecbe83c89ea9051497b7a9b52",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/BluetoothPage.qml",
+    "sha256": "de79026e37fc20699c2a05b2159c652cc4ab60805afce9353e43f4c0b8bc0749",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/LanguageAndRegion.qml",
+    "sha256": "98600fd7169122b9d66424b6828c6b77d490218b8cef3a0d94ae0878d6175d2a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/NetworkPage.qml",
+    "sha256": "e79b266466733138f424230536858f460794d8f70ec9d1d5dca478a816af0370",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/PanelsPage.qml",
+    "sha256": "3f6c248dda9ef0fa22f29b70e7fd164ae47d3b536efbdec5310dcaf2576d8070",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/ServicesPage.qml",
+    "sha256": "44f095513785ef5906459fb6229ae204f1ac2aedd8eec017de82a908bb1bbfdc",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/WallpaperAndStyle.qml",
+    "sha256": "6f2d4c8a394f6041bca8541c03e2151733a8d159e029039f5873824e8ab6ff98",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/apps/AllApps.qml",
+    "sha256": "ca29a70b04c83e6bd11ca37f10246e4ba998fd6f5f5e29079dc778af6347b92d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/apps/AppInfo.qml",
+    "sha256": "a367b0c4f7df742117219ef9c33cd74e29a60f458550cb1315973823ae1f9349",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/audio/AppVolumes.qml",
+    "sha256": "beca823eac3ce0f55a19bd12be7df5fa269c355347a91d558f67e034359a3e66",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/bluetooth/BluetoothPairing.qml",
+    "sha256": "4a24e79e24bd01bac85d04022e8196507c63ff699b586f20147ec8d570e3bb0a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/bluetooth/BtDeviceInfo.qml",
+    "sha256": "fc78e394d46ebf15f620d1f48c320b2b4f22fb6767bae7c34d80d3437ca5edda",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/network/AddNetworkPage.qml",
+    "sha256": "2205f9a93e561c50ba9f3cfd3e6df71980206d3a34f5fa8d087ba0f6d11748f5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/network/AddVpnPage.qml",
+    "sha256": "24fea177cbe71088be7cbb6f16949f1ac0d4392f3a3fed3b59883851079d0750",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/network/AllNetworksPage.qml",
+    "sha256": "265c16eacf23e75fd8db8453352a6ecc1d36217e14ea77d328c649acbd8cdcf3",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/network/EthernetDetailPage.qml",
+    "sha256": "7460c111dc96c55ece848430c662e19acac2280c8abd395ed459124ce7a69ecc",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/network/NetworkDetailPage.qml",
+    "sha256": "c1a7b44f0574c7e24965723569d7d12fb00b0f7a269a2a321b1dd15719fb5087",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/network/SavedNetworksPage.qml",
+    "sha256": "e4f490fd163b0a335afa227685a117f66e8277d7aa266b540f480387f52bacaa",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/DashboardPanel.qml",
+    "sha256": "cb13e75d8d532e568e4c71f16023e5348f3cb9d200bd23b6d2937b6e1bf22bef",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/LauncherPanel.qml",
+    "sha256": "24dc1599c4d329bb942882379237a578839c6a61e9fe7ae0728ad416079e2e93",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/SidebarPanel.qml",
+    "sha256": "58abf6fa0a6d2ed09730213664376c722f6394bc570f892e0898b03fd6b47cc6",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/TaskbarPanel.qml",
+    "sha256": "019d3eb6b4b1addb7894d4aeb09490f9f5ae7622ee9608e923b454d63205bd5f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/UtilitiesPanel.qml",
+    "sha256": "1f13ab63f7c1be935ae5b22a83dff413dd36d6cd170fe079708917185b428907",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/taskbar/BarActiveWindow.qml",
+    "sha256": "6c82b8ec5c34a215e514c287237d7f35b1df41159f8353cdad1865f896c7aec0",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/taskbar/BarClock.qml",
+    "sha256": "5b59e888e839e04954efda4062e2035fd7e89332c27269ae97edb4700a6144bf",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/taskbar/BarStatusIcons.qml",
+    "sha256": "81bdfa3a8b572854fd241135eda34f428fc0b36dbefb9ad5839fdb0d1ab52908",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/taskbar/BarTray.qml",
+    "sha256": "1ec8e7b2b3f48f8c907ee26101c2e5fb70b765a6d6a1753132c075729bb24664",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/panels/taskbar/BarWorkspaces.qml",
+    "sha256": "b64b6873121b1959afc3f221083c4ef24d537f41227f2942f48be6a1f8b38bb2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/services/NotificationsPage.qml",
+    "sha256": "9c7a44bb423d2e19d9200caa074230edc75e9d127f9f6aad20a984d4ca6a42e2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/wallandstyle/ColourSelect.qml",
+    "sha256": "13ed125b028da85ab86e23d15222731b5e5c1b3fe701810aba7134620d91033f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/wallandstyle/WallpaperCategory.qml",
+    "sha256": "e49c2f7a21519ede49f878cad9819fb4b011f7c8c93f117eb0835733555de0b6",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/nexus/pages/wallandstyle/WallpaperSelect.qml",
+    "sha256": "892abc0f519d58b18b7c1b15da925278e06a78d0d664eafdfde685f32cefe36e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/notifications/Content.qml",
+    "sha256": "ae676c3b1d96fa7fc6d49aa66ceb5eab0f79b945d57a2072fad55bfdc757e625",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/notifications/Notification.qml",
+    "sha256": "67498664df4e2e5415d44e76654ba7fbe96bf71d25923d831669710c2b0ff56f",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/notifications/Wrapper.qml",
+    "sha256": "7495ed90d38509005f013684acb8535823787c99d215b0c75e020c4268dfed39",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/osd/Content.qml",
+    "sha256": "9435648051cdc59b83efd90228f74c43985b891559520366c62e7a11241dadc2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/osd/Wrapper.qml",
+    "sha256": "aac845d3e40dc1dfa0cf5be87a817ac6eae4495864cd44b8c156b532eb76789e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/session/Content.qml",
+    "sha256": "0284ef8caad666b004721cb21e9f477f1949841614378f18b8136c8ac16b9fa0",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/session/Wrapper.qml",
+    "sha256": "d26511941d915d1ef5305d3c21b64161cc37d6b659b5be5391f27a8048cd8d78",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/sidebar/Content.qml",
+    "sha256": "83433f0ec8ae83ab112db77d6714ac2a268d1099806f8b5b8f8fa1910f139f34",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/sidebar/Notif.qml",
+    "sha256": "c986d1ca73004a068c1eb55400c9b33af2b167f5efb9c47ca73a6fba4e9e59ad",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/sidebar/NotifActionList.qml",
+    "sha256": "3d6d2ca5305ef7839961b22984db65fa343ec31f2c0dbf7191d4be391342ea59",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/sidebar/NotifDock.qml",
+    "sha256": "c322413163b5db8c71bf97cb59ac5cfbff5c2d37669544cf1bd39563cadd2b74",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/sidebar/NotifDockList.qml",
+    "sha256": "46170b47c05aea5b78e7b40a50f016e3afe6c9389d461b21c734c7dabeda6582",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/sidebar/NotifGroup.qml",
+    "sha256": "ffb760f61c4ffc76cffa805d5888b35efc116f389ecba04d1bf330c5f5732ba7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/sidebar/NotifGroupList.qml",
+    "sha256": "06aae5f54f033a60fcf68d1736f29fec14ebbb1cb5f9ac7fddd06937e551bcbf",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/sidebar/Props.qml",
+    "sha256": "2689cf71454c14625afd7270f6e4aa36f150c1bafe8937a957b072881d487b14",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/sidebar/Wrapper.qml",
+    "sha256": "5e434b5319b47407119abbede6c371e9aac8631c4e8abd751b8f804147092c28",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/Background.qml",
+    "sha256": "0b5e6e86dd1ee046be2c0ce0a5af6fcd11f1d3dc963cfc4b5a514ff6b3b12df9",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/Content.qml",
+    "sha256": "0972745cb43ce5894ad3da44f286b88418d0b1abd3cc401bbfc46963745a5299",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/RecordingDeleteModal.qml",
+    "sha256": "1f132a29b2edec60282244cd44c518371a5827d27dd4c34bd341e2a9c33d24fa",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/Wrapper.qml",
+    "sha256": "8ca06d58e71eb89fca278328097869f1c377e1d56bf99f7c43b1527fbb3f0a44",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/cards/IdleInhibit.qml",
+    "sha256": "f6cc10e8b7a41acd4352702f3f580f8fc7f172bf8e731d9425702c0f28ebd4f5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/cards/Record.qml",
+    "sha256": "3a579fadbb4c09be57b20cdd92d609ce6fa008f38efadf1729744b2f1ea9e071",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/cards/RecordingList.qml",
+    "sha256": "57b8f303ee7a990973ba2bfb68627c73b444a20b7fb9dfd088b7071694351896",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/cards/Toggles.qml",
+    "sha256": "ef1d1ac6fb4f72dd4d9249177a703fb42120f39b96b5ae31a8e2e43d54f7b7e1",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/toasts/ToastItem.qml",
+    "sha256": "2a9d35b52e1e823e4283a83bc9d3d639f865409d4d5378c1cf270efdccf09666",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/utilities/toasts/Toasts.qml",
+    "sha256": "8a929f5ec48932d7d248a5dee4ac1ce98fd1fe2fee5581add68fa80a93244793",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/windowinfo/Buttons.qml",
+    "sha256": "246e6d825a90d8a9c703ff2db40431e531ef1e7694d18446cc16fe215d207099",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/windowinfo/Details.qml",
+    "sha256": "ea000fdbafc61bab927d84372d240f02e40061be656c5db0f64bdb560238e409",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/windowinfo/Preview.qml",
+    "sha256": "043396be4dcc90d39e583cb14210da3b7a31671da2959ef0f5bf5d68bc2b2ef7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/modules/windowinfo/WindowInfo.qml",
+    "sha256": "ad60c980357833e07bcf686071a208e707e25e040680c02420fa8f3af5693f82",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/AsusPower.qml",
+    "sha256": "098250a306e554822f7c34ef88d950fce65761dd8872c61dd1b0838c7616ee2b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Audio.qml",
+    "sha256": "d45d8f0c572d8c5b26a1fd8a890e331444136edee10c5c7fa80dfd66f33af3ce",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Brightness.qml",
+    "sha256": "4aff46e43c3f0734a0d54df2b85ee60f41ea039946cedad3e661310ba960ed1b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Colours.qml",
+    "sha256": "c984e0afa48ec02212f17e0c2b2971fefb335b8904a708e7ad0dfea18408f79d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Hypr.qml",
+    "sha256": "0aab47a031ca46ac7f8fda2b540e5c1c018215c9b6565e77c564bf0ec94baf7a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Nmcli.qml",
+    "sha256": "2af5291ffc9a1a1580d278f16d41d5aa0fbe9ca17f988bfb83bb686c8859026b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/NotifData.qml",
+    "sha256": "7fbe0bd41526f1881f62bd24d31191426b4ee73aa15eb5a35eff70bfec858e31",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Notifs.qml",
+    "sha256": "db3746293dcfb31fcef0aefcbc1e483a5db0fa87d641ac9e2501c458b87811a2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Players.qml",
+    "sha256": "6f30a04d038d6e6a4e92f789f7bf6aea19792202dae06388f5967c412044844d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Recorder.qml",
+    "sha256": "3a7b331b3391a4801367fc128d214c2be221db171374fb4be3a1fa6defc6a8cc",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Screens.qml",
+    "sha256": "a67f9402dc91deec37860ae3a6ff8f919404fa7af19bbbe7c541f74a41f49d30",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/ShellState.qml",
+    "sha256": "de2bd7208ddb31a38fa37f55b2c19be736a7fc4a3878665568e7d148aeb48175",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Time.qml",
+    "sha256": "23d126e3823f339193c3b1716f922e2f46bb8dadeddc317c59838e21bfd9e3f3",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/VPN.qml",
+    "sha256": "62c3942d502dbfa2a9cf2f5eebe7838eb6647cf4170a207c0a309c25aa577ad7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Wallpapers.qml",
+    "sha256": "7d039576a4e02f7167f584735e519ea94046e7d99b5f09accc48b6ab91deb948",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/services/Weather.qml",
+    "sha256": "7d45fb250db754f4b7347aafea78c891d9e443e59cda51309af4a7e6693d1fd5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/shell.qml",
+    "sha256": "7d0bc2d61519aadeac4c782026f75babf5c91c9e87eed08453e9324315589e30",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/utils/Icons.qml",
+    "sha256": "5a2e6a5aa5d88e9ef956ab1bc09dd1d097bc123a635aa923d60016180c823b7e",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/utils/Images.qml",
+    "sha256": "02b6f2e8bed87d801cbe1ebc53a3cfb2d8a5d914132fbe183955a55304ee2861",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/utils/NetworkConnection.qml",
+    "sha256": "a582528bf3c456151e74c672ce11c18bf12775231fd07810d65f645d4882ff63",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/utils/Paths.qml",
+    "sha256": "8717c6e48cf9ffd7c3dc8233e687f83652aa59ee59b031d289bc58e4885b7844",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/utils/Searcher.qml",
+    "sha256": "e2e07fee106c95744a4859b3bd2ed2c45c6cd03507009a2dc028c47c4016419b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/utils/Strings.qml",
+    "sha256": "e95a20efc5aee569b163d57c9d5b02b8d3c5f266757ff4af7743d9f451942057",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/utils/SysInfo.qml",
+    "sha256": "19eea7b47f46abf2da55e3f7cc90cd8da54b135d518a650ec194cce27fcc51c5",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/utils/scripts/fuzzysort.js",
+    "sha256": "19fdf028c3135674e346aedaa26b44b054437dc93b7d65a78fed14ec929184ba",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/quickshell/caelestia/utils/scripts/fzf.js",
+    "sha256": "ce06080572d93af0465a74d114ab3ca034b7e51ce7cfe5b4769ca9e6fd084e6d",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/safeeyes/safeeyes.json",
+    "sha256": "40db52b7fcc3bf3210a9298f640a2eec8af57ad06b103eecd03a3b9f9951d80d",
+    "mode": "0o600"
+  },
+  {
+    "path": "home/.config/spicetify/Themes/caelestia/color.ini",
+    "sha256": "345bc52b9876cb25c55d736d5da79cfc1b32b8d32cbc74e116f9db6a2f75ed4c",
+    "mode": "0o600"
+  },
+  {
+    "path": "home/.config/spicetify/Themes/caelestia/user.css",
+    "sha256": "a9f233e9a3d07fe5be90c8675957baeeaec99103ccfe44cdc3578b1f65ddc49a",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/spicetify/config-xpui.ini",
+    "sha256": "4e874136ad3b1c317c676e8c1fc2be875db8e84ec04e001ceee4dfcad9daeff0",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/starship/Coding.toml",
+    "sha256": "8884a0c811146c397b56a7d6c9ec14630f8e0988aaac65ea703d5a01161d0823",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/starship/Gaming.toml",
+    "sha256": "04d5099b8423e03ace4362463334401a340c971dc5134a1fd38c37a91fd22293",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/starship/Normal.toml",
+    "sha256": "ff0913e3371221a46236c9c739408709f2479db5eca4e848e28978030d0a2dc9",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/starship.toml",
+    "sha256": "c7d43ba2cddf057b9ea14fee348f88892d0b4438ab519a24ad9fccceb46f27e4",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/systemd/user/caelestia-spicetify.service",
+    "sha256": "fd11b234f251eee085906cd3c21946122e8599e80aaa458dec82ea412f09d619",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/systemd/user/frost-hyprland-session.target",
+    "sha256": "199acd5ed796c254b93e2e51588488db16456e44a83b8265dd05affaeb5041b2",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/systemd/user/frost-usb-charge-profile.service",
+    "sha256": "635ecd66fa7d3351fb735a5d37eb132df73aef572ff42aee51f95b20a9d3215b",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/wezterm/activity-colors.lua",
+    "sha256": "b9d30eb1ef69ea440b4bdf03a5c884c44a7792a088428cf42cc4e62f3df65021",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/wezterm/wezterm.lua",
+    "sha256": "3783d45b889a496ab3d5dac63e720f5c3792343fcb93f01f2aa95f48e65434f7",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.config/xdg-desktop-portal/hyprland-portals.conf",
+    "sha256": "3a9ea689639bfca88a490fc7237f737448660a90f2f567d4385ea55d3d6120d6",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.local/bin/brave",
+    "sha256": "02b766a9d7b2706fc44a4b5948297fa1bb08b6e3eb89b0e51afea5361bd90bc6",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/caelestia-foot-colors",
+    "sha256": "d851682cea35324c16aff01d8cff4629bd91cb201f59cf31414877e2c7a16f55",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/caelestia-foot-shell",
+    "sha256": "fbacfd72018292a3602b815a085e6b2e9a23094606f5636aec482fecbbb3b815",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/caelestia-safeeyes",
+    "sha256": "fcea78d10b27c2dc26afe8c424d5c250d5676dca6ba3d9eb8e6cac588144d524",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/caelestia-spotify",
+    "sha256": "2c965e391d4f634d9ccfd39e50fee9a53ddd929e5ef2af084fd7d35b0f6e8a31",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/fastfetch",
+    "sha256": "321504be119c6a9ce322f4946c994f753aa32db7a14541ba169ad6600fde2f02",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/frost-browser-colors",
+    "sha256": "98bcb3364621fe32d9ab7da97fa3ea9b19e70f4b1ca0fb590f8f5d71cd0f7316",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/frost-clipboard-paste",
+    "sha256": "caecdf5837ca4d9de6a939beb79bf1238c0a651c28e11250fab55080b1a83d61",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/frost-hyprland-autostart",
+    "sha256": "9bd4a8c893af1d08cba91a6b1f43fb7b9942c6ab0cb441e774b01bc27392966e",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/frost-hyprland-gpu",
+    "sha256": "abe51ddc00a287e53d8cb00c9bd718f1895701e95dd3afe10c1738336e5eeaac",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/frost-hyprland-session",
+    "sha256": "245979c865bd91c263a40a234f109ed46e2a12abf56b72046c5b83a04ab4f764",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/frost-theme-hook",
+    "sha256": "ad2bbc1c28a0cf83873ba59456b4264d1ce8f677d2d6ec5a3b5c92d6e9280eba",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/bin/lookfrost-prepare-brave-theme",
+    "sha256": "d5b555828913d3bcca8dd05bf62600160a988d331f135c9ac3a69fad6563a0a7",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/libexec/frost-hyprland/gpu.py",
+    "sha256": "aa24af60c0466952100af4516ed4ce5b4cc7eb420fc33f32b5f56a2a39844157",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.local/libexec/frost_usb_charge.py",
+    "sha256": "92b138107ea74e9ff809ed2fef8105c954d386af70bc797069eb49df509c85cb",
+    "mode": "0o755"
+  },
+  {
+    "path": "home/.local/share/applications/brave-browser.desktop",
+    "sha256": "c7596300fe1d0a1629978aec56a04ae0fac42901071f30905440000567cd1162",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.local/share/applications/spotify-adblock.desktop",
+    "sha256": "2f04cd0d3b510385891a0f6ed0ac3307d9dd0f456857b45698377b955bf3f935",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.local/share/applications/spotify.desktop",
+    "sha256": "7def977d5621d4190dda5f90a38f108fe209818012f0bc305825b09830545801",
+    "mode": "0o644"
+  },
+  {
+    "path": "home/.local/state/caelestia/scheme.json",
+    "sha256": "69ecef27f7f69650caac93878e6668283563c6dcd1579e121bb01794ae428b1a",
+    "mode": "0o600"
+  },
+  {
+    "path": "home/.local/state/caelestia/theme/foot-colors.ini",
+    "sha256": "2560be9402c0b0cb8ec9961867a8a0c399015e24557a31094de3518cd6955b2b",
+    "mode": "0o600"
+  },
+  {
+    "path": "home/.local/state/caelestia/wallpaper/path.txt",
+    "sha256": "88ecf30e48f47f620bd9f5de456bb3cb9fbce074fbf0ccadca4de8b54d5a2064",
+    "mode": "0o644"
+  },
+  {
+    "path": "system/etc/brave/policies/managed/caelestia.json",
+    "sha256": "9cea74d451306a4069bf99f242809b204e5068622604ac721224ed6f902ab2d3",
+    "mode": "0o644"
+  },
+  {
+    "path": "system/usr/lib/firefox/distribution/policies.json",
+    "sha256": "ab6f284aacc585020370321014c50aef936af38e75d284fc86fc8adbc256b7cd",
+    "mode": "0o644"
+  },
+  {
+    "path": "system/usr/local/libexec/frost-brave-theme",
+    "sha256": "527175e7f536fb7c057d5526c3e4d8508d5d0d0dd54f79d190590b830352cf2c",
+    "mode": "0o755"
+  },
+  {
+    "path": "system/usr/local/libexec/frost-gpu-app",
+    "sha256": "ae3a8668018d2b811d2008f5f3e977bfa97b3a479a736c49e89056eb4bce053f",
+    "mode": "0o755"
+  },
+  {
+    "path": "system/usr/local/libexec/frost_app.py",
+    "sha256": "0c341adebfd960d1a478889aabb19d8f19764e9419f5f34ff9c8b545414d33c1",
+    "mode": "0o755"
+  },
+  {
+    "path": "system/usr/local/libexec/frost_power.py",
+    "sha256": "c36fa3ece166bef52906ad12a21059246e97beee620b738dfe33833c1ff40f86",
+    "mode": "0o644"
+  },
+  {
+    "path": "system/usr/local/libexec/frost_session.py",
+    "sha256": "becf33a624016ef16591319814fe8ce8aef5e1b69c345cd3d785eafc58748b23",
+    "mode": "0o644"
+  },
+  {
+    "path": "system/usr/share/wayland-sessions/hyprland-caelestia-igpu.desktop",
+    "sha256": "ea17212bedfe649265e55f3a61dd1d802d4f13e27d563f2e062b282f607004ef",
+    "mode": "0o644"
+  },
+  {
+    "path": "system/usr/share/wayland-sessions/hyprland-caelestia-rx.desktop",
+    "sha256": "d48a9e901d6d762f3d5d5d492e010a1481cb3b50373baa9edbf813daeb764a1b",
+    "mode": "0o644"
+  },
+  {
+    "path": "system/usr/share/wayland-sessions/hyprland-caelestia.desktop",
+    "sha256": "e11fd0e0c45c3bbc97388ce2107185833af4e5e63b4785a27fc2ac303144605b",
+    "mode": "0o644"
+  }
+]

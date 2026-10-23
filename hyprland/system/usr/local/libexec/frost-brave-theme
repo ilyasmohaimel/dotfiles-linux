@@ -1,0 +1,28 @@
+#!/usr/bin/python3 -I
+"""Accept one colour and update only the local Brave colour policy."""
+import json
+import os
+from pathlib import Path
+import re
+import sys
+import tempfile
+
+if len(sys.argv) != 1 or os.geteuid() != 0:
+    raise SystemExit(2)
+colour = sys.stdin.buffer.read(9).decode('ascii').strip()
+if colour == 'clear':
+    Path('/etc/brave/policies/managed/caelestia.json').unlink(missing_ok=True)
+    raise SystemExit
+if not re.fullmatch(r'#[0-9a-fA-F]{6}', colour):
+    raise SystemExit('Expected one #RRGGBB colour')
+directory = Path('/etc/brave/policies/managed')
+directory.mkdir(parents=True, exist_ok=True)
+fd, temporary = tempfile.mkstemp(prefix='.caelestia-', dir=directory)
+try:
+    os.fchmod(fd, 0o644)
+    with os.fdopen(fd, 'w') as output:
+        json.dump({'BrowserThemeColor': colour}, output)
+        output.write('\n')
+    os.replace(temporary, directory / 'caelestia.json')
+finally:
+    Path(temporary).unlink(missing_ok=True)

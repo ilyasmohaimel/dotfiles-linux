@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+"""Keep Brave's colour policy in sync with Caelestia's palette."""
+import json
+import os
+from pathlib import Path
+import subprocess
+
+if 'Hyprland' not in os.environ.get('XDG_CURRENT_DESKTOP', '').split(':'):
+    raise SystemExit
+scheme = json.loads((Path(os.environ.get('XDG_STATE_HOME', Path.home()/'.local/state'))/'caelestia/scheme.json').read_text())
+colour = '#' + scheme['colours']['surface']
+subprocess.run(['sudo', '-n', '/usr/local/libexec/frost-brave-theme'], input=colour+'\n', text=True, check=True)
+# Chromium watches its policy directory and refreshes this policy dynamically.

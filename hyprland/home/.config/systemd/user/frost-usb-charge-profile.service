@@ -1,0 +1,17 @@
+[Unit]
+Description=Keep ASUS Quiet profile while charging through USB-C
+After=plasma-powerdevil.service
+PartOf=graphical-session.target
+ConditionPathExists=/usr/local/libexec/frost_power.py
+ConditionPathExists=/sys/firmware/acpi/platform_profile
+
+[Service]
+ExecStart=/usr/bin/python3 -I %h/.local/libexec/frost_usb_charge.py
+Restart=on-failure
+RestartSec=5
+UMask=0077
+NoNewPrivileges=yes
+Slice=session.slice
+
+[Install]
+WantedBy=plasma-workspace.target

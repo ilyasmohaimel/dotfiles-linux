@@ -1,0 +1,18 @@
+pkgname=caelestia-shell
+pkgver=2.5.0.r20261022
+pkgrel=2
+pkgdesc='Caelestia shell with current Hyprland Lua support'
+arch=(x86_64)
+url='https://github.com/caelestia-dots/shell'
+license=('GPL-3.0-only')
+depends=('caelestia-cli' 'quickshell-git' 'ddcutil' 'brightnessctl' 'libcava' 'networkmanager' 'lm_sensors' 'aubio' 'libpipewire' 'libqalculate' 'power-profiles-daemon' 'ttf-material-symbols-variable' 'ttf-rubik-vf' 'ttf-cascadia-code-nerd' 'qt6-base' 'qt6-declarative' 'qt6-imageformats' 'qt6-multimedia' 'qt6-m3shapes-git' 'swappy' 'fish' 'bash')
+makedepends=('cmake' 'ninja' 'qt6-shadertools')
+options=(!debug)
+build() {
+ cmake -S '/home/lookfrost/.local/share/frost-hyprland-setup/sources/shell' -B "$srcdir/build" -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/ -DVERSION=2.5.0 -DGIT_REVISION=11eed7c -DDISTRIBUTOR='Frost local build'
+ cmake --build "$srcdir/build" --parallel 3
+}
+package() {
+ DESTDIR="$pkgdir" cmake --install "$srcdir/build"
+ install -Dm644 '/home/lookfrost/.local/share/frost-hyprland-setup/sources/shell/LICENSE' "$pkgdir/usr/share/licenses/caelestia-shell/LICENSE"
+}

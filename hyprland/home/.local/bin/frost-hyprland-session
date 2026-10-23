@@ -1,0 +1,79 @@
+#!/usr/bin/python3
+"""Start Caelestia without inheriting the Plasma render-migration stack."""
+import argparse
+import importlib.util
+import json
+import os
+from pathlib import Path
+import subprocess
+import uuid
+
+
+def session_environment(mode):
+    env = dict(os.environ)
+    for key in list(env):
+        if key.startswith(("FROST_GPU_", "ZSS_", "KWIN_")) or key in (
+            "FROST_SESSION_GPU", "VK_DRIVER_FILES", "VK_ICD_FILENAMES",
+            "QT_PLUGIN_PATH", "QML_IMPORT_PATH", "QML2_IMPORT_PATH",
+            "QSG_RHI_BACKEND", "QT_QPA_PLATFORM", "QT_QPA_PLATFORMTHEME",
+            "MESA_LOADER_DRIVER_OVERRIDE", "GALLIUM_DRIVER",
+            "__GLX_VENDOR_LIBRARY_NAME", "__EGL_VENDOR_LIBRARY_FILENAMES",
+        ):
+            env.pop(key, None)
+    for key in ("PATH", "LD_LIBRARY_PATH", "LD_PRELOAD", "XDG_DATA_DIRS"):
+        if key in env:
+            env[key] = ":".join(p for p in env[key].split(":") if "/opt/frost-gpu" not in p)
+            if not env[key]:
+                env.pop(key)
+    env["PATH"] = str(Path.home() / ".local/bin") + ":" + env.get("PATH", "/usr/local/bin:/usr/bin")
+    spec = importlib.util.spec_from_file_location("frost_power", "/usr/local/libexec/frost_power.py")
+    power = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(power)
+    source = power.power_source()
+    gpu_spec = importlib.util.spec_from_file_location("hypr_gpu", Path.home() / ".local/libexec/frost-hyprland/gpu.py")
+    gpu = importlib.util.module_from_spec(gpu_spec)
+    gpu_spec.loader.exec_module(gpu)
+    effective = gpu.mode() if mode == "auto" else mode
+    selected = gpu.select(effective, source)
+    rx = Path("/dev/dri/by-path/pci-0000:03:00.0-card").resolve()
+    igpu = Path("/dev/dri/by-path/pci-0000:07:00.0-card").resolve()
+    ordered = [rx, igpu] if selected == "rx" else [igpu, rx]
+    available = [str(p) for p in ordered if p.is_char_device()]
+    if not available:
+        raise RuntimeError("No expected AMD DRM devices are available")
+    if selected == "rx" and not rx.is_char_device():
+        selected = "igpu"
+    env.update(
+        AQ_DRM_DEVICES=":".join(available),
+        DRI_PRIME="pci-0000_03_00_0" if selected == "rx" else "pci-0000_07_00_0",
+        MESA_VK_DEVICE_SELECT="1002:73df" if selected == "rx" else "1002:1638",
+        MESA_VK_DEVICE_SELECT_FORCE_DEFAULT_DEVICE="0",
+        XDG_CURRENT_DESKTOP="Hyprland", XDG_SESSION_DESKTOP="Hyprland",
+        XDG_SESSION_TYPE="wayland", QT_QPA_PLATFORMTHEME="kde",
+        QT_QPA_PLATFORM="wayland;xcb", XCURSOR_THEME="breeze_cursors", XCURSOR_SIZE="24",
+        FROST_HYPRLAND_GPU=selected, FROST_HYPRLAND_MODE=effective,
+        FROST_HYPRLAND_TOKEN=uuid.uuid4().hex,
+    )
+    return env, {"requested": mode, "mode": effective, "selected": selected, "powerSource": source["source"], "devices": available}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--gpu", choices=("auto", "igpu", "rx", "eco"), default="auto")
+    parser.add_argument("--dry-run", action="store_true")
+    args = parser.parse_args()
+    env, status = session_environment(args.gpu)
+    if args.dry_run:
+        print(json.dumps(status, indent=2))
+        return 0
+    state = Path.home() / ".local/state/frost-hyprland"
+    state.mkdir(parents=True, exist_ok=True)
+    (state / "login-gpu.json").write_text(json.dumps(status, indent=2) + "\n")
+    try:
+        return subprocess.call(["/usr/bin/start-hyprland", "--", "--config", str(Path.home() / ".config/hypr/hyprland.lua")], env=env)
+    finally:
+        subprocess.run(["systemctl", "--user", "stop", "frost-hyprland-session.target"], env=env, check=False)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

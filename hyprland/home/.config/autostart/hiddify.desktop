@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=hiddify
+Comment=hiddify startup script
+Exec=/usr/local/libexec/frost-gpu-app hiddify -- /opt/hiddify-desktop/hiddify
+StartupNotify=false
+Terminal=false

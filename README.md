@@ -14,9 +14,9 @@ This repo only holds safe configs and notes. My actual backups are kept on my en
 
 | Profile | Status | Contents |
 | --- | --- | --- |
-| [`kde/`](kde/) | Current | My Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor, launcher, NVIDIA, zram, and memory settings |
+| [`kde/`](kde/) | Previous snapshot | My Plasma, KWin, GTK, terminals, Fish, Fastfetch, editor, launcher, NVIDIA, zram, and memory settings |
 | [`qtile/`](qtile/) | Archived | My older Qtile, Rofi, Fish, and Alacritty setup |
-| [`hyprland/`](hyprland/) | Later | Kept ready for a future Hyprland setup |
+| [`hyprland/`](hyprland/) | Current, 23 October 2026 | Caelestia, customized shortcuts, AMD GPU login choices, 300 Hz display, terminals, launcher, themes, and phone shortcut sheets |
 
 ## Wallpapers
 
@@ -79,4 +79,4 @@ The AUR and Flatpak files are just inventories, not scripts I should run blindly
 
 I leave out credentials, SSH keys, browser profiles, cookies, tokens, session databases, caches, mount details, printer secrets, Sunshine state, and other machine/account-specific data.
 
-Some paths and hardware choices are still specific to my laptop: Intel UHD 620 + NVIDIA MX150 hybrid graphics with the `nvidia-580xx` driver stack.
+The older KDE snapshot targets Intel UHD 620 + NVIDIA MX150. The current Hyprland snapshot targets an ASUS ROG G513QY with Ryzen 9 5900HX and Radeon RX 6800M. Read each desktop's notes before restoring hardware-specific files.

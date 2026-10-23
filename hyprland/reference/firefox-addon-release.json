@@ -1,0 +1,106 @@
+{
+  "id": 2899567,
+  "authors": [
+    {
+      "id": 18863317,
+      "name": "Soramane",
+      "url": "https://addons.mozilla.org/en-US/firefox/user/18863317/",
+      "username": "anonymous-67e78c7a376c843fd6f9346dedbb78da",
+      "picture_url": null
+    }
+  ],
+  "average_daily_users": 494,
+  "categories": [
+    "appearance"
+  ],
+  "contributions_url": "",
+  "created": "2025-03-04T03:13:51Z",
+  "current_version": {
+    "id": 5970109,
+    "compatibility": {
+      "firefox": {
+        "min": "58.0",
+        "max": "*"
+      }
+    },
+    "edit_url": "https://addons.mozilla.org/en-US/developers/addon/caelestiafox/versions/5970109",
+    "file": {
+      "id": 4514382,
+      "created": "2025-06-16T09:24:24Z",
+      "hash": "sha256:3e545665b91e0c86a3e6cd053be412c2a0f936d7524af5d5676ec2fbf6fc5b17",
+      "is_mozilla_signed_extension": false,
+      "size": 55226,
+      "status": "public",
+      "url": "https://addons.mozilla.org/firefox/downloads/file/4514382/caelestiafox-2.0.xpi",
+      "permissions": [
+        "nativeMessaging",
+        "theme"
+      ],
+      "optional_permissions": [],
+      "host_permissions": [],
+      "data_collection_permissions": [],
+      "optional_data_collection_permissions": []
+    },
+    "is_strict_compatibility_enabled": false,
+    "license": {
+      "id": 6,
+      "is_custom": false,
+      "name": {
+        "en-US": "GNU General Public License v3.0 only"
+      },
+      "slug": "GPL-3.0-only",
+      "url": "https://spdx.org/licenses/GPL-3.0-only.html"
+    },
+    "release_notes": {
+      "en-US": "Update for caelestia cli rewrite and scheme rework"
+    },
+    "reviewed": "2025-06-16T09:25:34Z",
+    "version": "2.0"
+  },
+  "default_locale": "en-US",
+  "description": {
+    "en-US": "See <a href=\"https://prod.outgoing.prod.webservices.mozgcp.net/v1/0b199c4ab917af3ed5d85e029f03397f7303df466ea8089f28c26e00ff1ff24b/https%3A//github.com/caelestia-dots/caelestia\" rel=\"nofollow\">https://github.com/caelestia-dots/caelestia</a> for more details."
+  },
+  "developer_comments": null,
+  "edit_url": "https://addons.mozilla.org/en-US/developers/addon/caelestiafox/edit",
+  "guid": "caelestiafox@caelestia.org",
+  "has_eula": false,
+  "has_privacy_policy": false,
+  "homepage": null,
+  "icon_url": "https://addons.mozilla.org/static-server/img/addon-icons/default-64.png",
+  "icons": {
+    "32": "https://addons.mozilla.org/static-server/img/addon-icons/default-32.png",
+    "64": "https://addons.mozilla.org/static-server/img/addon-icons/default-64.png",
+    "128": "https://addons.mozilla.org/static-server/img/addon-icons/default-128.png"
+  },
+  "is_disabled": false,
+  "is_experimental": false,
+  "is_noindexed": false,
+  "last_updated": "2025-06-16T09:25:34Z",
+  "name": {
+    "en-US": "CaelestiaFox"
+  },
+  "previews": [],
+  "promoted": [],
+  "ratings": {
+    "average": 5.0,
+    "bayesian_average": 3.464217726503407,
+    "count": 3,
+    "text_count": 2
+  },
+  "ratings_url": "https://addons.mozilla.org/en-US/firefox/addon/caelestiafox/reviews/",
+  "requires_payment": false,
+  "review_url": "https://addons.mozilla.org/en-US/reviewers/review/2899567",
+  "slug": "caelestiafox",
+  "status": "public",
+  "summary": {
+    "en-US": "A Firefox theme for the Caelestia dotfiles."
+  },
+  "support_email": null,
+  "support_url": null,
+  "tags": [],
+  "type": "extension",
+  "url": "https://addons.mozilla.org/en-US/firefox/addon/caelestiafox/",
+  "versions_url": "https://addons.mozilla.org/en-US/firefox/addon/caelestiafox/versions/",
+  "weekly_downloads": 40
+}

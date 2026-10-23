@@ -1,0 +1,10 @@
+{
+  "policies": {
+    "ExtensionSettings": {
+      "caelestiafox@caelestia.org": {
+        "installation_mode": "normal_installed",
+        "install_url": "file:///usr/local/share/caelestia/caelestiafox-2.0.xpi"
+      }
+    }
+  }
+}

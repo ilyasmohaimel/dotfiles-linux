@@ -1,0 +1,2 @@
+#!/bin/sh
+exec fish --init-command 'source ~/.config/caelestia/foot-init.fish' "$@"

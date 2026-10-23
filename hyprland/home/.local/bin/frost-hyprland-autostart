@@ -1,0 +1,47 @@
+#!/bin/bash
+set -u
+if [[ ${FROST_HYPRLAND_SMOKE_TEST:-0} == 1 ]]; then
+    dbus-update-activation-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP XDG_SESSION_TYPE XDG_SESSION_DESKTOP
+    "$HOME/.local/bin/frost-hyprland-gpu" activate
+    exec /usr/bin/caelestia shell
+fi
+
+state_dir="${XDG_STATE_HOME:-$HOME/.local/state}/frost-hyprland"
+umask 077
+mkdir -p "$state_dir"
+if [[ -f "$state_dir/autostart.log" ]]; then
+    mv -f "$state_dir/autostart.log" "$state_dir/autostart.previous.log"
+fi
+exec >> "$state_dir/autostart.log" 2>&1
+printf '\nHyprland startup: %s\n' "$(date --iso-8601=seconds)"
+
+optional() {
+    local label="$1"
+    shift
+    if ! timeout 10s "$@"; then
+        printf 'Optional startup step failed or timed out: %s\n' "$label" >&2
+    fi
+}
+
+# Replace the previous login's activation environment before starting services.
+timeout 3s systemctl --user unset-environment FROST_GPU_LIVE_SESSION FROST_GPU_LIVE_SESSION_ID FROST_SESSION_GPU ZSS_SOCKET KWIN_DRM_DEVICES KWIN_RENDER_NODES KWIN_ENABLE_EXPERIMENTAL_GPU_SWITCH KWIN_XWAYLAND_RENDER_DEVICE || true
+timeout 3s dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY XDG_CURRENT_DESKTOP XDG_SESSION_DESKTOP XDG_SESSION_TYPE XDG_SESSION_ID PATH QT_QPA_PLATFORMTHEME QT_QPA_PLATFORM XCURSOR_THEME XCURSOR_SIZE DRI_PRIME MESA_VK_DEVICE_SELECT MESA_VK_DEVICE_SELECT_FORCE_DEFAULT_DEVICE AQ_DRM_DEVICES HYPRLAND_INSTANCE_SIGNATURE || true
+# The Plasma indicator queries KWin and must not run in this desktop.
+optional 'Stop Plasma GPU indicator' systemctl --user --no-block stop frost-gpu-indicator.service &
+# These are integrations, not prerequisites for drawing the desktop. In
+# particular, PAM wallet initialization can wait for its D-Bus service.
+optional 'GPU status registration' "$HOME/.local/bin/frost-hyprland-gpu" activate &
+optional 'KDE wallet' /usr/lib/pam_kwallet_init &
+(
+    optional 'User unit reload' systemctl --user daemon-reload
+    optional 'Desktop autostart apps' systemctl --user --no-block start frost-hyprland-session.target
+    optional 'USB-C power profile' systemctl --user --no-block start frost-usb-charge-profile.service
+) &
+/usr/lib/hyprpolkitagent/hyprpolkitagent &
+wl-paste --type text --watch cliphist store &
+wl-paste --type image --watch cliphist store &
+optional 'Cursor theme' hyprctl setcursor breeze_cursors 24 &
+optional 'Terminal and browser colors' "$HOME/.local/bin/frost-theme-hook" &
+/usr/bin/mpris-proxy &
+printf 'Starting Caelestia shell\n'
+exec /usr/bin/caelestia shell

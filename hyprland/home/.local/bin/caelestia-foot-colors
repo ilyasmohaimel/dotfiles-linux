@@ -1,0 +1,38 @@
+#!/usr/bin/python
+"""Apply Caelestia colors only to Foot terminals in this Hyprland session."""
+import os
+import sys
+from pathlib import Path
+from caelestia.utils.scheme import get_scheme
+from caelestia.utils.theme import gen_sequences
+
+sequence = gen_sequences(get_scheme().colours).encode()
+if '--stdout' in sys.argv:
+    os.write(1, sequence)
+    raise SystemExit
+if os.environ.get('XDG_CURRENT_DESKTOP') != 'Hyprland':
+    raise SystemExit
+import psutil
+signature = os.environ.get('HYPRLAND_INSTANCE_SIGNATURE')
+terminals = set()
+for process in psutil.process_iter(['name', 'uids']):
+    try:
+        if process.info['name'] != 'foot' or process.info['uids'].real != os.getuid():
+            continue
+        if process.environ().get('HYPRLAND_INSTANCE_SIGNATURE') != signature:
+            continue
+        for child in process.children(recursive=True):
+            terminal = child.terminal()
+            if terminal and terminal.startswith('/dev/pts/'):
+                terminals.add(terminal)
+    except (psutil.Error, OSError):
+        pass
+for terminal in terminals:
+    try:
+        fd = os.open(terminal, os.O_WRONLY | os.O_NONBLOCK | os.O_NOCTTY)
+        try:
+            os.write(fd, sequence)
+        finally:
+            os.close(fd)
+    except OSError:
+        pass

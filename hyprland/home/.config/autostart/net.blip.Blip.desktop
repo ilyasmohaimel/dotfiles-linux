@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Blip
+Comment=Auto-start Blip at login
+Exec=/opt/blip/bin/blip --background --delay 5
+TryExec=/opt/blip/bin/blip
+Icon=net.blip.Blip
+Terminal=false
+X-GNOME-Autostart-enabled=true

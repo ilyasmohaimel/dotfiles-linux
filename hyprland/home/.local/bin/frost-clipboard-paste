@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+sleep 0.2
+cliphist list | head -n 1 | cliphist decode | wl-copy
+wtype -M ctrl -k v -m ctrl

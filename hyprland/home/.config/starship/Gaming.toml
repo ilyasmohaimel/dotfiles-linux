@@ -1,0 +1,27 @@
+add_newline = false
+format = "$username$hostname$directory$git_branch$git_status$line_break$character"
+
+[username]
+show_always = true
+style_user = "bold #FFB21A"
+style_root = "bold #B0000A"
+format = "[$user]($style)"
+[hostname]
+ssh_only = false
+style = "bold #F5E4C3"
+format = "[@$hostname]($style) "
+[directory]
+style = "bold #F5E4C3"
+truncation_length = 3
+truncation_symbol = "…/"
+[git_branch]
+symbol = " "
+style = "bold #FFB21A"
+format = " [$symbol$branch]($style)"
+[git_status]
+style = "bold #FF5A1F"
+format = "[$all_status$ahead_behind]($style)"
+[character]
+success_symbol = "[❯](bold #FFB21A)"
+error_symbol = "[❯](bold #B0000A)"
+vimcmd_symbol = "[❮](bold #25D9E8)"

@@ -1,0 +1,99 @@
+{
+    "appearance": {
+        "font": {
+            "body": {
+                "family": "Rubik"
+            },
+            "headline": {
+                "family": "Rubik"
+            },
+            "label": {
+                "family": "Rubik"
+            },
+            "title": {
+                "family": "Rubik"
+            }
+        },
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "bar": {
+        "workspaces": {
+            "maxWindowIcons": 8,
+            "occupiedBg": false,
+            "showUnoccupied": true,
+            "shown": 5
+        }
+    },
+    "dashboard": {
+        "performance": {
+            "showGpu": false
+        }
+    },
+    "general": {
+        "apps": {
+            "audio": [
+                "/usr/bin/vlc",
+                "--started-from-file"
+            ],
+            "explorer": [
+                "dolphin"
+            ],
+            "playback": [
+                "vlc"
+            ],
+            "terminal": [
+                "wezterm",
+                "start",
+                "--always-new-process"
+            ]
+        },
+        "idle": {
+            "lockBeforeSleep": true,
+            "timeouts": [
+                {
+                    "enabled": true,
+                    "idleAction": "lock",
+                    "inhibitWhenAudio": false,
+                    "inhibitWhenCharging": false,
+                    "respectInhibitors": true,
+                    "timeout": 900
+                },
+                {
+                    "enabled": true,
+                    "idleAction": "dpms off",
+                    "inhibitWhenAudio": false,
+                    "inhibitWhenCharging": false,
+                    "respectInhibitors": true,
+                    "returnAction": "dpms on",
+                    "timeout": 600
+                }
+            ]
+        }
+    },
+    "launcher": {
+        "enableDangerousActions": true,
+        "favouriteApps": [
+            "brave-browser",
+            "org.kde.dolphin",
+            "org.wezfurlong.wezterm",
+            "foot",
+            "btop",
+            "micro",
+            "spotify-adblock"
+        ]
+    },
+    "paths": {
+        "mediaGif": "root:/assets/bongocat.gif",
+        "sessionGif": "root:/assets/kurukuru.gif",
+        "wallpaperDir": "/home/lookfrost/Pictures/Wallpapers"
+    },
+    "services": {
+        "clockFormat": "TwentyFourHour",
+        "gpuType": "None",
+        "smartScheme": true,
+        "weatherLocation": "30.23583,119.71806",
+        "weatherUnits": "Celsius"
+    }
+}

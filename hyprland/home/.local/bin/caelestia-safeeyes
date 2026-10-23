@@ -1,0 +1,4 @@
+#!/bin/sh
+case ":${XDG_CURRENT_DESKTOP:-}:" in
+    *:Hyprland:*) exec /usr/bin/safeeyes "$@" ;;
+esac

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Caelestia (Hyprland, RX 6800M)
+Comment=Caelestia desktop with existing Frost applications
+Exec=/home/lookfrost/.local/bin/frost-hyprland-session --gpu rx
+TryExec=/usr/bin/Hyprland
+DesktopNames=Hyprland
+Type=Application

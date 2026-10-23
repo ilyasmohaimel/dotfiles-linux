@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if ! pgrep -u "$UID" -x brave >/dev/null; then
+    "$HOME/.local/bin/lookfrost-prepare-brave-theme" || true
+fi
+
+# Chromium needs a recognized desktop backend to observe Hiddify's GSettings
+# system proxy. Keep this scoped to Brave; the actual session stays Hyprland.
+if [[ :${XDG_CURRENT_DESKTOP:-}: == *:Hyprland:* && :${XDG_CURRENT_DESKTOP:-}: != *:GNOME:* ]]; then
+    export XDG_CURRENT_DESKTOP="${XDG_CURRENT_DESKTOP}:GNOME"
+fi
+
+exec /usr/bin/brave "$@"

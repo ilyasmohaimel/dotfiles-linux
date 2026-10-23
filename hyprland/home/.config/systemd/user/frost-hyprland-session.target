@@ -1,0 +1,8 @@
+[Unit]
+Description=Frost Hyprland desktop session
+BindsTo=graphical-session.target
+Wants=graphical-session-pre.target xdg-desktop-autostart.target
+After=graphical-session-pre.target
+# Autostart apps wait for graphical-session; do not implicitly order this
+# target after xdg-desktop-autostart.target through its Wants dependency.
+Before=graphical-session.target xdg-desktop-autostart.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=Caelestia Spotify theme watcher
+PartOf=frost-hyprland-session.target
+ConditionEnvironment=XDG_CURRENT_DESKTOP=Hyprland
+
+[Service]
+ExecStart=/home/lookfrost/.local/bin/spicetify watch -s
+Restart=no

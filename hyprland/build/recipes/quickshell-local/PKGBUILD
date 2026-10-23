@@ -1,0 +1,20 @@
+pkgname=quickshell-git
+pkgver=0.3.2.r875.g2b4501a
+pkgrel=1
+pkgdesc='Quickshell pinned to the revision used by Caelestia'
+arch=(x86_64)
+url='https://git.outfoxxed.me/quickshell/quickshell'
+license=('LGPL-3.0-only')
+depends=('qt6-declarative' 'qt6-base' 'qt6-wayland' 'qt6-svg' 'jemalloc' 'libpipewire' 'libxcb' 'wayland' 'libdrm' 'mesa' 'cpptrace' 'polkit')
+makedepends=('vulkan-headers' 'spirv-tools' 'qt6-shadertools' 'wayland-protocols' 'cli11' 'ninja' 'cmake' 'git')
+provides=(quickshell)
+conflicts=(quickshell)
+options=(!debug)
+build() {
+ cmake -S '/home/lookfrost/.local/share/frost-hyprland-setup/sources/quickshell' -B "$srcdir/build" -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr -DDISTRIBUTOR='Frost build; Caelestia pinned revision' -DINSTALL_QML_PREFIX=lib/qt6/qml
+ cmake --build "$srcdir/build" --parallel 3
+}
+package() {
+ DESTDIR="$pkgdir" cmake --install "$srcdir/build"
+ install -Dm644 '/home/lookfrost/.local/share/frost-hyprland-setup/sources/quickshell/LICENSE' "$pkgdir/usr/share/licenses/quickshell/LICENSE"
+}

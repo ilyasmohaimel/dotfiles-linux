@@ -1,0 +1,26 @@
+{
+  "dots": {
+    "url": "https://github.com/caelestia-dots/caelestia.git",
+    "commit": "4f7407cec842f3dfafc6f97d369e290599eed8a0"
+  },
+  "shell": {
+    "url": "https://github.com/caelestia-dots/shell.git",
+    "commit": "11eed7cec85fc21f26db12e6c0c60b120d33a677"
+  },
+  "cli": {
+    "url": "https://github.com/caelestia-dots/cli.git",
+    "commit": "287802be3fbdbb81c8234587f9ccdd667505f6f9"
+  },
+  "quickshell": {
+    "url": "https://git.outfoxxed.me/quickshell/quickshell.git",
+    "commit": "2b4501a282689792b62e94f3fb30d8f512324fe6"
+  },
+  "m3shapes": {
+    "url": "https://github.com/soramanew/m3shapes.git",
+    "commit": "32ad9ce328bb77ed349b40a3be10ee9ea610b8ab"
+  },
+  "spicetify": {
+    "url": "https://github.com/spicetify/cli.git",
+    "commit": "dc00e57f2fa8d4502a8efe8633bfaace953f3b09"
+  }
+}

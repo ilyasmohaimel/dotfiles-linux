@@ -1,0 +1,73 @@
+{
+  "theme": {
+    "enableTerm": false,
+    "enableDiscord": false,
+    "enableSpicetify": true,
+    "enablePandora": false,
+    "enableFuzzel": false,
+    "enableBtop": true,
+    "enableNvtop": false,
+    "enableHtop": false,
+    "enableGtk": false,
+    "enableQt": false,
+    "enableWarp": false,
+    "enableChromium": false,
+    "enableZed": false,
+    "enableCava": false,
+    "enableHypr": true,
+    "postHook": "/home/lookfrost/.local/bin/frost-theme-hook"
+  },
+  "toggles": {
+    "music": {
+      "spotify": {
+        "command": [
+          "env",
+          "LD_PRELOAD=/usr/lib/spotify-adblock.so",
+          "/home/lookfrost/.local/bin/caelestia-spotify"
+        ]
+      },
+      "feishin": {
+        "enable": false
+      }
+    },
+    "communication": {
+      "discord": {
+        "enable": false
+      },
+      "whatsapp": {
+        "enable": false
+      },
+      "vesktop": {
+        "enable": true,
+        "match": [
+          {
+            "class": "vesktop"
+          }
+        ],
+        "command": [
+          "vesktop"
+        ],
+        "move": true
+      }
+    },
+    "todo": {
+      "todoist": {
+        "enable": false
+      }
+    },
+    "sysmon": {
+      "btop": {
+        "command": [
+          "foot",
+          "-a",
+          "btop",
+          "-T",
+          "btop",
+          "btop",
+          "--config",
+          "/home/lookfrost/.config/caelestia/btop.conf"
+        ]
+      }
+    }
+  }
+}

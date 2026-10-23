@@ -1,0 +1,30 @@
+#!/usr/bin/python
+"""Use the Caelestia Spotify copy in Hyprland and the packaged app in KDE."""
+import os
+from pathlib import Path
+import subprocess
+import sys
+import time
+import urllib.request
+
+hyprland = 'Hyprland' in os.environ.get('XDG_CURRENT_DESKTOP', '').split(':')
+program = str(Path.home() / '.local/share/caelestia-spotify/spotify') if hyprland else '/usr/bin/spotify'
+if '--dry-run' in sys.argv:
+    print(program)
+    raise SystemExit
+if not hyprland:
+    os.execv(program, [program, *sys.argv[1:]])
+process = subprocess.Popen([program, '--remote-debugging-address=127.0.0.1', '--remote-debugging-port=9222', '--remote-allow-origins=http://localhost,http://localhost/', *sys.argv[1:]])
+if os.environ.get('FROST_HYPRLAND_SMOKE_TEST') != '1':
+    for _ in range(30):
+        try:
+            with urllib.request.urlopen('http://127.0.0.1:9222/json/list', timeout=.2) as response:
+                import json
+                if not any('spotify' in page.get('url', '') for page in json.load(response)):
+                    time.sleep(.1)
+                    continue
+                subprocess.run(['systemctl', '--user', 'start', 'caelestia-spicetify.service'], check=False)
+                break
+        except OSError:
+            time.sleep(.1)
+raise SystemExit(process.wait())
