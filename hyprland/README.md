@@ -1,3 +1,11 @@
+<p align="center">
+  <a href="https://github.com/ilyasmohaimel/dotfiles-linux/blob/main/previews/hyprland-desktop-1080p.mp4">
+    <img src="../previews/hyprland-desktop-preview.webp" alt="Frost's Hyprland and Caelestia desktop tour playing on the G513QY laptop model. Click for the full 42-second video with sound." width="100%">
+  </a>
+</p>
+
+<p align="center"><a href="../previews/hyprland-desktop-1080p.mp4">Watch the full 42-second video with sound, 1080p / 60 FPS</a></p>
+
 # Frost's Hyprland setup
 
 Snapshot of my working Arch Linux / Caelestia configuration on 23 October 2026. This replaces the old Hyprland placeholder. KDE remains available on the laptop; this directory does not replace the older `kde/` snapshot.
@@ -6,9 +14,7 @@ The laptop is an ASUS ROG G513QY with Ryzen 9 5900HX, integrated Radeon graphics
 
 ## Desktop recording
 
-[![Hyprland desktop recording](../previews/hyprland-desktop-preview.gif)](../previews/hyprland-desktop-1080p.mp4)
-
-[Watch the 1080p / 60 FPS laptop showcase](https://github.com/ilyasmohaimel/dotfiles-linux/raw/refs/heads/main/previews/hyprland-desktop-1080p.mp4). The edited recording of this actual desktop plays on the 3D G513QY laptop's display. It shows LF Fastfetch, WezTerm and Foot, window controls, desktop transitions, wallpaper previews, the theme picker, app search, the current music widget, Lin’an weather and the next-login GPU menu. The music widget was retaken with the working album artwork. Personal browser/chat windows and notification contents are outside the capture.
+The full-length preview above loops automatically. [Watch the 1080p / 60 FPS laptop showcase with sound](../previews/hyprland-desktop-1080p.mp4). The edited recording of this actual desktop plays on the 3D G513QY laptop's display. It shows LF Fastfetch, WezTerm and Foot, window controls, desktop transitions, wallpaper previews, the theme picker, app search, the current music widget, Lin’an weather and the next-login GPU menu. The music widget was retaken with the working album artwork. Personal browser/chat windows and notification contents are outside the capture.
 
 [Standalone edited screen recording](../previews/hyprland-screen-recording-1080p.mp4) · [Unedited desktop captures](../previews/hyprland-desktop-unedited.mp4) · [Still image](../previews/hyprland-desktop.jpg). The edit has a new original electronic soundtrack; desktop audio was not recorded.
 
