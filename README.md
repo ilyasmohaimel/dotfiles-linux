@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/ilyasmohaimel/dotfiles-linux/blob/main/previews/hyprland-desktop-1080p.mp4">
-    <img src="previews/hyprland-desktop-preview.webp?v=2" alt="Frost's Hyprland and Caelestia desktop tour playing on the G513QY laptop model. Click for the full 66-second video with sound." width="100%">
+    <img src="previews/hyprland-desktop-preview.webp?v=3" alt="Frost's Hyprland and Caelestia desktop tour playing on the G513QY laptop model. Click for the full 66-second video with sound." width="100%">
   </a>
 </p>
 
