@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">
-    <img src="../previews/hyprland-daily-use-preview.webp?v=3" alt="Between windows: highlights of normal desktop use with Brave, editors, files and Spotify. Click for the full 3:28 film with sound." width="100%">
+    <img src="../previews/hyprland-daily-use-preview.webp?v=4" alt="Between windows: the full film of normal desktop use with Brave, editors, files and Spotify. Click for the full 3:28 film with sound." width="100%">
   </a>
 </p>
 
-<p align="center">Between windows · A daily-use film<br><a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>Lightweight 8-second autoplay preview. Click for the full-quality film.</sub></p>
+<p align="center">Between windows · A daily-use film<br><a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>Full 3:28 autoplay film, silent. Click for the 1080p / 60 FPS version with sound.</sub></p>
 
 # Frost's Hyprland setup
 
