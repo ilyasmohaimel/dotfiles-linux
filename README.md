@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://github.com/ilyasmohaimel/dotfiles-linux/blob/main/previews/hyprland-desktop-1080p.mp4">
-    <img src="previews/hyprland-desktop-preview.webp?v=4" alt="Frost's Hyprland and Caelestia desktop tour playing on the G513QY laptop model. Click for the full 66-second video with sound." width="100%">
+  <a href="https://github.com/ilyasmohaimel/dotfiles-linux/blob/main/previews/hyprland-daily-use-1080p.mp4">
+    <img src="previews/hyprland-daily-use-preview.webp?v=1" alt="Between windows: highlights of an afternoon using Brave, editors, files and Spotify on my Hyprland desktop. Click for the full 3:28 film with sound." width="100%">
   </a>
 </p>
 
-<p align="center"><a href="previews/hyprland-desktop-1080p.mp4">Watch the full 66-second video with sound, 1080p / 60 FPS</a></p>
+<p align="center">Between windows · A daily-use film<br><a href="previews/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="previews/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>The autoplay image is a highlights loop.</sub></p>
 
 # My Linux dotfiles
 
@@ -16,9 +16,13 @@ This repo only holds safe configs and notes. My actual backups are kept on my en
 
 ## How My Setup Looks
 
-Current Hyprland / Caelestia desktop:
+**Between windows** follows ordinary use of this desktop: WezTerm and Neovim, my normal Brave profile with Mtab and Vimium, editing and checking Hyprland configuration in VSCodium, moving work between desktops, Dolphin and Spotify. Two-second floating key bubbles show the shortcuts as they happen. The recording plays on the exterior G513QY laptop model, with camera moves and close-ups. [Film notes, chapters and credits](hyprland/docs/DAILY-USE-FILM.md).
 
-The full-length preview above loops automatically. [Watch the 1080p / 60 FPS laptop showcase with sound](previews/hyprland-desktop-1080p.mp4): the edited desktop recording plays on the 3D G513QY laptop's display. It includes the LF fetch, window controls, wallpaper and theme pickers, the music widget, weather for your city and the next-login GPU menu. The [standalone screen recording](previews/hyprland-screen-recording-1080p.mp4) and [unedited captures](previews/hyprland-desktop-unedited.mp4) are available too.
+The earlier setup tour is still here:
+
+[![Full 66-second Hyprland setup tour, looping automatically](previews/hyprland-desktop-preview.webp?v=4)](previews/hyprland-desktop-1080p.mp4)
+
+[Watch the 66-second setup tour with sound](previews/hyprland-desktop-1080p.mp4), including the LF fetch, window controls, wallpaper and theme pickers, the music widget, weather for your city and the next-login GPU menu. The [standalone screen recording](previews/hyprland-screen-recording-1080p.mp4) and [unedited setup-tour captures](previews/hyprland-desktop-unedited.mp4) are available too.
 
 The original desktop shell and dotfiles are **Caelestia by [soramane](https://github.com/soramanew) and contributors**:
 

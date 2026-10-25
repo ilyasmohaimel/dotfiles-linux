@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://github.com/ilyasmohaimel/dotfiles-linux/blob/main/previews/hyprland-desktop-1080p.mp4">
-    <img src="../previews/hyprland-desktop-preview.webp?v=4" alt="Frost's Hyprland and Caelestia desktop tour playing on the G513QY laptop model. Click for the full 66-second video with sound." width="100%">
+  <a href="https://github.com/ilyasmohaimel/dotfiles-linux/blob/main/previews/hyprland-daily-use-1080p.mp4">
+    <img src="../previews/hyprland-daily-use-preview.webp?v=1" alt="Between windows: highlights of normal desktop use with Brave, editors, files and Spotify. Click for the full 3:28 film with sound." width="100%">
   </a>
 </p>
 
-<p align="center"><a href="../previews/hyprland-desktop-1080p.mp4">Watch the full 66-second video with sound, 1080p / 60 FPS</a></p>
+<p align="center">Between windows · A daily-use film<br><a href="../previews/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="../previews/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>The autoplay image is a highlights loop.</sub></p>
 
 # Frost's Hyprland setup
 
@@ -12,13 +12,25 @@ Snapshot of my working Arch Linux / Caelestia configuration on 23 October 2026. 
 
 The laptop is an ASUS ROG G513QY with Ryzen 9 5900HX, integrated Radeon graphics and Radeon RX 6800M. The internal display is configured for 1920×1080 at 300 Hz. The session wrappers and device paths are specific to this machine.
 
-## Desktop recording
+## Desktop films
 
-The full-length preview above loops automatically. [Watch the 1080p / 60 FPS laptop showcase with sound](../previews/hyprland-desktop-1080p.mp4). The edited recording of this actual desktop plays on the 3D G513QY laptop's display. It shows LF Fastfetch, WezTerm and Foot, window controls, window transfers between desktops, wallpaper and palette changes, the theme picker, app search, the current music widget, weather for your city and the next-login GPU menu. The music widget was retaken with the working album artwork. The phone shortcut sheets appear near the end. Floating caption bubbles expand to fit their text and shortcut keycaps. Personal browser/chat windows and notification contents are outside the capture.
+**Between windows** is a 3:28 recording of normal use on 25 October 2026: WezTerm and Neovim, my normal Brave profile with Mtab and Vimium, VSCodium, Dolphin, Spotify and Hyprland's window and desktop controls. Editors, files and the floating shortcut bubbles follow the desktop palette. Each performed shortcut appears for two seconds, with measured space for its text and keycaps. The recording plays on the exterior G513QY laptop model, with opening and closing camera moves and close-ups during the work.
 
-[Standalone edited screen recording](../previews/hyprland-screen-recording-1080p.mp4) · [Unedited desktop captures](../previews/hyprland-desktop-unedited.mp4) · [Still image](../previews/hyprland-desktop.jpg). The edit has a new original electronic soundtrack; desktop audio was not recorded.
+[Watch the daily-use film](../previews/hyprland-daily-use-1080p.mp4) · [Screen-only version](../previews/hyprland-daily-use-screen-1080p.mp4) · [Still image](../previews/hyprland-daily-use.jpg) · [Chapters and production notes](docs/DAILY-USE-FILM.md).
 
-Frames from the film: [floating bubbles](../previews/hyprland-bubbles.jpg), [weather](../previews/hyprland-weather.jpg), [themes](../previews/hyprland-themes.jpg), and [phone shortcut sheets](../previews/hyprland-shortcuts.jpg).
+Stills: [browser and editor side by side](../previews/hyprland-daily-use-code.jpg) · [Spotify](../previews/hyprland-daily-use-music.jpg).
+
+The soundtrack is “Signal to Noise” by Scott Buckley, released under CC BY 4.0. Spotify plays the same track in the recorded session. The edit uses the artist's downloadable recording with fades and volume normalization. [Full credits](CREDITS.md#music-and-wallpapers).
+
+The earlier **66-second setup tour** remains available:
+
+[![Full-length setup-tour preview](../previews/hyprland-desktop-preview.webp?v=4)](../previews/hyprland-desktop-1080p.mp4)
+
+[Watch the setup tour](../previews/hyprland-desktop-1080p.mp4) · [Standalone screen recording](../previews/hyprland-screen-recording-1080p.mp4) · [Unedited setup-tour captures](../previews/hyprland-desktop-unedited.mp4).
+
+It shows LF Fastfetch, WezTerm and Foot, window controls, wallpaper and palette changes, app search, the working music widget, weather for your city, the next-login GPU menu and the phone shortcut sheets. Its soundtrack is an original procedural electronic instrumental.
+
+Frames from the setup tour: [floating bubbles](../previews/hyprland-bubbles.jpg), [weather](../previews/hyprland-weather.jpg), [themes](../previews/hyprland-themes.jpg), and [phone shortcut sheets](../previews/hyprland-shortcuts.jpg).
 
 ## Original work
 

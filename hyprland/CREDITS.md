@@ -31,6 +31,14 @@ ASUS reference imagery remains ASUS copyright. Personal reference photographs ar
 
 ## Music and wallpapers
 
-The showcase soundtrack is an original procedural electronic instrumental made for this edit. No desktop audio or commercial song recording was captured. The title and artwork visible in the music widget belong to the currently playing track and its artists; they are separate from the showcase soundtrack.
+The **66-second setup tour** uses an original procedural electronic instrumental. Its music widget's title and artwork belong to the displayed track and its artists; they are separate from that tour's soundtrack.
+
+The **3:28 daily-use film, Between windows**, uses:
+
+> 'Signal to Noise' by Scott Buckley - released under CC-BY 4.0. www.scottbuckley.com.au
+
+[Artist's track page and download](https://www.scottbuckley.com.au/library/signal-to-noise/) · [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+
+The soundtrack is an excerpt of the artist's downloadable recording, with volume normalization and opening and closing fades. Spotify plays the same track in the captured session. The film's audio comes from the licensed download; system audio was not recorded. Spotify's interface, cover art and artist imagery remain credited to their respective owners.
 
 Wallpaper source links are retained in [`reference/wallpaper-downloads.json`](reference/wallpaper-downloads.json), the [Reddit wallpaper comment](https://www.reddit.com/r/unixporn/comments/1l5ll27/comment/mwlw9km/), and the [original Steam Workshop item](https://steamcommunity.com/workshop/filedetails/?id=3026085319). The Workshop image is a static preview. Wallpaper artwork remains credited to its creators.
