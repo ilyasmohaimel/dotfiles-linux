@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="https://github.com/ilyasmohaimel/dotfiles-linux/blob/main/previews/hyprland-daily-use-1080p.mp4">
-    <img src="../previews/hyprland-daily-use-preview.webp?v=1" alt="Between windows: highlights of normal desktop use with Brave, editors, files and Spotify. Click for the full 3:28 film with sound." width="100%">
+  <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">
+    <img src="../previews/hyprland-daily-use-preview.webp?v=2" alt="Between windows: highlights of normal desktop use with Brave, editors, files and Spotify. Click for the full 3:28 film with sound." width="100%">
   </a>
 </p>
 
-<p align="center">Between windows · A daily-use film<br><a href="../previews/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="../previews/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>The autoplay image is a highlights loop.</sub></p>
+<p align="center">Between windows · A daily-use film<br><a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>The autoplay image is a short 30 FPS highlights loop. The full film is 60 FPS.</sub></p>
 
 # Frost's Hyprland setup
 
@@ -16,7 +16,7 @@ The laptop is an ASUS ROG G513QY with Ryzen 9 5900HX, integrated Radeon graphics
 
 **Between windows** is a 3:28 recording of normal use on 25 October 2026: WezTerm and Neovim, my normal Brave profile with Mtab and Vimium, VSCodium, Dolphin, Spotify and Hyprland's window and desktop controls. Editors, files and the floating shortcut bubbles follow the desktop palette. Each performed shortcut appears for two seconds, with measured space for its text and keycaps. The recording plays on the exterior G513QY laptop model, with opening and closing camera moves and close-ups during the work.
 
-[Watch the daily-use film](../previews/hyprland-daily-use-1080p.mp4) · [Screen-only version](../previews/hyprland-daily-use-screen-1080p.mp4) · [Still image](../previews/hyprland-daily-use.jpg) · [Chapters and production notes](docs/DAILY-USE-FILM.md).
+[Watch the daily-use film](https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4) · [Screen-only version](https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4) · [Still image](../previews/hyprland-daily-use.jpg) · [Chapters and production notes](docs/DAILY-USE-FILM.md).
 
 Stills: [browser and editor side by side](../previews/hyprland-daily-use-code.jpg) · [Spotify](../previews/hyprland-daily-use-music.jpg).
 

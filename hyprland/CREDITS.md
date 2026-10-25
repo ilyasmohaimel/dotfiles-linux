@@ -22,7 +22,7 @@ Font and upstream software licenses remain with their respective projects. The c
 
 ## Laptop presentation
 
-The exterior laptop model comes from Frost's earlier [Frost GPU film](https://github.com/ilyasmohaimel/frost-gpu). It was built as Blender geometry against the ASUS G513QY reference, including the keyboard, hinges, clickpad, vents and display. The edited Hyprland desktop video plays on that model's screen, with rendered opening and closing camera moves.
+The exterior laptop model comes from Frost's earlier [Frost GPU film](https://github.com/ilyasmohaimel/frost-gpu). It was built as Blender geometry against the ASUS G513QY reference, including the keyboard, hinges, clickpad, vents and display. The edited Hyprland desktop video plays on that model's screen, with rendered opening and closing camera moves. The revised daily-use film adds an original geometric studio: a surface, wall panels, recessed lighting and contact shadows, built locally in Blender.
 
 - [ASUS G513QY official product gallery](https://rog.asus.com/uk/laptops/rog-strix/2021-rog-strix-g15-advantage-edition-series/gallery/)
 - [ASUS product reference used for the keyboard legends and deck](https://dlcdnwebimgs.asus.com/gain/FB052830-05EB-4A54-8727-E2D391A2755C/w1600/h1200)

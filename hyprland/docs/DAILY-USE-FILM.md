@@ -2,11 +2,13 @@
 
 A 3:28 film of an afternoon using my Hyprland desktop, recorded on 25 October 2026. Both versions are 1920×1080 at 60 FPS with sound.
 
-- [Exterior laptop film](../../previews/hyprland-daily-use-1080p.mp4)
-- [Screen-only edit](../../previews/hyprland-daily-use-screen-1080p.mp4)
+- [Exterior laptop film](https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4)
+- [Screen-only edit](https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4)
 - [Poster](../../previews/hyprland-daily-use.jpg)
 
-The README's animated preview is a shorter highlights loop. The earlier [66-second setup tour](../../previews/hyprland-desktop-1080p.mp4) remains separate.
+The README's animated preview is a short 30 FPS highlights loop. Its quality and frame rate are kept fixed; the loop is shortened to fit GitHub's image limit. The earlier [66-second setup tour](../../previews/hyprland-desktop-1080p.mp4) remains separate.
+
+The full-quality movies are release downloads so their bitrate is not constrained by the repository file limit.
 
 ## Chapters
 
@@ -31,13 +33,13 @@ The editor shows copies of the installed configuration. A comment is added to th
 
 The floating shortcut bubbles are part of the video edit. Each lasts two seconds and follows a performed key or mouse action. Their measured bounds include all text, icons, keycaps and padding. They are not a keyboard-listening service installed on the desktop.
 
-The edit trims pauses and unrelated browser autocomplete suggestions. It adds camera zooms, the shortcut graphics and the licensed soundtrack. It is not an unedited recording. No browser profile, session database or raw daily-use capture is published here.
+The edit trims pauses and unrelated browser autocomplete suggestions. The revised cut removes the repeated Brave desktop handoff. Camera moves use eased keyframes with fractional-pixel sampling, with longer moves and readable holds. The original Dolphin timing is retained. The shortcut graphics and licensed soundtrack are added in the edit. It is not an unedited recording. No browser profile, session database or raw daily-use capture is published here.
 
 ## Laptop presentation
 
-The edited recording plays on the display of the exterior G513QY model from the earlier Frost GPU film. The opening and closing shots are rendered camera moves. The middle sections use screen projections from the same Blender scene, with occasional changes of angle.
+The edited recording plays on the display of the exterior G513QY model from the earlier Frost GPU film. The laptop sits in a small 3D studio with a shared surface, contact shadows, recessed wall panels and soft lighting. The opening and closing shots are rendered camera moves. The middle sections use screen projections from the same Blender scene, with occasional changes of angle.
 
-The opening shot was rendered on the Radeon RX 6800M, the closing shot on the integrated Radeon GPU, and the video edits and overlays on the CPU. GPU selection was scoped to the render processes.
+Rendering runs locally on the Radeon RX 6800M and CPU, with GPU selection scoped to the render processes. Screen edits use lossless RGB intermediates and the Blender camera moves use lossless 16-bit PNG frames. Each full version receives a single high-quality H.264 delivery encode. The source captures were already compressed, so flat gradients receive a light, edge-preserving cleanup before the camera transforms; a higher export bitrate alone cannot recover information lost in the capture.
 
 ## Credits
 
