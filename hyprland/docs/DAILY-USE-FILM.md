@@ -6,7 +6,7 @@ A 3:28 film of an afternoon using my Hyprland desktop, recorded on 25 October 20
 - [Screen-only edit](https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4)
 - [Poster](../../previews/hyprland-daily-use.jpg)
 
-The README's animated preview is a short 30 FPS highlights loop. Its quality and frame rate are kept fixed; the loop is shortened to fit GitHub's image limit. The earlier [66-second setup tour](../../previews/hyprland-desktop-1080p.mp4) remains separate.
+The README uses one lightweight 8-second animated preview at 854×480 and 24 FPS, about 1.07 MB. The older tours use clickable still thumbnails so they do not add more background animations. Full films remain 1920×1080 at 60 FPS. The earlier [66-second setup tour](../../previews/hyprland-desktop-1080p.mp4) remains separate.
 
 The full-quality movies are release downloads so their bitrate is not constrained by the repository file limit.
 

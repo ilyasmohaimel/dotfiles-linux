@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">
-    <img src="../previews/hyprland-daily-use-preview.webp?v=2" alt="Between windows: highlights of normal desktop use with Brave, editors, files and Spotify. Click for the full 3:28 film with sound." width="100%">
+    <img src="../previews/hyprland-daily-use-preview.webp?v=3" alt="Between windows: highlights of normal desktop use with Brave, editors, files and Spotify. Click for the full 3:28 film with sound." width="100%">
   </a>
 </p>
 
-<p align="center">Between windows · A daily-use film<br><a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>The autoplay image is a short 30 FPS highlights loop. The full film is 60 FPS.</sub></p>
+<p align="center">Between windows · A daily-use film<br><a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>Lightweight 8-second autoplay preview. Click for the full-quality film.</sub></p>
 
 # Frost's Hyprland setup
 
@@ -24,7 +24,7 @@ The soundtrack is “Signal to Noise” by Scott Buckley, released under CC BY 4
 
 The earlier **66-second setup tour** remains available:
 
-[![Full-length setup-tour preview](../previews/hyprland-desktop-preview.webp?v=4)](../previews/hyprland-desktop-1080p.mp4)
+[![Hyprland setup-tour still, click to watch](../previews/hyprland-desktop.jpg)](../previews/hyprland-desktop-1080p.mp4)
 
 [Watch the setup tour](../previews/hyprland-desktop-1080p.mp4) · [Standalone screen recording](../previews/hyprland-screen-recording-1080p.mp4) · [Unedited setup-tour captures](../previews/hyprland-desktop-unedited.mp4).
 

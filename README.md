@@ -1,10 +1,10 @@
 <p align="center">
   <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">
-    <img src="previews/hyprland-daily-use-preview.webp?v=2" alt="Between windows: highlights of an afternoon using Brave, editors, files and Spotify on my Hyprland desktop. Click for the full 3:28 film with sound." width="100%">
+    <img src="previews/hyprland-daily-use-preview.webp?v=3" alt="Between windows: highlights of an afternoon using Brave, editors, files and Spotify on my Hyprland desktop. Click for the full 3:28 film with sound." width="100%">
   </a>
 </p>
 
-<p align="center">Between windows · A daily-use film<br><a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>The autoplay image is a short 30 FPS highlights loop. The full film is 60 FPS.</sub></p>
+<p align="center">Between windows · A daily-use film<br><a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">Watch the full 3:28 film with sound, 1080p / 60 FPS</a> · <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4">Screen-only version</a><br><sub>Lightweight 8-second autoplay preview. Click for the full-quality film.</sub></p>
 
 # My Linux dotfiles
 
@@ -20,7 +20,7 @@ This repo only holds safe configs and notes. My actual backups are kept on my en
 
 The earlier setup tour is still here:
 
-[![Full 66-second Hyprland setup tour, looping automatically](previews/hyprland-desktop-preview.webp?v=4)](previews/hyprland-desktop-1080p.mp4)
+[![Hyprland setup tour, click to watch](previews/hyprland-desktop.jpg)](previews/hyprland-desktop-1080p.mp4)
 
 [Watch the 66-second setup tour with sound](previews/hyprland-desktop-1080p.mp4), including the LF fetch, window controls, wallpaper and theme pickers, the music widget, weather for your city and the next-login GPU menu. The [standalone screen recording](previews/hyprland-screen-recording-1080p.mp4) and [unedited setup-tour captures](previews/hyprland-desktop-unedited.mp4) are available too.
 
@@ -32,7 +32,7 @@ From [Caelestia's project description](https://github.com/caelestia-dots/caelest
 
 Earlier KDE snapshot:
 
-[![14-second, 15 FPS preview of my KDE setup, themes, and apps](previews/setup-preview-14s-15fps.gif)](previews/setup-preview-14s-1080p.mp4)
+[![Earlier KDE setup, click for the 14-second video](previews/kde-setup-poster.jpg)](previews/setup-preview-14s-1080p.mp4)
 
 [Watch the 1080p / 30 FPS version](previews/setup-preview-14s-1080p.mp4)
 
