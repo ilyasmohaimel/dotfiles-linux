@@ -60,12 +60,12 @@
   },
   {
     "path": "home/.config/caelestia/hypr-vars.lua",
-    "sha256": "b77430b8c96a7a6b243f84f1e09d5a5f5d78445539a9ec5db534949e465f41ca",
+    "sha256": "ee28eda4b8b298a4f87ee0d5c6c419244922d7f3dfdfbb676dfa499be89b9ad1",
     "mode": "0o644"
   },
   {
     "path": "home/.config/caelestia/kde-shortcuts.lua",
-    "sha256": "084836447a224df9e4b017dcfae5326b00428e43a8ae6490bc3caf27b67fd2b2",
+    "sha256": "5bb9040352fcbe7ef35bb006807f3cbba4443c469c248ace1c68cf846a3c77cc",
     "mode": "0o644"
   },
   {
@@ -139,6 +139,11 @@
     "mode": "0o644"
   },
   {
+    "path": "home/.config/hypr/hyprland.lua",
+    "sha256": "c7be93202375f7c6453f2b46890522370d20a780e2dce625e4b8e40d05f50c14",
+    "mode": "0o644"
+  },
+  {
     "path": "home/.config/hypr/hyprland/animations.lua",
     "sha256": "2ca023d2a7e8ae2a4c8dc854b3f0395a8d8e238d8df4103d6f2aebd35a84f4cc",
     "mode": "0o644"
@@ -191,11 +196,6 @@
   {
     "path": "home/.config/hypr/hyprland/rules.lua",
     "sha256": "885d045a7cceb43162d8c04ac2c3fc5569e0ecaaaf81210e3c3cc63c28a4d644",
-    "mode": "0o644"
-  },
-  {
-    "path": "home/.config/hypr/hyprland.lua",
-    "sha256": "c7be93202375f7c6453f2b46890522370d20a780e2dce625e4b8e40d05f50c14",
     "mode": "0o644"
   },
   {
@@ -1764,6 +1764,11 @@
     "mode": "0o644"
   },
   {
+    "path": "home/.config/starship.toml",
+    "sha256": "c7d43ba2cddf057b9ea14fee348f88892d0b4438ab519a24ad9fccceb46f27e4",
+    "mode": "0o644"
+  },
+  {
     "path": "home/.config/starship/Coding.toml",
     "sha256": "8884a0c811146c397b56a7d6c9ec14630f8e0988aaac65ea703d5a01161d0823",
     "mode": "0o644"
@@ -1779,14 +1784,18 @@
     "mode": "0o644"
   },
   {
-    "path": "home/.config/starship.toml",
-    "sha256": "c7d43ba2cddf057b9ea14fee348f88892d0b4438ab519a24ad9fccceb46f27e4",
-    "mode": "0o644"
-  },
-  {
     "path": "home/.config/systemd/user/caelestia-spicetify.service",
     "sha256": "fd11b234f251eee085906cd3c21946122e8599e80aaa458dec82ea412f09d619",
     "mode": "0o644"
+  },
+  {
+    "path": "home/.config/systemd/user/default.target.wants/frost-disable-sleep-keys.service",
+    "symlink": "../frost-disable-sleep-keys.service"
+  },
+  {
+    "path": "home/.config/systemd/user/frost-disable-sleep-keys.service",
+    "sha256": "37f427ed4ab7f306551dbcc8536e4ab7588dfd205b5937f01b3f8a24dda9f5a7",
+    "mode": "0o600"
   },
   {
     "path": "home/.config/systemd/user/frost-hyprland-session.target",

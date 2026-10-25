@@ -14,7 +14,7 @@ DEST=ROOT/'output/shortcuts'; DEST.mkdir(parents=True,exist_ok=True)
 OUT=DEST/'Frost-Hyprland-shortcuts.pdf'
 # Each row is visible keys | action | exact live chords. Braces expand ranges.
 DATA=r'''
-@Windows|Focus, move, resize, float|Meta+L focuses right. Use Meta+Alt+L to lock.
+@Windows|Focus, move, resize, float|Meta+L focuses right. Direct lock and sleep shortcuts are disabled.
 #Focus and switch
 Meta + H / J / K / L|Focus left / down / up / right.|Meta+{H J K L}
 Meta + arrows|Focus in that direction.|Meta+{Left Down Up Right}
@@ -100,19 +100,12 @@ Keyboard-brightness keys|Raise / lower keyboard backlight.|XF86KbdBrightnessUp;X
 #Touchpad gestures
 3 fingers ← / →|Slide between virtual desktops.|
 3 fingers ↑ / ↓|Show / hide the general special workspace.|
-4 fingers ↓|Suspend, then hibernate.|
-#Sleep hardware keys
-Sleep key|Suspend.|XF86Sleep
-Hibernate key|Hibernate.|XF86Hibernate
 @Panels & advanced|Shell controls, groups, layout|Stop shell hides the panels. Use Restart shell to bring them back.
 #Panels and session
 Meta + N|Toggle the sidebar.|Meta+N
 Meta + Alt + K|Toggle shell panels.|Meta+Alt+K
 Ctrl + Alt + C|Clear notifications.|Ctrl+Alt+C
-Meta + Alt + L|Lock the screen.|Meta+Alt+L
 Ctrl + Alt + Delete|Open the session / power menu.|Ctrl+Alt+Delete
-Meta + Shift + L|Suspend, then hibernate.|Meta+Shift+L
-Meta + Ctrl + Alt + L|Start the shell if needed and request a lock.|Meta+Ctrl+Alt+L
 Meta + Ctrl + Alt + R|Restart the Caelestia shell; runs on release.|Meta+Ctrl+Alt+R
 Meta + Ctrl + Shift + R|Stop the Caelestia shell; runs on release.|Meta+Ctrl+Shift+R
 Meta + Alt + F12|Send a test notification.|Meta+Alt+F12
@@ -196,7 +189,7 @@ for number,(title,subtitle,note,sections) in enumerate(pages,1):
     c.setFillColor(colors['accent']);c.roundRect(M,H-61,37,31,7,fill=1,stroke=0)
     c.setFillColor(HexColor('#FFFFFF'));c.setFont('Bold',14);c.drawCentredString(M+18.5,H-51,'LF')
     c.setFillColor(colors['accent']);c.setFont('Bold',10);c.drawString(M+48,H-42,'FROST / HYPRLAND')
-    c.setFillColor(colors['muted']);c.setFont('Body',9);c.drawString(M+48,H-57,'YOUR CUSTOM SHORTCUTS · 23 OCT 2026')
+    c.setFillColor(colors['muted']);c.setFont('Body',9);c.drawString(M+48,H-57,'YOUR CUSTOM SHORTCUTS · 25 OCT 2026')
     c.setFillColor(colors['gold']);c.setFont('Bold',28);c.drawRightString(W-M,H-56,f'{number:02}')
     c.setFillColor(colors['ink']);c.setFont('Bold',29);c.drawString(M,H-109,title)
     c.setFillColor(colors['muted']);c.setFont('Body',11);c.drawString(M,H-131,subtitle)
@@ -221,7 +214,7 @@ for number,(title,subtitle,note,sections) in enumerate(pages,1):
     c.setFont('Bold',9);c.drawRightString(W-M,29,f'{number} / {len(pages)}');c.showPage()
 c.save();reader=PdfReader(str(OUT));assert len(reader.pages)==len(pages)
 text='\n'.join(p.extract_text() for p in reader.pages)
-for token in ['Meta + Alt + L','Meta + X','Meta + Shift + 1','Foot search','cdi / zi']:assert token in text,token
+for token in ['Meta + H / J / K / L','Meta + X','Meta + Shift + 1','Foot search','cdi / zi']:assert token in text,token
 copy=ROOT/'output/pdf'/OUT.name;copy.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(OUT,copy)
 (DEST/'coverage.json').write_text(json.dumps({'live_user_bindings':len(actual),'documented_bindings':len(covered),'excluded_internal_keys':sorted(internal),'pages':len(pages),'bottom_margins_pt':bottoms},indent=2)+'\n')
 print(f'{OUT}\n{len(pages)} pages; {len(actual)} live user bindings covered. Bottoms: {bottoms}')

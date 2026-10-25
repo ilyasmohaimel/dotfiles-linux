@@ -3,6 +3,12 @@
   "source_home": "/home/lookfrost",
   "desktop": "Hyprland / Caelestia",
   "hardware": "ASUS ROG G513QY; Ryzen 9 5900HX; Radeon RX 6800M + integrated Radeon",
-  "file_count": 394,
-  "scope": "Explicit desktop configuration and support scripts; no accounts, VPN profiles, histories, or browser data"
+  "file_count": 396,
+  "scope": "Explicit desktop configuration and support scripts; no accounts, VPN profiles, histories, or browser data",
+  "incremental_updates": [
+    {
+      "updated_at": "2026-10-25T08:32:49.551793+00:00",
+      "scope": "Disable direct lock, suspend and hibernate shortcuts and the sleep gesture; add a hardware sleep-key inhibitor. Other snapshot files retain their original capture date."
+    }
+  ]
 }

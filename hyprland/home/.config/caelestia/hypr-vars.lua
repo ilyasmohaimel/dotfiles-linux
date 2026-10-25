@@ -8,9 +8,12 @@ return {
     kbBrowser = "SUPER + B",
     kbCloseWindow = { "SUPER + W", "ALT + F4" },
     kbLauncher = { "SUPER + SUPER_L", "SUPER + R", "SUPER + Space", "ALT + Space", "ALT + F2", "XF86Search" },
-    kbShowPanels = "SUPER + ALT + K", kbLock = "SUPER + ALT + L", kbMoveWindow = {},
+    kbShowPanels = "SUPER + ALT + K", kbLock = {}, kbMoveWindow = {},
     kbCommunicationWs = "SUPER + ALT + D", kbTodoWs = {},
-    kbRestoreLock = "SUPER + CTRL + ALT + L",
+    -- Disable direct lock/sleep shortcuts, including the inherited Meta+Shift+L.
+    kbRestoreLock = {}, kbSleep = {},
+    -- The inherited four-finger sleep gesture must not suspend accidentally either.
+    sleepGestureCmd = "true",
     kbToggleWindowFloating = { "SUPER + I", "SUPER + ALT + F10" },
     kbScreenshotRegion = { "CTRL + SHIFT + S", "SUPER + SHIFT + ALT + S" },
     kbRecordRegion = { "SUPER + SHIFT + R", "SUPER + SHIFT + ALT + R" },

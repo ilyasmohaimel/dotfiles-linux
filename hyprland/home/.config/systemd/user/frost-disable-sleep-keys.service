@@ -1,0 +1,10 @@
+[Unit]
+Description=Ignore hardware Sleep and Hibernate shortcut keys
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/systemd-inhibit --what=handle-suspend-key:handle-hibernate-key --who=Frost --why="Hardware sleep shortcuts are disabled" --mode=block /usr/bin/sleep infinity
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

@@ -63,11 +63,11 @@ This is a configuration backup, not a disk image or unattended installer. Accoun
 | [1. Windows](docs/shortcuts/Frost-shortcuts-page-1.png) | Focus, switch, move, resize, float, minimize |
 | [2. Desktops and apps](docs/shortcuts/Frost-shortcuts-page-2.png) | Number keys, app launchers, hidden workspaces |
 | [3. Capture and appearance](docs/shortcuts/Frost-shortcuts-page-3.png) | Screenshots, recording, wallpapers, clipboard |
-| [4. Media and gestures](docs/shortcuts/Frost-shortcuts-page-4.png) | Volume, brightness, touchpad, sleep keys |
-| [5. Panels and advanced](docs/shortcuts/Frost-shortcuts-page-5.png) | Lock, shell restart, window/workspace groups |
+| [4. Media and gestures](docs/shortcuts/Frost-shortcuts-page-4.png) | Volume, brightness, touchpad gestures |
+| [5. Panels and advanced](docs/shortcuts/Frost-shortcuts-page-5.png) | Panels, shell restart, window/workspace groups |
 | [6. Launcher and terminal](docs/shortcuts/Frost-shortcuts-page-6.png) | Search commands, power actions, Fish, Foot |
 
-Meta means the Windows/Super key. Meta+L focuses right; Meta+Alt+L locks. Meta+1…0 selects desktops, and adding Shift moves the active window there. Meta+I toggles floating. Meta+right-drag floats first only when the window is alone on its desktop. Meta+M opens the hidden music workspace containing Spotify.
+Meta means the Windows/Super key. Meta+L focuses right. Direct lock, sleep and hibernate shortcuts are disabled, including Meta+Shift+L and the sleep gesture. A user service also prevents the system from handling hardware Sleep and Hibernate keys. Power-menu actions and idle timers remain available. Meta+1…0 selects desktops, and adding Shift moves the active window there. Meta+I toggles floating. Meta+right-drag floats first only when the window is alone on its desktop. Meta+M opens the hidden music workspace containing Spotify.
 
 ## Layout
 
@@ -113,6 +113,7 @@ After reviewing the home payload:
 ```sh
 python3 hyprland/tools/restore.py --apply
 systemctl --user daemon-reload
+systemctl --user start frost-disable-sleep-keys.service
 ```
 
 The helper saves existing changed files beneath `~/.local/state/frost-dotfiles-restore/<timestamp>/` before replacement. It does not delete unrelated files, install packages, start services, reload Hyprland, or write to system paths.

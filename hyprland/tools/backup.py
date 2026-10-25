@@ -72,8 +72,10 @@ for name in [
     home('.local/bin/' + name)
 
 for name in ['frost-hyprland-session.target', 'frost-usb-charge-profile.service',
-             'caelestia-spicetify.service']:
+             'caelestia-spicetify.service', 'frost-disable-sleep-keys.service']:
     home('.config/systemd/user/' + name)
+
+home('.config/systemd/user/default.target.wants/frost-disable-sleep-keys.service')
 
 for name in ['hiddify.desktop', 'net.blip.Blip.desktop',
              'io.github.slgobinath.SafeEyes.desktop',

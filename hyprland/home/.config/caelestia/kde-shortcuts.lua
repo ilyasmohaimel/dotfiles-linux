@@ -90,9 +90,11 @@ for _, keys in ipairs({
             { repeating = true })
     end
 end
--- Keep locking separate from the navigation keys, even after a config reload.
-hl.unbind("SUPER + ALT + L")
-bind("SUPER + ALT + L", run("qs -c caelestia ipc call lock lock"))
+-- Direct lock/sleep shortcuts are deliberately disabled.
+for _, key in ipairs({ "SUPER + ALT + L", "SUPER + SHIFT + L", "SUPER + CTRL + ALT + L",
+    "XF86Sleep", "XF86Hibernate", "XF86ScreenSaver" }) do
+    hl.unbind(key)
+end
 for _, key in ipairs({ "ALT + Tab", "SUPER + Tab" }) do bind(key, cycle(false, false)) end
 for _, key in ipairs({ "ALT + SHIFT + Tab", "SUPER + SHIFT + Tab" }) do bind(key, cycle(true, false)) end
 bind("ALT + grave", cycle(false, true)); bind("SUPER + grave", cycle(false, true))
@@ -109,8 +111,6 @@ end
 bind("SUPER + ALT + Return", run("foot"))
 bind("SUPER + ALT + W", run("caelestia shell frostLauncher wallpapers"))
 bind("SUPER + SHIFT + W", run("caelestia wallpaper -r --no-filter"))
-bind("XF86Sleep", run("systemctl suspend"))
-bind("XF86Hibernate", run("systemctl hibernate"))
 bind("SHIFT + XF86AudioRaiseVolume", run("wpctl set-volume -l 1 @DEFAULT_AUDIO_SINK@ 1%+"))
 bind("SHIFT + XF86AudioLowerVolume", run("wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-"))
 bind("SHIFT + XF86MonBrightnessUp", run("brightnessctl set +1%"))
