@@ -32,7 +32,7 @@ From [Caelestia's project description](https://github.com/caelestia-dots/caelest
 
 Earlier KDE snapshot:
 
-[![Earlier KDE setup, click for the 14-second video](previews/kde-setup-poster.jpg)](previews/setup-preview-14s-1080p.mp4)
+[![Earlier KDE setup, full 14-second silent autoplay; click for sound](previews/kde-setup-preview.webp)](previews/setup-preview-14s-1080p.mp4)
 
 [Watch the 1080p / 30 FPS version](previews/setup-preview-14s-1080p.mp4)
 

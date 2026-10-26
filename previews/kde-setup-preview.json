@@ -1,0 +1,33 @@
+{
+  "source": "setup-preview-14s-1080p.mp4",
+  "sourceSha256": "5cc9f8b8ba3002f81d12aa4e1c7b496d9c94681b3862477f117ad72e1a3bf8fa",
+  "encoding": "RGB-input lossy WebP, quality 90, independently encoded 8-second sections",
+  "width": 854,
+  "height": 480,
+  "fps": 15,
+  "framesCompared": 210,
+  "encodedFrames": 209,
+  "durationMs": 13998,
+  "bytes": 1534012,
+  "sha256": "452f8fbc0259ff6f1e75b7a675d59c27a6a0f04e26b379c1c66c858c7c7ec386",
+  "segments": [
+    {
+      "startSeconds": 0,
+      "frames": 120,
+      "minimumPsnrDb": 37.97,
+      "maximumMeanAbsoluteRgbError": 1.526
+    },
+    {
+      "startSeconds": 8,
+      "frames": 90,
+      "minimumPsnrDb": 37.98,
+      "maximumMeanAbsoluteRgbError": 1.844
+    }
+  ],
+  "joinedAnimationVerification": {
+    "framesCompared": 211,
+    "minimumPsnrDb": 37.97,
+    "worstFrameSeconds": 7.533,
+    "maximumMeanAbsoluteRgbError": 1.844
+  }
+}

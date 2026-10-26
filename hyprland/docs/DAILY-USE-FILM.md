@@ -6,7 +6,7 @@ A 3:28 film of an afternoon using my Hyprland desktop, recorded on 25 October 20
 - [Screen-only edit](https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-screen-1080p.mp4)
 - [Poster](../../previews/hyprland-daily-use.jpg)
 
-The README autoplays the complete 3:28 film and the earlier 66-second Hyprland setup tour as silent animated WebP images at 854×480 and 15 FPS. No scenes are cut from either preview. Click either image for its movie with sound. The daily-use films remain 1920×1080 at 60 FPS. The archived KDE tour keeps its clickable still thumbnail.
+The README autoplays the complete 3:28 film and the earlier 66-second Hyprland setup tour as silent animated WebP images at 854×480 and 15 FPS. No scenes are cut from either preview. Click either image for its movie with sound. The daily-use films remain 1920×1080 at 60 FPS. The archived 14-second KDE tour also autoplays silently in the main README, with its original MP4 available when clicked.
 
 The full-quality movies are release downloads so their bitrate is not constrained by the repository file limit.
 
