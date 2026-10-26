@@ -104,3 +104,9 @@ The AUR and Flatpak files are just inventories, not scripts I should run blindly
 I leave out credentials, SSH keys, browser profiles, cookies, tokens, session databases, caches, mount details, printer secrets, Sunshine state, and other machine/account-specific data.
 
 The older KDE snapshot targets Intel UHD 620 + NVIDIA MX150. The current Hyprland snapshot targets an ASUS ROG G513QY with Ryzen 9 5900HX and Radeon RX 6800M. Read each desktop's notes before restoring hardware-specific files.
+
+## Power presets and GPU controls
+
+[Frost Power](https://github.com/ilyasmohaimel/frost-power) holds the G513QY power controller, the newer Battery-menu preset controls, and the CPU/RX tuning measurements. Balanced uses a 38 W CPU target; Eco uses 20 W with boost off and 60 Hz. Its measured results and recovery notes explain the trade-offs. CPU and display settings apply immediately; Hyprland desktop GPU selection takes effect at the next login.
+
+The configuration here and the hardware tuning reference are separate. Review the machine-specific integration map before applying the power controller. [Frost GPU](https://github.com/ilyasmohaimel/frost-gpu) documents the separate experimental KDE migration stack.
