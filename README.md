@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">
-    <img src="previews/hyprland-daily-use-preview.webp?v=4" alt="Between windows: a full afternoon film using Brave, editors, files and Spotify on my Hyprland desktop. Click for the full 3:28 film with sound." width="100%">
+    <img src="previews/hyprland-daily-use-preview-repaired.webp" alt="Between windows: a full afternoon film using Brave, editors, files and Spotify on my Hyprland desktop. Click for the full 3:28 film with sound." width="100%">
   </a>
 </p>
 
@@ -20,7 +20,7 @@ This repo only holds safe configs and notes. My actual backups are kept on my en
 
 The earlier setup tour is still here:
 
-[![Hyprland setup tour, click to watch](previews/hyprland-desktop.jpg)](previews/hyprland-desktop-1080p.mp4)
+[![Hyprland setup tour, silent autoplay; click for sound](previews/hyprland-desktop-preview-repaired.webp)](previews/hyprland-desktop-1080p.mp4)
 
 [Watch the 66-second setup tour with sound](previews/hyprland-desktop-1080p.mp4), including the LF fetch, window controls, wallpaper and theme pickers, the music widget, weather for your city and the next-login GPU menu. The [standalone screen recording](previews/hyprland-screen-recording-1080p.mp4) and [unedited setup-tour captures](previews/hyprland-desktop-unedited.mp4) are available too.
 

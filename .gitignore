@@ -14,3 +14,6 @@
 **/*.sqlite-*
 **/*.db
 **/*.log
+
+# Resumable README animation sections
+.preview-work/

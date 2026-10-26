@@ -1,0 +1,75 @@
+{
+  "source": "hyprland-desktop-1080p.mp4",
+  "sourceSha256": "fbe11b75f5f63d4be190ce059b369e85fc9f80f0138f5bcf23987c360af06eb4",
+  "encoding": "RGB-input lossy WebP, quality 90, independently encoded 8-second sections",
+  "width": 854,
+  "height": 480,
+  "fps": 15,
+  "framesCompared": 990,
+  "encodedFrames": 907,
+  "durationMs": 65991,
+  "bytes": 9619594,
+  "sha256": "687966c351cbd1305e69574b0c2de628ea29a8ad94e577b444ce7cb769cba1fc",
+  "segments": [
+    {
+      "startSeconds": 0,
+      "frames": 120,
+      "minimumPsnrDb": 35.54,
+      "maximumMeanAbsoluteRgbError": 1.929
+    },
+    {
+      "startSeconds": 8,
+      "frames": 120,
+      "minimumPsnrDb": 43.5,
+      "maximumMeanAbsoluteRgbError": 1.116
+    },
+    {
+      "startSeconds": 16,
+      "frames": 120,
+      "minimumPsnrDb": 43.12,
+      "maximumMeanAbsoluteRgbError": 1.203
+    },
+    {
+      "startSeconds": 24,
+      "frames": 120,
+      "minimumPsnrDb": 35.68,
+      "maximumMeanAbsoluteRgbError": 2.404
+    },
+    {
+      "startSeconds": 32,
+      "frames": 120,
+      "minimumPsnrDb": 35.29,
+      "maximumMeanAbsoluteRgbError": 2.473
+    },
+    {
+      "startSeconds": 40,
+      "frames": 120,
+      "minimumPsnrDb": 42.16,
+      "maximumMeanAbsoluteRgbError": 1.393
+    },
+    {
+      "startSeconds": 48,
+      "frames": 120,
+      "minimumPsnrDb": 41.7,
+      "maximumMeanAbsoluteRgbError": 1.496
+    },
+    {
+      "startSeconds": 56,
+      "frames": 120,
+      "minimumPsnrDb": 42.14,
+      "maximumMeanAbsoluteRgbError": 1.42
+    },
+    {
+      "startSeconds": 64,
+      "frames": 30,
+      "minimumPsnrDb": 36.01,
+      "maximumMeanAbsoluteRgbError": 2.237
+    }
+  ],
+  "joinedAnimationVerification": {
+    "framesCompared": 990,
+    "minimumPsnrDb": 35.29,
+    "worstFrameSeconds": 34.667,
+    "maximumMeanAbsoluteRgbError": 2.473
+  }
+}

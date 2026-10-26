@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/ilyasmohaimel/dotfiles-linux/releases/download/hyprland-daily-use-r2/hyprland-daily-use-1080p.mp4">
-    <img src="../previews/hyprland-daily-use-preview.webp?v=4" alt="Between windows: the full film of normal desktop use with Brave, editors, files and Spotify. Click for the full 3:28 film with sound." width="100%">
+    <img src="../previews/hyprland-daily-use-preview-repaired.webp" alt="Between windows: the full film of normal desktop use with Brave, editors, files and Spotify. Click for the full 3:28 film with sound." width="100%">
   </a>
 </p>
 
@@ -24,7 +24,7 @@ The soundtrack is “Signal to Noise” by Scott Buckley, released under CC BY 4
 
 The earlier **66-second setup tour** remains available:
 
-[![Hyprland setup-tour still, click to watch](../previews/hyprland-desktop.jpg)](../previews/hyprland-desktop-1080p.mp4)
+[![Hyprland setup tour, silent autoplay; click for sound](../previews/hyprland-desktop-preview-repaired.webp)](../previews/hyprland-desktop-1080p.mp4)
 
 [Watch the setup tour](../previews/hyprland-desktop-1080p.mp4) · [Standalone screen recording](../previews/hyprland-screen-recording-1080p.mp4) · [Unedited setup-tour captures](../previews/hyprland-desktop-unedited.mp4).
 

@@ -1,0 +1,177 @@
+{
+  "source": "hyprland-daily-use-1080p.mp4",
+  "sourceSha256": "43b420864917e431f6e9dfc66b405373b45f8d2874585f4833b396b791c32dac",
+  "encoding": "RGB-input lossy WebP, quality 90, independently encoded 8-second sections",
+  "width": 854,
+  "height": 480,
+  "fps": 15,
+  "framesCompared": 3115,
+  "encodedFrames": 2458,
+  "durationMs": 207641,
+  "bytes": 56410422,
+  "sha256": "4cf78d376a53a4887eb92d671e9bd2da78eaf7075792c78ff28f82881f257be6",
+  "segments": [
+    {
+      "startSeconds": 0,
+      "frames": 120,
+      "minimumPsnrDb": 35.16,
+      "maximumMeanAbsoluteRgbError": 2.173
+    },
+    {
+      "startSeconds": 8,
+      "frames": 120,
+      "minimumPsnrDb": 40.6,
+      "maximumMeanAbsoluteRgbError": 1.588
+    },
+    {
+      "startSeconds": 16,
+      "frames": 120,
+      "minimumPsnrDb": 39.39,
+      "maximumMeanAbsoluteRgbError": 1.819
+    },
+    {
+      "startSeconds": 24,
+      "frames": 120,
+      "minimumPsnrDb": 37.62,
+      "maximumMeanAbsoluteRgbError": 1.983
+    },
+    {
+      "startSeconds": 32,
+      "frames": 120,
+      "minimumPsnrDb": 37.54,
+      "maximumMeanAbsoluteRgbError": 2.106
+    },
+    {
+      "startSeconds": 40,
+      "frames": 120,
+      "minimumPsnrDb": 37.57,
+      "maximumMeanAbsoluteRgbError": 2.008
+    },
+    {
+      "startSeconds": 48,
+      "frames": 120,
+      "minimumPsnrDb": 40.36,
+      "maximumMeanAbsoluteRgbError": 1.345
+    },
+    {
+      "startSeconds": 56,
+      "frames": 120,
+      "minimumPsnrDb": 40.66,
+      "maximumMeanAbsoluteRgbError": 1.37
+    },
+    {
+      "startSeconds": 64,
+      "frames": 120,
+      "minimumPsnrDb": 42.67,
+      "maximumMeanAbsoluteRgbError": 1.192
+    },
+    {
+      "startSeconds": 72,
+      "frames": 120,
+      "minimumPsnrDb": 41.15,
+      "maximumMeanAbsoluteRgbError": 1.388
+    },
+    {
+      "startSeconds": 80,
+      "frames": 120,
+      "minimumPsnrDb": 41.86,
+      "maximumMeanAbsoluteRgbError": 1.319
+    },
+    {
+      "startSeconds": 88,
+      "frames": 120,
+      "minimumPsnrDb": 42.42,
+      "maximumMeanAbsoluteRgbError": 1.254
+    },
+    {
+      "startSeconds": 96,
+      "frames": 120,
+      "minimumPsnrDb": 42.11,
+      "maximumMeanAbsoluteRgbError": 1.288
+    },
+    {
+      "startSeconds": 104,
+      "frames": 120,
+      "minimumPsnrDb": 40.93,
+      "maximumMeanAbsoluteRgbError": 1.466
+    },
+    {
+      "startSeconds": 112,
+      "frames": 120,
+      "minimumPsnrDb": 41.66,
+      "maximumMeanAbsoluteRgbError": 1.389
+    },
+    {
+      "startSeconds": 120,
+      "frames": 120,
+      "minimumPsnrDb": 41.82,
+      "maximumMeanAbsoluteRgbError": 1.368
+    },
+    {
+      "startSeconds": 128,
+      "frames": 120,
+      "minimumPsnrDb": 41.93,
+      "maximumMeanAbsoluteRgbError": 1.352
+    },
+    {
+      "startSeconds": 136,
+      "frames": 120,
+      "minimumPsnrDb": 42.41,
+      "maximumMeanAbsoluteRgbError": 1.343
+    },
+    {
+      "startSeconds": 144,
+      "frames": 120,
+      "minimumPsnrDb": 43.11,
+      "maximumMeanAbsoluteRgbError": 1.248
+    },
+    {
+      "startSeconds": 152,
+      "frames": 120,
+      "minimumPsnrDb": 40.47,
+      "maximumMeanAbsoluteRgbError": 1.522
+    },
+    {
+      "startSeconds": 160,
+      "frames": 120,
+      "minimumPsnrDb": 41.44,
+      "maximumMeanAbsoluteRgbError": 1.366
+    },
+    {
+      "startSeconds": 168,
+      "frames": 120,
+      "minimumPsnrDb": 42.13,
+      "maximumMeanAbsoluteRgbError": 1.245
+    },
+    {
+      "startSeconds": 176,
+      "frames": 120,
+      "minimumPsnrDb": 41.97,
+      "maximumMeanAbsoluteRgbError": 1.352
+    },
+    {
+      "startSeconds": 184,
+      "frames": 120,
+      "minimumPsnrDb": 39.36,
+      "maximumMeanAbsoluteRgbError": 1.797
+    },
+    {
+      "startSeconds": 192,
+      "frames": 120,
+      "minimumPsnrDb": 42.72,
+      "maximumMeanAbsoluteRgbError": 1.239
+    },
+    {
+      "startSeconds": 200,
+      "frames": 115,
+      "minimumPsnrDb": 34.02,
+      "maximumMeanAbsoluteRgbError": 3.163
+    }
+  ],
+  "joinedAnimationVerification": {
+    "framesCompared": 3115,
+    "minimumPsnrDb": 34.02,
+    "worstFrameSeconds": 207.6,
+    "maximumMeanAbsoluteRgbError": 3.163
+  }
+}
