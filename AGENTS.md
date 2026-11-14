@@ -1,11 +1,17 @@
-# Repository Agent Instructions
+# Agent Policy
 
-- This file supplements, and does not replace, project and nested instructions; preserve their architecture, build, security, and generated-file rules.
-- Treat the nearest applicable instructions and repository documentation as authoritative for project-specific work.
-- Inspect relevant files, manifests, workflows, and existing tests before editing; make the smallest scoped change.
-- Preserve unrelated work and history. Do not modify generated artifacts unless the repository explicitly requires it.
-- Never expose or commit secrets, credentials, private keys, real personal data, or machine-specific paths.
-- Use parameterized, least-privilege, secure patterns and surface errors explicitly; do not weaken existing protections.
-- Run the repository\x27s relevant validation commands and report checks actually run and any limitations.
-- For GitHub operations, use the configured identity and official tooling; never force-push or add AI attribution.
-- Current task-specific instructions supersede older delegation guidance only where they conflict; preserve historical records and decisions.
+This root policy supplements the nearest project instructions and does not replace them.
+Root policy supersedes historical delegation-only guidance while preserving security rules.
+Codex Sol is the chosen lead for architecture, integration, security review, and acceptance.
+Copilot Student Auto handles routine implementation, tests, documentation, and initial review.
+Terra Low/Medium is the fallback; Luna is reserved for justified specialist security or architecture work.
+Use at most two parallel delegates, each in an isolated worktree or branch.
+Prefer maintained open-source components before rebuilding suitable functionality.
+Delegates must deliver actual code or reviewed artifacts and relevant tests, not inspection-only advice.
+The lead must inspect actual diffs and independently run important checks before merging.
+Preserve project and nested instruction rules, unrelated edits, and repository security controls.
+Do not expose secrets, add machine-specific paths, bypass authorization, or add AI attribution.
+Continue authorized milestones until a real stop, quota, spending, or security control requires stopping.
+Respect cancellation, quota, spending, privacy, and external-authorization controls without workarounds.
+For the 200-credit Copilot allowance, target 120 for implementation/tests, 40 for review/research, and 40 reserve.
+Never enable paid billing or overages.
